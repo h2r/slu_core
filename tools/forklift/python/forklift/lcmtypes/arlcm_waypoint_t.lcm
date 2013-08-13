@@ -1,0 +1,11 @@
+package arlcm;
+
+struct waypoint_t
+{
+	int64_t utime;
+	
+        int32_t id;
+ 
+        double x; 
+        double y;
+}

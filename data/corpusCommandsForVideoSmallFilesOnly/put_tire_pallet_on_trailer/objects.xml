@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+    <item type="pallet">
+        <id>330573062709765120</id>
+        <type id="pallet_enum_t">6</type>
+        <label>6</label>
+        <position id="local-frame">-5.450000 30.400000 0.000000</position>
+        <position id="lat_lon_theta">37.249745 -77.335567 0.523599</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+        <relative-to-id>0</relative-to-id>
+    </item>
+    <item type="pallet">
+        <id>330573062709754624</id>
+        <type id="pallet_enum_t">6</type>
+        <label>21</label>
+        <position id="local-frame">-0.290000 24.670000 0.000000</position>
+        <position id="lat_lon_theta">37.249693 -77.335509 0.523599</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+        <relative-to-id>0</relative-to-id>
+    </item>
+    <item type="pallet">
+        <id>330573062709066496</id>
+        <type id="pallet_enum_t">6</type>
+        <label>21</label>
+        <position id="local-frame">1.100000 22.000000 0.000000</position>
+        <position id="lat_lon_theta">37.249669 -77.335494 0.523599</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+        <relative-to-id>0</relative-to-id>
+    </item>
+    <item type="pallet">
+        <id>330573062709748736</id>
+        <type id="pallet_enum_t">5</type>
+        <label>6</label>
+        <position id="local-frame">-1.600000 27.400000 0.000000</position>
+        <position id="lat_lon_theta">37.249718 -77.335524 0.523599</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+        <relative-to-id>0</relative-to-id>
+    </item>
+    <item type="pallet">
+        <id>330573062709758976</id>
+        <type id="pallet_enum_t">6</type>
+        <label>21</label>
+        <position id="local-frame">-2.450000 30.400000 0.000000</position>
+        <position id="lat_lon_theta">37.249745 -77.335534 0.523599</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+        <relative-to-id>0</relative-to-id>
+    </item>
+    <item type="object">
+        <id>330573062728369664</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">2.800661 4.409489 0.300000</position>
+        <position id="lat_lon_theta">37.249511 -77.335474 -2.714262</position>
+        <orientation id="local-frame">0.212043 0.000000 0.000000 -0.977260</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728377344</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">2.811572 6.209945 0.300000</position>
+        <position id="lat_lon_theta">37.249527 -77.335474 -2.674811</position>
+        <orientation id="local-frame">0.231278 0.000000 0.000000 -0.972888</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728400128</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">-11.298892 34.293329 0.300000</position>
+        <position id="lat_lon_theta">37.249780 -77.335633 -2.714262</position>
+        <orientation id="local-frame">0.212043 0.000000 0.000000 -0.977260</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728397056</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">-11.947183 35.655049 0.300000</position>
+        <position id="lat_lon_theta">37.249792 -77.335641 0.433398</position>
+        <orientation id="local-frame">0.976613 0.000000 0.000000 0.215007</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728393984</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">-10.683516 34.604660 0.300000</position>
+        <position id="lat_lon_theta">37.249783 -77.335626 0.383993</position>
+        <orientation id="local-frame">0.981625 0.000000 0.000000 0.190819</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728384000</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">2.132406 5.891879 0.300000</position>
+        <position id="lat_lon_theta">37.249524 -77.335482 0.433398</position>
+        <orientation id="local-frame">0.976612 0.000000 0.000000 0.215007</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728380928</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">3.457696 4.708651 0.300000</position>
+        <position id="lat_lon_theta">37.249513 -77.335467 0.383993</position>
+        <orientation id="local-frame">0.981625 0.000000 0.000000 0.190819</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728390656</id>
+        <type id="object_enum_t">6</type>
+        <position id="local-frame">-11.265593 35.972956 0.300000</position>
+        <position id="lat_lon_theta">37.249795 -77.335633 0.328639</position>
+        <orientation id="local-frame">0.986530 0.000000 0.000000 0.163581</orientation>
+    </item>
+    <item type="object">
+        <id>330573062711454208</id>
+        <type id="object_enum_t">5</type>
+        <position id="local-frame">1.677746 3.693263 0.850000</position>
+        <position id="lat_lon_theta">37.249504 -77.335487 0.465327</position>
+        <orientation id="local-frame">0.973056 0.000000 0.000000 0.230570</orientation>
+    </item>
+    <item type="object">
+        <id>330573062728387584</id>
+        <type id="object_enum_t">5</type>
+        <position id="local-frame">-12.411214 33.547568 0.850000</position>
+        <position id="lat_lon_theta">37.249773 -77.335646 0.465327</position>
+        <orientation id="local-frame">0.973056 0.000000 0.000000 0.230570</orientation>
+    </item>
+</objects>

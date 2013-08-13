@@ -1,0 +1,396 @@
+- {assignmentId: 1P3NF2BH2S94E21G6M71KS3NKSOM8D, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1YVM2F19QGH013QYZ5FE9QW79J3SI5, similarityScore: SD, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1HSG51P9LFD40BGGSRKN3CG38HMEUT, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1YVM2F19QGH013QYZ5FE9QW79J3SI5, similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1WIU6VLPJ26J6O6H499JK7GUNEDZGF, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1YVM2F19QGH013QYZ5FE9QW79J3SI5, similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 126IU4A18VKLP7D2IRZS7U26U4AUUI, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1YVM2F19QGH013QYZ5FE9QW79J3SI5, similarityScore: D, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 12NQ8RO9UXO7Q2XVVB91WXX4WMB9SM, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1YVM2F19QGH013QYZ5FE9QW79J3SI5, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 162VKSM3VQK364BJ98HHBBKLY0ITL6, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1YN7D90QNLYFLAQXM1WLDI9NF745FQ, similarityScore: A,
+  workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1Y9OV1H5Q4EP7IIMHD3WF6X3KTF89Y, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1YN7D90QNLYFLAQXM1WLDI9NF745FQ, similarityScore: SA,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1ZYAUMI7LN08IY6NVZ6K5COKON8C56, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1YN7D90QNLYFLAQXM1WLDI9NF745FQ, similarityScore: SA,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 11T4I70PAS33MBLGA5O33OCC141CD9, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1YN7D90QNLYFLAQXM1WLDI9NF745FQ, similarityScore: SA,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1N52AMPL0ZTW2UBA44LUPQOY2R6J13, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1YN7D90QNLYFLAQXM1WLDI9NF745FQ, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1I988W6VESZPGSL21QOX9AIJ1CKCVP, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 1Y4VH50DR7V2PZGOJ60KVW61OY286S, similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1Z174G4R9ZHRV4ZQ7ZW1VKCND644O0, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 1Y4VH50DR7V2PZGOJ60KVW61OY286S, similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1GMXFMT5D46FYKMCNSBIS3TGB8YYWL, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 1Y4VH50DR7V2PZGOJ60KVW61OY286S, similarityScore: SD, workerId: A28KZG5EG91S75}
+- {assignmentId: 1TCM0FRNR0OI3TB0TO0RF7S5IQXFK7, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 1Y4VH50DR7V2PZGOJ60KVW61OY286S, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 10V9ZAR720I7Y1NFSSMRPGPWE0TOZG, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 1Y4VH50DR7V2PZGOJ60KVW61OY286S, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 16UDIZTPJK7QDMSGKT4DDXMBPVDB0V, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1XCLFDP6030OLYOC3MPNOBYFHQWESI,
+  similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1GJ70QLSHF79O04Y7VJSYNYC28SCSM, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1XCLFDP6030OLYOC3MPNOBYFHQWESI,
+  similarityScore: SD, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1I988W6VESZPGSL21QOX9AIJ1CIVC6, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1XCLFDP6030OLYOC3MPNOBYFHQWESI,
+  similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1DGH17US0XP7BOU9HHK3MVWAHOC80B, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1XCLFDP6030OLYOC3MPNOBYFHQWESI,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 18XPQT6AWWFM29GEMQOGDKCOLPNZ18, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1XCLFDP6030OLYOC3MPNOBYFHQWESI,
+  similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1AGHO572CPRLTZUT2G5C1A6XP2L87E, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1X2PESRAJHQMXJ69Q4MXZD3M92P1Y1, similarityScore: A,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 13YYT6D5PAB3U8DX987IBIJRX9XZ4L, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1X2PESRAJHQMXJ69Q4MXZD3M92P1Y1, similarityScore: SA,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1IBIAA7ZVQ33SGT6042MOTUHK0U834, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1X2PESRAJHQMXJ69Q4MXZD3M92P1Y1, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1WAKMXPVGW3Z852GWW93XUYI849UD2, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1X2PESRAJHQMXJ69Q4MXZD3M92P1Y1, similarityScore: SA,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 12O1VZP8CDIR6PWAQ6H6C051COZK0Z, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1X2PESRAJHQMXJ69Q4MXZD3M92P1Y1, similarityScore: A,
+  workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1CWSMOF0ATCLRKIE8O0Y88TWI2NM5B, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1W342THM6C2CCZG60H7FPHD1M9D5QK, similarityScore: A,
+  workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1CBE1WNQSR3MWTF8Z9309LZXBQ8ZS2, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1W342THM6C2CCZG60H7FPHD1M9D5QK, similarityScore: SA,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 1GGQ123RYEK7CXELQJ3NW12TCGZ8S2, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1W342THM6C2CCZG60H7FPHD1M9D5QK, similarityScore: SA,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1ZHSIC0ZMWFTU4E4LLXWO3OA3UATNY, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1W342THM6C2CCZG60H7FPHD1M9D5QK, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1S1NZ6MIM60PJ1ZG7SZ6EGUMO5SZPB, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1W342THM6C2CCZG60H7FPHD1M9D5QK, similarityScore: SA,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1RX7D90QNLYFLAQXM1WLDI9NL18F5U, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1V9ILUX2YDMWV5QS8LHUBL5OR6A0J3, similarityScore: A,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 13EOF77E0BCD6B7XNWAFR11AOMRXUD, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1V9ILUX2YDMWV5QS8LHUBL5OR6A0J3, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1JJJ8F40Q68IR7J9MNFQAEWPJPNYA2, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1V9ILUX2YDMWV5QS8LHUBL5OR6A0J3, similarityScore: A,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1WEEGY4HYZ6NBFJU2R5IZUU0MSFEEX, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1V9ILUX2YDMWV5QS8LHUBL5OR6A0J3, similarityScore: SA,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 1VR6RHGHDY39I5SNVDYWXSTNKG4QAP, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1V9ILUX2YDMWV5QS8LHUBL5OR6A0J3, similarityScore: SA,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1U91QG8WYFB9DJZE6KWOGVCINW54NR, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1TRKS2FW54WR923EKPFYLNIWHYPN5E, similarityScore: SD,
+  workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1SMB28AAGQBTYIKNLZ6BO9IOXOMBN4, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1TRKS2FW54WR923EKPFYLNIWHYPN5E, similarityScore: D,
+  workerId: ACPUTK2MNMYHB}
+- {assignmentId: 13VDHTXQCI7EPDDI8QJXEX3GPACX41, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1TRKS2FW54WR923EKPFYLNIWHYPN5E, similarityScore: SD,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1MHWZJ7OL3CP0Y1RSMUDYGU1P28ETT, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1TRKS2FW54WR923EKPFYLNIWHYPN5E, similarityScore: SD,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1V12HOSXIDR43LLWFZ3PAKXPFMCKLA, command: 'Take pallet from table,
+    then turn left and place pallet between two pallets on floor.', commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1TRKS2FW54WR923EKPFYLNIWHYPN5E, similarityScore: SD,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 18ENC6ECCG9AXP11X0SJTNSTRMFSO3, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1QFBN55412ILARO350P7VEOZV9O30U,
+  similarityScore: A, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 13VDHTXQCI7EPDDI8QJXEX3GPAGX45, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1QFBN55412ILARO350P7VEOZV9O30U,
+  similarityScore: SA, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1VOSB1Y9Q1533RISJGJTQB3LMJ24G0, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1QFBN55412ILARO350P7VEOZV9O30U,
+  similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1BPER26WEDLMUERD3GMWFVKIS6D3BW, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1QFBN55412ILARO350P7VEOZV9O30U,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1R8YQEZ4VH57GCVZFNPYNT1T5J0QDQ, command: Take the pallet of tires
+    from the trailer and place it between the pallet of boxes and the pallet of tires.,
+  commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1QFBN55412ILARO350P7VEOZV9O30U,
+  similarityScore: A, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 1DYXBK93LCHR3KEZ3PRJL5TY8SK26J, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1Q9ND6YP38M8XKCXTFL18YDZOY5XII,
+  similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1E6GDRTNACF9N6WJW58E46OEQVXEOF, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1Q9ND6YP38M8XKCXTFL18YDZOY5XII,
+  similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 18349PPT0ZBY6YS8NRK5M5F858JXTL, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1Q9ND6YP38M8XKCXTFL18YDZOY5XII,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1BP3VAVL8JIL7GNLM6GKP9LRIAIHOP, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1Q9ND6YP38M8XKCXTFL18YDZOY5XII,
+  similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1TLUH8C3O0JAW7GC5VD1B9YSAJWRMC, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: _DUzirxysxE, hitId: 1Q9ND6YP38M8XKCXTFL18YDZOY5XII,
+  similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 145D872CBXXA4XKQUSF6Y4EVEY2RGO, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1P0UBCEVHFDIXQUV3KRFGJ9I4MHAM8, similarityScore: SA, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1JZ46Y620UKRCNFR04SQPCNRN71P5D, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1P0UBCEVHFDIXQUV3KRFGJ9I4MHAM8, similarityScore: A, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 100H8I2R2DF6T84WI0IX24AI5KEBUV, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1P0UBCEVHFDIXQUV3KRFGJ9I4MHAM8, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 18349PPT0ZBY6YS8NRK5M5F858LTXJ, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1P0UBCEVHFDIXQUV3KRFGJ9I4MHAM8, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1T0EBN5HNS0WHM5J9QED1IOVNWZ3I7, command: 'Go forward and pick up
+    the tire pallet. Then swing left, past the empty table, and deposit it to the
+    left of the first tire pallet you see.', commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1P0UBCEVHFDIXQUV3KRFGJ9I4MHAM8, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 13DB3VGGJQ3JT8SYJQ5VJ5RPD7OMYO, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: J0zOQsQVfHg, hitId: 1GFR2E8NM6T3RFT6N8L8U9Y3O4U2JP, similarityScore: SD,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 10N6611QPPN4MS5UVJ967NJQO68G8V, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: J0zOQsQVfHg, hitId: 1GFR2E8NM6T3RFT6N8L8U9Y3O4U2JP, similarityScore: SD,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1M4F0M56S4JUNKR2XX74UM7NKA2YXC, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: J0zOQsQVfHg, hitId: 1GFR2E8NM6T3RFT6N8L8U9Y3O4U2JP, similarityScore: SA,
+  workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 1YP7HFNE7RJGJ1N0DG4M75L84DJ2CX, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: J0zOQsQVfHg, hitId: 1GFR2E8NM6T3RFT6N8L8U9Y3O4U2JP, similarityScore: SD,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 140LZG788NZSE5MSJ2MECWSSFROO8D, command: Remove the tire pallet from
+    the trailer and place it between the far right tire and box pallets., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: J0zOQsQVfHg, hitId: 1GFR2E8NM6T3RFT6N8L8U9Y3O4U2JP, similarityScore: SD,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1AXBMT9VP5Q3LQYTR9YSAWM1SE0INE, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1DDOXHX6FKTLUCNOEF4HIM251JFA0W,
+  similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1GZD17JW8ME1HLTMJDSMCPKKVPQELU, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1DDOXHX6FKTLUCNOEF4HIM251JFA0W,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1UEN94OQH5X9YT5HI2JU3IM05X8WFM, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1DDOXHX6FKTLUCNOEF4HIM251JFA0W,
+  similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 147J5BE8YLI0KVZC1BJTROFXDHIFCO, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1DDOXHX6FKTLUCNOEF4HIM251JFA0W,
+  similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1ZYAUMI7LN08IY6NVZ6K5COKON15CS, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 1DDOXHX6FKTLUCNOEF4HIM251JFA0W,
+  similarityScore: SA, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 1MTPCG8LHYD9AL82ZD8MFAPMATVR3E, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1ALDHTXQCI7EPDDI8QJXEX3GJG4X43,
+  similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 18F5FD61RNZU3JWWWX24EF9SEXIDHX, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1ALDHTXQCI7EPDDI8QJXEX3GJG4X43,
+  similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1FLYMXSX6IYAK61CSGO16JONEXVMQ7, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1ALDHTXQCI7EPDDI8QJXEX3GJG4X43,
+  similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1CFJQCH8A63AVEFVKK3VJBU1PNDRZS, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1ALDHTXQCI7EPDDI8QJXEX3GJG4X43,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 147J5BE8YLI0KVZC1BJTROFXDHFFCL, command: Take the pallet of tires
+    off the trailer and place it on the ground between the boxes and the other pallet
+    of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1ALDHTXQCI7EPDDI8QJXEX3GJG4X43,
+  similarityScore: SD, workerId: A2HA95B0GXATOO}
+- {assignmentId: 1YM3KEV1WOIWWYD2XJF2Q92H0GU219, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 19BLBD11NIDANLK3EIIE0E5R52ZXLW, similarityScore: SA, workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 1DVFDOE6KVQ1QD0J373RKLC6HROU38, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 19BLBD11NIDANLK3EIIE0E5R52ZXLW, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1R7L4CZ2T5Z9G4BRMZ9GKKHDNAO4P3, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 19BLBD11NIDANLK3EIIE0E5R52ZXLW, similarityScore: A, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1AJYNTP3VQEN52K6JSLH3W2GFTY7CB, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 19BLBD11NIDANLK3EIIE0E5R52ZXLW, similarityScore: A, workerId: A2HA95B0GXATOO}
+- {assignmentId: 154NHWBI3R6K5YA426VJC9KQIAQ53W, command: take the pallet of tires
+    off the truck.  place the pallet on the ground between the pallet of boxes and
+    the other pallet of tires., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 19BLBD11NIDANLK3EIIE0E5R52ZXLW, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1SHDOLTEXFJK1H3XD7OMG3Q3V483EG, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 195TLADVTYAOY8SNML4XAFP73HZP3M, similarityScore: SD,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1XEHG865RAHBG3KZME6O3YITNYKBOC, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 195TLADVTYAOY8SNML4XAFP73HZP3M, similarityScore: SD,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 10SJGF9ZUU6X38DTF8JSXHX1NNLIM7, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 195TLADVTYAOY8SNML4XAFP73HZP3M, similarityScore: N,
+  workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 1M70CZLL5WNJSFRHYFVPR7NYSAZYZ8, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 195TLADVTYAOY8SNML4XAFP73HZP3M, similarityScore: D,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1DO5XRGKXWMJ7H7YPKJPC5KL8ANMGD, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 195TLADVTYAOY8SNML4XAFP73HZP3M, similarityScore: A,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1UA62XZRA81346IAH52KQCVEXYZWO8, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18YNTLZ4UT7YACYRN5TKMB9MT8LXB9, similarityScore: D,
+  workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1R6CWKMYB5IDHC9WP4BXUTIN4MQON4, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18YNTLZ4UT7YACYRN5TKMB9MT8LXB9, similarityScore: SD,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1WL6Y3CYCOXI7MKOD80GN6IJDFWY37, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18YNTLZ4UT7YACYRN5TKMB9MT8LXB9, similarityScore: SD,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 11QNJJIORRG1A8V3TT8Y12GTBDH8D0, command: offload the tire skid and
+    place it the empty space between the two others., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18YNTLZ4UT7YACYRN5TKMB9MT8LXB9, similarityScore: SD,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1CZ4JHPLY302DKDQUW6CI45XYIPKI3, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: Ox1Ji5G2pUo, hitId: 18RY833LQTTTR2TZHRTOR0PGBQ0XAE, similarityScore: SD,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 14IIHZSHR9736LCG5W80OPPS46E93W, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: Ox1Ji5G2pUo, hitId: 18RY833LQTTTR2TZHRTOR0PGBQ0XAE, similarityScore: SD,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1XW6U7VDLBZYHB27DRETPIN3FKEUWA, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: Ox1Ji5G2pUo, hitId: 18RY833LQTTTR2TZHRTOR0PGBQ0XAE, similarityScore: SD,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 1BG3WFDI8QJQXFB4YDGLXP756PBKEN, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: Ox1Ji5G2pUo, hitId: 18RY833LQTTTR2TZHRTOR0PGBQ0XAE, similarityScore: SD,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1QXTYW3D4555ECICSR8X61JO9WHLPB, command: Remove the tire pallet from
+    the trailer and place it near the other tire pallet., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: Ox1Ji5G2pUo, hitId: 18RY833LQTTTR2TZHRTOR0PGBQ0XAE, similarityScore: SD,
+  workerId: A2HA95B0GXATOO}
+- {assignmentId: 1MOY2K4PANGNJDX8GPJCR6IAW7V552, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 16QPJ60VLK2YR8CA38Q0G6UT4HRLAH,
+  similarityScore: N, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1X9MVRBLKQU26HBR4IY9PQW6NCM57B, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 16QPJ60VLK2YR8CA38Q0G6UT4HRLAH,
+  similarityScore: A, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1EYOQB8OYX1RB49P1PBCSR12FU9R79, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 16QPJ60VLK2YR8CA38Q0G6UT4HRLAH,
+  similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1UHEILPCI3FTRUYA5UOUI3MTDV62ZX, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 16QPJ60VLK2YR8CA38Q0G6UT4HRLAH,
+  similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1REVH50DR7V2PZGOJ60KVW61URU868, command: Remove the tire pallet from
+    the truck and place between the box pallet and tire pallet to the left of the
+    truck., commandYoutubeId: EpzCfBH84k8, displayedYoutubeId: EpzCfBH84k8, hitId: 16QPJ60VLK2YR8CA38Q0G6UT4HRLAH,
+  similarityScore: D, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1JG9ZG0XC6GB4EQBRK6Q5ONNHWM6F4, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 14SB6LVNNMIZ3F2LTI6DLESCG2UXKT, similarityScore: SA,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1YMQIR5DOQWE7YXNW4OH5JPPEN5280, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 14SB6LVNNMIZ3F2LTI6DLESCG2UXKT, similarityScore: D,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 14PFCNK65J8USA17TJ9N8TGPQ48ZX6, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 14SB6LVNNMIZ3F2LTI6DLESCG2UXKT, similarityScore: N,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 1EKME9F3UPENS63SP8P3DTWWJMTN6B, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 14SB6LVNNMIZ3F2LTI6DLESCG2UXKT, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 18349PPT0ZBY6YS8NRK5M5F858DTXB, command: Take the tire pallet off
+    the trailer and put it in the row of pallets to the left., commandYoutubeId: EpzCfBH84k8,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 14SB6LVNNMIZ3F2LTI6DLESCG2UXKT, similarityScore: A,
+  workerId: A1MBBN0PCAGVX6}

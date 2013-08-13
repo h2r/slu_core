@@ -1,0 +1,18 @@
+- {assignmentId: 1X9M5I5IFB1FWQBJFSY9QQW6WQP75J, command: 'The robot should follow
+    the man as he walks around the walled stairwell, making turns to the right all
+    the way around the stairwell until stopping nearly at the point where he began.',
+  hitId: 13I5LNTRX9ZAXM21K017Y5WMDG1HMG, workerId: A2HM35CWB7IIFM, youtubeId: Q2mnbPod5sI}
+- {assignmentId: 14S0YRUIDWJWNE1E5BX86EW07IDZZD, command: stay to the left of the
+    white railing and follow it around., hitId: 13I5LNTRX9ZAXM21K017Y5WMDG1HMG, workerId: AWRBULBU52BCD,
+  youtubeId: Q2mnbPod5sI}
+- {assignmentId: 1ZV67CKR5561L4WHQCH0PG5TT5415X, command: 'CONTINUE FOLLOWING THE
+    SENSOR. CONTINUE UNTILL THE SENSOR IS LESS THAN 2 FEET. ', hitId: 13I5LNTRX9ZAXM21K017Y5WMDG1HMG,
+  workerId: A1DGNCZZWELLVX, youtubeId: Q2mnbPod5sI}
+- {assignmentId: 1K36LGWDIGZCDZA5UO4GKSC0MITLYN, command: 'Follow the man by moving
+    along the the path he is walking, at a distance of about two meters, as long as
+    the man is facing away from you.  Avoid colliding with any objects or walls.  If
+    the man turns to face you then stop. ', hitId: 13I5LNTRX9ZAXM21K017Y5WMDG1HMG,
+  workerId: AU28SETAO43N7, youtubeId: Q2mnbPod5sI}
+- {assignmentId: 1HIEY0PWTK2QNZV0Q6IDY4ICW0OLIC, command: 'Forward, sharp right turn,
+    forward, sharp right turn, forward, sharp right turn, forward, sharp right turn,
+    STOP', hitId: 13I5LNTRX9ZAXM21K017Y5WMDG1HMG, workerId: A3M7R38UIJOPKT, youtubeId: Q2mnbPod5sI}

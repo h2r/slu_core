@@ -1,0 +1,10 @@
+// An enumerated list of different task/job types
+
+package arlcm;
+
+enum task_type_enum_t
+{
+     DESTINATION_CHECKPOINT  = 1,
+     DESTINATION_POSE        = 2,
+     PALLET_MANIPULATION     = 3,
+}

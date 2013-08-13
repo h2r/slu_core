@@ -1,0 +1,5 @@
+youtubeId: TE9dp_Yp_Yc
+
+isSimulated: true
+platform: forklift
+rndfFname: $FORKLIFT_HOME/dataCollection/etc/agile/Lee_RNDF_demo.txt

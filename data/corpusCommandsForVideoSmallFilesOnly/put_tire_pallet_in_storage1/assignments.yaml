@@ -1,0 +1,64 @@
+- {assignmentId: 11QNTACLMCNE0HVV438Y22GTI8TD8G, command: Go forward pick up pallets
+    of tires  and place in designated area, hitId: 11UC5MV1F24HHNJ11D39TQU77Y0Z9U,
+  workerId: A3E2E2I8O5KMR1, youtubeId: JKYVANU_-4M}
+- {assignmentId: 1ZHSS3UWHHM6KDEWWVXWP3OAB40NTC, command: pick up the pallet of tires
+    that is on the left side of the non-empty. place it on the ground between the
+    two trucks., hitId: 1808SVL01MAMEN15WKUL6FBJJ32K85, workerId: A192SB73LHD6HK,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 1OFL5XT3RHCET1PBJ7DWH7EP31VV3C, command: Take the pallet of tires
+    from the rear of the trailer on the left and place them halfway between the last
+    pallet of boxes and the trailer on the right., hitId: 1AGMXD6WEWAT4Y14S6S1PONS3KVNRD,
+  workerId: A40W0EWYGHNV0, youtubeId: JKYVANU_-4M}
+- {assignmentId: 1P30RGV25B2ZTBHNIBYM6IGGKVQM11, command: 'Pick up the left-most tire
+    pallet that is on the table, then proceed right and deposit it to the left of
+    the empty table.', hitId: 1BI0YRUIDWJWNE1E5BX86EW0R9TZZZ, workerId: A2HM35CWB7IIFM,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 1G5GG8NZ0VWEAQ9OZTTJK1M8PYXBIT, command: Approach truck bed and raise
+    forks to pallet level. Insert forks into pallet and lift the pallet off of the
+    truck bed. Turn to place the pallet on the floor across from the truck bed., hitId: 1BI0YRUIDWJWNE1E5BX86EW0R9TZZZ,
+  workerId: A3K6HCRWJ6CGL1, youtubeId: JKYVANU_-4M}
+- {assignmentId: 13YSIT55Z8LQ71UXEL139MHBP4J0Q1, command: "test that fork arms move\
+    \ up & down\r\nmove towards the flatbed, test arms movement up & down,  aim for\
+    \ correct height for tire pallet\r\nMove to flatbed and lift the pallet of tires\r\
+    \nback up 15 feet, turn 130 degrees clockwise\r\nmove forward 10'\r\nplace pallet\
+    \ of tires on the floor\r\n", hitId: 1BI0YRUIDWJWNE1E5BX86EW0R9TZZZ, workerId: ASXIEBMMWW1NE,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 120S586EN4D9GRCOLCUMNAPR4QO2SC, command: Take the pallet of tires
+    on the left side of the trailer and place it between the pallets on the ground
+    and the other trailer., hitId: 1BI0YRUIDWJWNE1E5BX86EW0R9TZZZ, workerId: ACPUTK2MNMYHB,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 12A2UZONOKQL0QUYH5A3UAHRE4APVR, command: 'Lift up the forks, adjusting
+    for the correct height. Start towards the pallet to the right and then switch
+    to the pallet on the left of the trailer bed. Go forward, lift up the pallet of
+    tires, move back, turn to the right, stopping for a moment. Set the pallet down
+    and move the forklift back.', hitId: 1BI0YRUIDWJWNE1E5BX86EW0R9TZZZ, workerId: A3S82OHUGFBR7L,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 1AJYXKJ0QBL0VBKYU2LH4W2GNZXC71, command: Pick up the left tire pallet
+    and put it on the ground behind you., hitId: 1H1PZTS0NQF3GYYJGTCMCWJ3YXMLRG, workerId: A3B031YKKWFYFM,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 19BMTVXSBD0KMD9SG008J8J3POW2IE, command: 'Raise forklift forks. Drive
+    towards trailer. Slide forks under first pallet of tires. Lift pallet of tires
+    off trailer. Reverse back and turn until a clear space is located. Drive forward,
+    lower forks and place the pallet of tires on the floor. Back forklift away.',
+  hitId: 1H1PZTS0NQF3GYYJGTCMCWJ3YXMLRG, workerId: A13B0ND5GVEG7K, youtubeId: JKYVANU_-4M}
+- {assignmentId: 18TTRWICU1ZMOTTUX8JMBKFHMCD3QT, command: Unload the left skid of
+    tires and drop it off over in the area by the other trailer., hitId: 1H1PZTS0NQF3GYYJGTCMCWJ3YXMLRG,
+  workerId: A2ZH5LDUY5UFD4, youtubeId: JKYVANU_-4M}
+- {assignmentId: 13DBDMADEBAWJHSQU05VK5RPLCBMYV, command: 'Proceed forward to the
+    wheeled platform and pick up the tire pallet on the left. Then swing right and
+    deposit the pallet parallel to the platform on the right, about midway between
+    it and the rest of the pallets.', hitId: 1H1PZTS0NQF3GYYJGTCMCWJ3YXMLRG, workerId: A2HM35CWB7IIFM,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 150E1A86WFLWH51YGT6HY2OMUZ6U7V, command: Take the tire pallet off
+    the trailer and put it near the other trailer to the right., hitId: 1H1PZTS0NQF3GYYJGTCMCWJ3YXMLRG,
+  workerId: A2MWAXV1YRK5GH, youtubeId: JKYVANU_-4M}
+- {assignmentId: 1W3304JX3378OUF5FNMSZVRKAZHWL0, command: pick up the tire pallet
+    off the truck and set it down, hitId: 1WW4OHNFGE3JGERLY8N6NEZ6YZICM8, workerId: A19NQYAQBPEWOB,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 13NOU64DMX2C2WN0AOPQY1CSNYBA70, command: 'Lift the left tire pallet
+    from the truck, make an about-face turn, advance forward, and place the tire pallet
+    on the floor.  ', hitId: 1WW4OHNFGE3JGERLY8N6NEZ6YZICM8, workerId: A1TYQST4BW0RXV,
+  youtubeId: JKYVANU_-4M}
+- {assignmentId: 1QY7N271YSGYVIXWDS51S7PKEKPKDX, command: pick up a pallette of tires
+    and then drop them off at a new drop off line 100 ft behind me, hitId: 1YXLE3TZOQ6M6DBJX99GLKHDBRBP43,
+  workerId: A2IUOIMGF8H4K4, youtubeId: JKYVANU_-4M}

@@ -1,0 +1,14 @@
+// Task message directing the bot to a checkpoint
+
+package arlcm;
+
+struct task_destination_checkpoint_t
+{
+    int64_t utime;
+
+    boolean clear;
+
+    int32_t checkpoint;
+
+    int64_t task_id;
+}

@@ -1,0 +1,1 @@
+*/10 * * * * bash -c "source ~/.bashrc && cd /home/stefie10/regression_tests/tklib/ && test ! -e regression.lock && svn up > tools/unit_tests/regression.log && cd tools/unit_tests && xvfb-run rake run_tests 1>>regression.log 2>&1"

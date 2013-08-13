@@ -1,0 +1,14 @@
+
+file "stanford-parser-full-2013-06-20" => "stanford-parser-full-2013-06-20.tar.bz2" do
+  sh "tar jxf stanford-parser-full-2013-06-20.tar.bz2"
+end
+task :setup => ["stanford-parser-full-2013-06-20"] do
+  if ENV["BUILD_PREFIX"] 
+    sh "cp stanford-parser-full-2013-06-20/stanford-parser.jar " + 
+      "#{ENV['BUILD_PREFIX']}/share/java"
+    sh "cp stanford-parser-full-2013-06-20/stanford-parser-3.2.0-models.jar " + 
+      "#{ENV['BUILD_PREFIX']}/share/java"
+  end
+end
+
+

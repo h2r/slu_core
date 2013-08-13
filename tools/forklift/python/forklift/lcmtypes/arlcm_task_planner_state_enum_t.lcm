@@ -1,0 +1,8 @@
+package arlcm;
+
+enum task_planner_state_enum_t {
+     TP_NAVIGATION = 0,
+     TP_APPROACH,
+     TP_MANIPULATION,
+     TP_IDLE
+}

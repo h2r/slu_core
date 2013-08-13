@@ -1,0 +1,19 @@
+// A brief summary of a task/job
+
+package arlcm;
+
+struct task_summary_t
+{
+
+    // the time that the task/job was added to the queue    
+    int64_t utime_added;  
+
+    // the command type
+    task_type_enum_t type;
+
+    // XXX tmp hack to get an RNDF location to the ledsign.
+    int32_t rndf_id;
+    
+    int64_t task_id;
+}
+    

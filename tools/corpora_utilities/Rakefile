@@ -1,0 +1,14 @@
+here=File.dirname(__FILE__)
+$slu_home=File.expand_path("#{here}/../..")
+require "#{$slu_home}/rakefile.rb"
+
+run_id = (ENV['RUN_ID'] or  -1)
+
+desc "Build everything."
+task :all => [:buildGui, :build_python] 
+make_python_targets(:build_python, FileList["python/**/*.py"])
+
+
+desc "Clean everything."
+task :clean => [:clean_python] 
+

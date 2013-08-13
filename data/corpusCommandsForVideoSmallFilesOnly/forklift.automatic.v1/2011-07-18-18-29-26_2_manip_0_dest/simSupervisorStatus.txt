@@ -1,0 +1,110 @@
+
+
+Starting...
+manipulations: 2
+destinations: 0
+ok
+ok
+on_object_list(): Added 2 trailers
+Start 2 manipulation and 0 summoning tasks remaining.
+entering while loop
+x, y, -18.935, 30.520 dist: 36.010
+dist < 10: 0
+Teleporting to: -18.935, 30.520
+Currently 2 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 1 summoning tasks remaining.
+Currently 1 manipulation and 1 summoning tasks remaining.
+Generating Summoning Pose: Destination is checkpoint_id = 26
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Start 1 manipulation and 0 summoning tasks remaining.
+Currently 1 manipulation and 0 summoning tasks remaining.
+Start 0 manipulation and 1 summoning tasks remaining.
+Currently 0 manipulation and 1 summoning tasks remaining.
+Generating Summoning Pose: Destination is checkpoint_id = 21
+Start 0 manipulation and 0 summoning tasks remaining.
+Looks like we're done

@@ -1,0 +1,113 @@
+---
+- - Forklift stop.
+  - EVENT:
+      f: Forklift
+      r: stop
+- - to the truck
+  - PATH: {r: to, l: the truck}
+- - Go between the truck and the pallet.
+  - EVENT:
+      r: Go
+      l: 
+        PATH: 
+          r: between
+          l: [{OBJECT: {f: the truck}}, {OBJECT: {f: the pallet}}]
+
+- - Go past the truck by the stairs.
+  - EVENT:
+      r: Go
+      l: {PATH: {r: past, l: {OBJECT: {f: the truck, r: by, l: the stairs}}}}
+- - Pick up the tire pallet and put it on the truck.
+  - - EVENT:
+        r: Pick up
+        l: the tire pallet
+    - EVENT:
+        r: put
+        l: it
+        l2: {PLACE: {r: "on", l: the truck}}
+- - Go past the truck past the stairs.
+  - EVENT:
+      r: Go
+      l: 
+        PATH: 
+          r: [[past, [3, 7]]]
+          l: {OBJECT: {f: the truck, r: [[past, [18, 22]]], l: the stairs}}
+
+
+- - Go    past the truck past the stairs.
+  - EVENT:
+      r: Go
+      l: 
+        PATH: 
+          r: [[past, [6, 10]]]
+          l: {OBJECT: {f: the truck, r: [[past, [21, 25]]], l: the stairs}}
+
+
+- - Pick the tire pallet up.
+  - EVENT:
+      r: [[Pick, [0, 4]], [up, [21, 23]]]
+      l: the tire pallet
+- - Go left.
+  - []
+- - 'Orient yourself so that the computers are behind you and turn left  through the
+    small hallway (metal shelves should be to your left) and right through the next
+    hallway. walk to the end of the mailboxes, but do not pass them. turn  left. you
+    should see a small tiled kitchen area. go to it. '
+  - - EVENT: {l: yourself, r: Orient}
+    - EVENT:
+        f: the computers
+        l:
+          PATH:
+            l:
+            - - you
+              - [49, 52]
+            r: behind
+        r:
+        - - are
+          - [38, 41]
+    - EVENT:
+        l:
+          PATH:
+            l: the small hallway
+            r:
+            - - through
+              - [68, 75]
+        r: turn left
+    - EVENT:
+        f: metal shelves
+        l:
+          PATH: {r: to your left}
+        r: should be
+    - PATH: {l: the next hallway, r: right through}
+    - EVENT:
+        l:
+          PATH:
+            l: the end of the mailboxes
+            r:
+            - - to
+              - [174, 176]
+        r: walk
+    - EVENT: {r: turn  left}
+    - EVENT:
+        f:
+        - - you
+          - [237, 240]
+        l: a small tiled kitchen area
+        r: should see
+    - EVENT:
+        l:
+          PATH:
+            l:
+            - - it
+              - [286, 288]
+            r:
+            - - to
+              - [283, 285]
+        r: go
+- - Pick the tire pallet up.
+  - - OBJECT:
+        f: the tire pallet
+    - OBJECT:
+        f: the tire pallet
+    - OBJECT:
+        f: the tire pallet

@@ -1,0 +1,90 @@
+# This directory contains the core grounding graph data structures,
+# inference algorithms and interfaces to the cost functions. 
+
+
+here=File.dirname(__FILE__)
+$slu_home=File.expand_path("#{here}/../..")
+
+require "#{$slu_home}/rakefile.rb"
+training_home="#{$slu_home}/data/directions/direction_training"
+
+  
+task :dotty do
+    FileList['data/dot/*.dot'].each do |src|
+      pdf = File.join(File.basename(src, ".dot") + '.pdf')
+      sh "neato #{src} -Grankdir=LR -Tpdf -Goverlap=false -Gsplines=true -o data/dot/#{pdf}"
+    end
+end                                                         
+
+task :dotty_png do
+    FileList['data/dot/*.dot'].each do |src|
+      pdf = File.join(File.basename(src, ".dot") + '.png')
+      sh "neato #{src} -Grankdir=LR -Tpng -Goverlap=false -Gsplines=true -o data/dot/#{pdf}"
+    end
+end
+
+
+desc "Build everything."
+task :all => [:build_python] 
+make_python_targets(:build_python, FileList["python/**/*.py"])
+
+desc "Clean everything."
+task :clean => [:clean_python] 
+
+task :partial_tests => [:default] do
+  python("/usr/bin/nosetests -v -s #{here}/python/g3/test/graph_test.py")
+
+######### NOT WORKING - Deprecated version #####################
+#  python("/usr/bin/nosetests -v #{here}/python/g3/test/constructor_test.py")
+end
+
+desc "sandbox for testing GGG generation"
+python_task :sandbox => [:buildGui] do
+  python("#{$pbd}/g3/graph_sandbox.py")
+end
+
+desc "esdc feature gui"
+python_task :esdc_grounded_feature_gui => [:buildGui] do
+  python("#{$pbd}/semantic_map/gui/esdcFeatureBrowser.py " + 
+         #"#{$forklift_home}/dataAnnotation/data/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml")
+         "#{$forklift_home}/dataAnnotation/data/spatialRelations.stefie10.yaml")
+end
+
+desc "esdc feature gui"
+python_task :esdc_grounded_feature_negative_gui => [:buildGui] do
+  python("#{$pbd}/semantic_map/gui/esdcFeatureBrowser.py " + 
+         "#{$forklift_home}/dataAnnotation/data/corpusNegativeExamples.annotated.yaml.pck ")
+
+
+end
+
+
+desc "esdc feature gui"
+python_task :esdc_feature_gui => [:buildGui] do
+  python("#{$pbd}/semantic_map/gui/esdcFeatureBrowser.py " + 
+         "--feature-extractor EsdcFeatures" )
+end
+python_task :describer_browser do
+  python("#{$pbd}/g3/describer/gui/describerBrowser.py " + 
+         "--training=#{training_home}/annotation/datasets/training_continuous_sr.pck " + 
+         "--test=#{training_home}/annotation/datasets/test_continuous_sr.pck " +
+         "--model=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck "
+         )
+end
+
+
+python_task :describe do
+  python("#{$pbd}/g3/describer/describe.py " + 
+         "--training=#{training_home}/annotation/datasets/training_continuous_sr.pck " + 
+         "--test=#{training_home}/annotation/datasets/test_continuous_sr.pck " +
+         "--model=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck "
+         )
+end
+
+
+
+python_task :ggg_browser => [:buildGui] do
+  python("#{$pbd}/g3/gui/gggBrowser.py " + 
+         "--training_filename #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forklift.automatic.v1.withPaths.yaml "
+         )
+end

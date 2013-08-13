@@ -1,0 +1,19 @@
+
+file "pylibmc-1.2.0" => "pylibmc-1.2.0.tar.gz" do
+  sh "tar xf pylibmc-1.2.0.tar.gz"
+end
+task :setup => ["pylibmc-1.2.0"] do
+  sh "cd pylibmc-1.2.0 && python setup.py build"
+  puts "build: #{ENV['BUILD_PREFIX']}\n"
+  if ENV["BUILD_PREFIX"] 
+      sh "cd pylibmc-1.2.0 && python setup.py install " + 
+      "--home #{ENV['BUILD_PREFIX']}"
+  end
+end
+
+
+task :clean do
+  sh "rm -rf pylibmc-1.2.0"
+end
+
+

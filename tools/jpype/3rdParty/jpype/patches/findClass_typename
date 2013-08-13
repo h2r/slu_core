@@ -1,0 +1,15 @@
+Index: jpype/JPype-0.5.4.1/src/native/common/jp_typemanager.cpp
+===================================================================
+--- jpype.orig/JPype-0.5.4.1/src/native/common/jp_typemanager.cpp	2011-03-21 14:03:02.921705003 -0400
++++ jpype/JPype-0.5.4.1/src/native/common/jp_typemanager.cpp	2011-03-21 14:12:08.017704999 -0400
+@@ -80,7 +80,9 @@
+ 
+ 	// No we havent got it .. lets load it!!!
+ 	JPCleaner cleaner;
+-	jclass cls = JPEnv::getJava()->FindClass(name.getNativeName().c_str());
++        string native = name.getNativeName();
++        string lookup_name = native.substr(1, native.size() - 2);
++	jclass cls = JPEnv::getJava()->FindClass(lookup_name.c_str());
+ 	cleaner.addLocal(cls);
+ 
+ 	JPClass* res = new JPClass(name, cls);

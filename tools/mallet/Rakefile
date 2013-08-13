@@ -1,0 +1,30 @@
+here=File.dirname(__FILE__)
+$slu_home=File.expand_path("#{here}/../..")
+require "#{$slu_home}/rakefile.rb"
+
+desc "Build everything."
+task :all => [:build_python, :build_java] 
+make_python_targets(:build_python, FileList["python/**/*.py"])
+
+
+
+make_class_targets(:build_java, FileList["java/**/*.java"])
+make_jar_target("slu-mallet.jar")
+
+task :setup do
+  sh "cd 3rdParty/mallet && rake setup"
+end
+
+desc "Clean everything."
+task :clean => [:clean_python] 
+
+
+desc "Run the test cases."
+python_task :partial_tests  do
+  python("/usr/bin/nosetests -v " + 
+         "#{$pbd}/mallet/test/jvm_test.py ")
+  python("/usr/bin/nosetests -collect-only -v -s " + 
+         "#{$pbd}/mallet/learners/test/CRFMallet_test.py")
+end
+
+

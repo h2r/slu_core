@@ -1,0 +1,16 @@
+<?xml version="1.0" ?><objects><item type="pallet">
+        <id>330574145942606080</id>
+        <type id="pallet_enum_t">6</type>
+        <label>19</label>
+        <position id="local-frame">-2.857257 33.490175 0.000000</position>
+        <position id="lat_lon_theta">37.249773 -77.335538 0.523599</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+        <relative-to-id>0</relative-to-id>
+    </item><item type="object">
+        <id>330574145945346304</id>
+        <type id="object_enum_t">5</type>
+        <position id="local-frame">-23.297664 -5.225375 0.000000</position>
+        <position id="lat_lon_theta">37.249424 -77.335769 0.465327</position>
+        <orientation id="local-frame">0.973056 0.000000 0.000000 0.230570</orientation>
+    </item></objects>

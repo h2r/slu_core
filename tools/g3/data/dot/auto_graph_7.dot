@@ -1,0 +1,43 @@
+graph esdc_parse {
+  0 [label="EVENT" style=filled fillcolor="#6BC3FA" pos="-0.5,3" pin=true];
+  1 [label="phi" style=filled fillcolor="#CCCCCC"];
+  3 [label="Go" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  4 [label="PATH"];
+  5 [label="phi" style=filled fillcolor="#CCCCCC"];
+  7 [label="past" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  8 [label="OBJECT"];
+  9 [label="phi" style=filled fillcolor="#CCCCCC"];
+  12 [label="phi" style=filled fillcolor="#CCCCCC"];
+  11 [label="the truck" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  14 [label="past" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  15 [label="OBJECT"];
+  16 [label="phi" style=filled fillcolor="#CCCCCC"];
+  18 [label="the stairs" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+
+  2 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  6 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  10 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  13 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  17 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+
+
+  2 -- 0 [ label=" " fontcolor="#858585"];
+  2 -- 3 [ label=r fontcolor="#858585"];
+  2 -- 4 [ label=l fontcolor="#858585"];
+  2 -- 1 [ label=" " fontcolor="#858585"];
+  6 -- 4 [ label=" " fontcolor="#858585"];
+  6 -- 7 [ label=r fontcolor="#858585"];
+  6 -- 8 [ label=l fontcolor="#858585"];
+  6 -- 5 [ label=" " fontcolor="#858585"];
+  10 -- 8 [ label=" " fontcolor="#858585"];
+  10 -- 9 [ label=" " fontcolor="#858585"];
+  10 -- 11 [ label=f fontcolor="#858585"];
+  13 -- 8 [ label=" " fontcolor="#858585"];
+  13 -- 14 [ label=r fontcolor="#858585"];
+  13 -- 15 [ label=l fontcolor="#858585"];
+  13 -- 12 [ label=" " fontcolor="#858585"];
+  17 -- 15 [ label=" " fontcolor="#858585"];
+  17 -- 16 [ label=" " fontcolor="#858585"];
+  17 -- 18 [ label=f fontcolor="#858585"];
+}
+

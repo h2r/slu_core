@@ -1,0 +1,37 @@
+graph esdc_parse {
+  8 [label="EVENT"];
+  9 [label="phi" style=filled fillcolor="#CCCCCC"];
+  11 [label="put" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  12 [label="OBJECT"];
+  13 [label="phi" style=filled fillcolor="#CCCCCC"];
+  15 [label="it" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  16 [label="PLACE"];
+  17 [label="phi" style=filled fillcolor="#CCCCCC"];
+  19 [label="on" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  20 [label="OBJECT"];
+  21 [label="phi" style=filled fillcolor="#CCCCCC"];
+  23 [label="the truck" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+
+  10 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  14 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  18 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  22 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+
+
+  10 -- 8 [ label=" " fontcolor="#858585"];
+  10 -- 11 [ label=r fontcolor="#858585"];
+  10 -- 16 [ label=l2 fontcolor="#858585"];
+  10 -- 12 [ label=l fontcolor="#858585"];
+  10 -- 9 [ label=" " fontcolor="#858585"];
+  14 -- 12 [ label=" " fontcolor="#858585"];
+  14 -- 13 [ label=" " fontcolor="#858585"];
+  14 -- 15 [ label=f fontcolor="#858585"];
+  18 -- 16 [ label=" " fontcolor="#858585"];
+  18 -- 19 [ label=r fontcolor="#858585"];
+  18 -- 20 [ label=l fontcolor="#858585"];
+  18 -- 17 [ label=" " fontcolor="#858585"];
+  22 -- 20 [ label=" " fontcolor="#858585"];
+  22 -- 21 [ label=" " fontcolor="#858585"];
+  22 -- 23 [ label=f fontcolor="#858585"];
+}
+

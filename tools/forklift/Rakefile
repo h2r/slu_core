@@ -1,0 +1,469 @@
+here=File.dirname(__FILE__)
+$slu_home=File.expand_path("#{here}/../..")
+require "#{$slu_home}/rakefile.rb"
+
+desc "Build everything."
+task :all => [:buildGui, :build_python] 
+make_python_targets(:build_python, FileList["python/**/*.py"])
+
+desc "Clean everything."
+task :clean => [:clean_python] 
+
+training_home="#{$slu_home}/data/directions/direction_training"
+
+ENV['PYTHONPATH'] = [ENV['PYTHONPATH'],
+                     "#{$slu_home}/tools/du_crf3/src/",
+                     "#{$slu_home}/tools/rrt/src/",
+                     "#{$slu_home}/tools/refexp_crf/src/",
+                     "#{$slu_home}/nlp/3rdParty/orange/",
+                     "#{$slu_home}/nlp/3rdParty/orange/orange",
+                     "#{$slu_home}/nlp/3rdParty/orange/orange/OrangeWidgets",
+                     "#{$slu_home}/nlp/3rdParty/orange/orange/OrangeWidgets/Classify",
+                     "#{$agile_home}/software/src/swig/",
+                    ].join(':')
+
+
+
+ENV['FORKLIFT_RNDF'] = "#{$slu_home}/data/directions/forklift/Lee_at_Waverly_RNDF_onezone.txt"
+#ENV['FORKLIFT_RNDF'] = "#{$slu_home}/data/directions/forklift/Lee_RNDF_demo.txt"
+run_id = (ENV['RUN_ID'] or  -1)
+use_rrt = (ENV['USE_RRT'] or "True")
+state_type = (ENV['STATE_TYPE'] or "navigation")
+multi_esdcs = (ENV['MULTI_ESDCS'] or "False")
+merging = (ENV['MERGING'] or "merge_none")
+num_questions = (ENV['NUM_QUESTIONS'] or "0")
+num_answers = (ENV['NUM_ANSWERS'] or "1")
+entropy_metric = (ENV['ENTROPY_METRIC'] or "metric2")
+resolver = (ENV['RESOLVER'] or "None")
+esdc_extractor = (ENV['ESDC_EXTRACTOR'] or "annotated")
+force_sync = (ENV['FORCE_SYNC'] or "False")
+cost_function_class = (ENV['COST_FUNCTION_CLASS'] or "CostFnQa")
+question_type = (ENV['QUESTION_TYPE'] or "targeted")
+random_seed = (ENV['RANDOM_SEED'] or '10')
+
+desc "Run the test cases."
+python_task :partial_tests  do
+  #python("/usr/bin/nosetests src/forklift/corpus_open_ended/forkliftCorpusReader_test.py")
+  # python("/usr/bin/nosetests src/forklift/objectReader_test.py")
+  #python("/usr/bin/nosetests  -v -s #{$pbd}/forklift/test/rss_2012_results_test.py")
+  #python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/dialogCorpus_test.py")
+  #python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/cost_function_test.py")  
+  python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/forklift_test.py")  
+end
+
+desc "Run the inference command gui."
+python_task :agile_gui => [:buildGui] do
+  python("#{$pbd}/forklift/gui/agileGui.py " + 
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_all_1.5.pck " + 
+         "--rndf-filename=#{$slu_home}/data/directions/forklift/Lee_RNDF_demo.txt " + 
+         "--skeleton-filename=#{$slu_home}/data/directions/forklift/partitions/forklift_full_part.pck ")
+
+end
+
+desc "Run the inference command gui."
+python_task :agile_gui_waverly => [:buildGui] do
+  python("#{$pbd}/forklift/gui/agileGui.py " + 
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_all_1.5.pck " + 
+         "--rndf-filename=#{$slu_home}/data/directions/forklift/Lee_at_Waverly_RNDF_onezone.txt " + 
+         "--skeleton-filename=#{$slu_home}/data/directions/forklift/partitions/forklift_full_part.pck")
+
+end
+
+desc "make histograms"
+python_task :histograms do
+    python("#{$pbd}/forklift/corpusAnalysis/esdcHistograms.py")
+end
+
+desc "print relations for landau's student"
+python_task :relations_with_modifiers do
+    python("#{$pbd}/forklift/corpusAnalysis/relations_with_modifiers.py")
+end
+
+
+
+desc "corpus statistics"
+python_task :corpus_stats do
+  python("#{$pbd}/forklift/corpusAnalysis/corpusStats.py")
+end
+
+desc "corpus statistics"
+python_task :corpus_stats2 do
+  python("#{$pbd}/forklift/corpusAnalysis/corpusStats2.py")
+end
+
+desc "corpus statistics"
+python_task :sr_corpus_stats do
+  python("#{$pbd}/forklift/corpusAnalysis/srCorpusStats.py")
+end
+
+desc "cost function browser for forklift"
+python_task :cost_function_browser_esdcSearch => [:buildGui] do
+    python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py --use-rrt=#{use_rrt} " +
+           "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
+           #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
+           "--limits=10,40,10,40 " +
+           "--state-type=forklift " +
+	   "--merging #{merging} " + 
+           "--start-command='Pick up the tire pallet' " + 
+           ""
+           )
+end
+
+desc "cost function browser for forklift"
+python_task :cost_function_browser => [:buildGui] do
+    python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py --use-rrt=#{use_rrt} " +
+           "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
+           #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
+           "--limits=10,40,10,40 " +
+           "--state-type=forklift " +
+	   "--merging #{merging} " + 
+           "--start-context-file data/waverly_state_truck.yaml " + 
+           ""
+           )
+end
+
+
+desc "export parses"
+python_task :export_parses => [:buildGui] do
+    python("#{$pbd}/forklift/corpusAnalysis/exportParses.py " +
+					 "--source_corpus=../mturk_data_collector/data/curated_corpus_copy " +
+					 "--dest_corpus=../mturk_data_collector/data/curatedAmbiguousCorpus.parsed.test.yaml "
+					)
+end
+
+desc "export parses"
+python_task :export_negative_esdcs => [:everything] do
+  python("#{$pbd}/forklift/corpusAnalysis/export_negative_esdcs.py")
+end
+
+
+desc "evaluator"
+python_task :esdc_evaluator => [:everything] do
+  python("#{$pbd}/forklift/corpusAnalysis/esdcEvaluator.py " + 
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_esdcs_1.5.pck " +
+         "--corpus-filename #{training_home}/annotation/datasets/test_continuous_esdcs.pck ")
+
+end
+
+python_task :lcm do
+  sh 'echo "# LCM package __init__.py file\n'+
+        '# This file automatically generated by lcm-gen.\n'+
+        '# DO NOT MODIFY BY HAND!!!!" > python/forklift/arlcm/__init__.py'
+  sh("lcm-gen -p --ppath #{here}/python/forklift/ " + 
+     "#{here}/python/forklift/lcmtypes/*.lcm ")
+
+end
+
+python_task :print_logs_from_corpus do
+  python("#{$pbd}/forklift/print_logs_from_corpus.py")
+end
+
+
+
+######### USAGE NOTES ###########
+# corpus-fname should refer to the set of *commands only*
+# 
+# qa_corpus should refer to a dialog corpus consisting of *1* question and answer 
+# per annotation
+#
+# num_questions sets the maximum number of questions to ask. Setting this to -1 
+# will ask all available questions. 
+#################################
+
+evaluation_command_line_flags = "--esdc-extractor #{esdc_extractor} " + 
+         "--model #{training_home}/annotation/models/crf_discrete_forklift_1.5.pck " + 
+         "--runid #{run_id} "+
+         "--esdcmulti #{multi_esdcs} "+
+         "--state-type=forklift " +
+         "--merging #{merging} " +
+         "--entropy-metric #{entropy_metric} " +
+         "--num-questions #{num_questions} " +
+         "--num-answers #{num_answers} " +
+         "--resolver-type #{resolver} " +
+         "--cost-function-class #{cost_function_class} " + 
+         "--force_sync #{force_sync} " +
+         "--question_type #{question_type} " +
+         "--random_seed #{random_seed} "
+
+full_corpus_flags = "--test_set #{training_home}/annotation/datasets/test_continuous_forklift.pck " +
+    "--corpus-fname  #{here}/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
+   "--qa_corpus_1 #{here}/dataAnnotation/data/dialog_real_RSS_12/turk_dialog_download_20_parsed_grouped_set000_corrected_context_groundings.yaml "
+
+ambiguous_corpus_flags = "--corpus-fname  #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " +
+     "--qa_corpus_1 #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_all_questions.yaml " +
+     "--qa_corpus_2 #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_all_questions_set000.yaml "
+
+results_base_flags = "--result-fname-base #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run- "
+
+desc "Generate CRF plans on navigation dataset"
+python_task :evaluate => [:buildGui] do
+  python("#{$pbd}/g3/evaluator/evaluateParallel.py " +
+      full_corpus_flags + 
+      evaluation_command_line_flags +
+         "")
+end
+
+desc "Try varying number of questions, metric, etc. and compile results"
+python_task :run_experiments => [:buildGui] do
+  python("#{$pbd}/forklift/run_experiments.py " +
+     full_corpus_flags +
+     results_base_flags +
+     evaluation_command_line_flags +
+     "")
+end
+
+desc "Try varying number of questions, metric, etc. and compile results"
+python_task :run_experiments_ambiguous => [:buildGui] do
+  python("#{$pbd}/forklift/run_experiments.py " +
+     ambiguous_corpus_flags +
+     results_base_flags +
+     evaluation_command_line_flags +
+     "")
+end
+
+desc "Generate CRF plans on navigation dataset"
+python_task :evaluate_ambiguous => [:buildGui] do
+  python("#{$pbd}/g3/evaluator/evaluateParallel.py " +
+         ambiguous_corpus_flags +
+         evaluation_command_line_flags +
+         "")
+end
+
+desc "Generate Naive Bayes plans on navigation dataset"
+python_task :evaluate_naive_bayes => [:buildGui] do
+  python("#{$pbd}/g3/evaluator/evaluateParallel.py " +
+         "--cost-function-class CostFnNaiveBayes " + 
+         "--model #{training_home}/annotation/models/naive_bayes_features.pck " + 
+		"--test_set #{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
+		"--corpus-fname  #{here}/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
+		# "--corpus-fname #{here}/dataAnnotation/data/bad_annotation.yaml " +
+         # "--corpus-fname  #{here}/dataAnnotation/data/turk_dialog_download_20_parsed_selection_corrected_groundings_combined.yaml " +
+	 # "--qa_corpus_1 #{here}/dataAnnotation/data/dialog_real_RSS_12/full_commands_corpus_merged_questions_single_answers_set_0.yaml " +
+	 "--qa_corpus_1 #{here}/dataAnnotation/data/dialog_real_RSS_12/turk_dialog_download_20_parsed_grouped_set000_corrected_context_groundings.yaml " +
+         "--esdc-extractor annotated " + 
+	 "--runid #{run_id} "+
+         "--esdcmulti #{multi_esdcs} "+
+         "--state-type=forklift " +
+         "--merging #{merging} " +
+         "--entropy-metric #{entropy_metric} " +
+         "--num-questions #{num_questions} " +
+		 "--resolver-type #{resolver} "
+	 # "--resolver-type bag_of_words "
+	 # "--resolver-type oracle "
+         )
+end
+
+desc "Generate CRF plans on navigation dataset"
+python_task :evaluate_ambiguous_naive_bayes => [:buildGui] do
+  python("#{$pbd}/g3/evaluator/evaluateParallel.py " +
+         "--cost-function-class CostFnNaiveBayes " + 
+         "--model #{training_home}/annotation/models/naive_bayes_features.pck " + 
+         "--corpus-fname  #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " +
+		 "--qa_corpus_1 #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_all_questions.yaml " +
+		 "--qa_corpus_2 #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_all_questions_set000.yaml " +
+		 # "--qa_corpus_2 #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/rdeits_parse_test.yaml " +
+         "--esdc-extractor annotated " + 
+	 "--runid #{run_id} "+
+         "--esdcmulti #{multi_esdcs} "+
+         "--state-type=forklift " +
+         "--merging #{merging} " +
+         "--entropy-metric #{entropy_metric} " +
+         "--num-questions #{num_questions} " +
+		 "--num-answers #{num_answers} " +
+	 # "--resolver-type bag_of_words "
+		 # "--resolver-type oracle" 
+		 "--resolver-type #{resolver} "
+         )
+end
+
+
+python_task :object_evaluation do
+  python("#{$pbd}/g3/evaluator/evaluateObjects.py " +
+         "--cost-function-class CostFnCrf " + 
+         "--model #{training_home}/annotation/models/crf_discrete_forklift_1.5.pck " + 
+         "--training_fname #{training_home}/annotation/datasets/training_discrete_forklift.pck " + 
+         "--corpus-fname  #{here}/dataAnnotation/data/commands_AAAI_11/nist_test_cases.yaml " +
+         "--state-type=forklift " +
+         "")
+         
+end
+
+
+python_task :plot_object_evaluation do
+  python("#{$pbd}/g3/evaluator/plotEvaluateObjects.py")
+end
+
+task :print_questions do
+  sh("cd #{here}/dataEvaluation/data/evaluation-run-#{run_id}/ && find . -name 'questions_1*.txt' | sort | xargs head -v -n 1000000000")
+
+end
+
+
+
+
+python_task :export_evaluation_as_annotations do
+  python("#{$pbd}/g3/evaluator/export_as_annotations.py " + 
+         "--result-fname #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run-training-set/ " +
+         "--state-type forklift "         
+         )
+end
+
+
+desc "Node binding metric for evaluation (evaluates correct groundings and
+      graphs node entropies based on the inference results)"
+python_task :node_evaluation_real do
+  python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
+         "--result-fname #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--state-type forklift " + 
+         "--question_type #{question_type} " +
+	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml ")
+end
+
+desc "Node binding metric for evaluation (evaluates correct groundings and
+      graphs node entropies based on the inference results)"
+python_task :node_evaluation_ambiguous do
+  python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
+         "--result-fname #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--state-type forklift " + 
+         "--question_type #{question_type} " +
+	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml "
+         )
+end
+
+
+desc "Node binding metric for evaluation (evaluates correct groundings and
+      graphs node entropies based on the inference results)"
+python_task :node_evaluation_ec2 do
+  python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
+         "--result-fname #{$slu_home}/tools/forklift/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--state-type forklift " + 
+         "--question_type #{question_type} " +
+	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml ")
+#	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/forklift_ambiguous_larger_corpus_commands.yaml ") 
+end
+
+desc "Node binding metric for evaluation (evaluates correct groundings and
+      graphs node entropies based on the inference results)"
+python_task :node_evaluation_ec2_ambiguous do
+  python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
+         "--result-fname #{$slu_home}/tools/forklift/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--state-type forklift " + 
+         "--question_type #{question_type} " +
+	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml ")
+#	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/forklift_ambiguous_larger_corpus_commands.yaml ") 
+end
+
+
+
+
+python_task :words do
+  python("#{$pbd}/forklift/corpusAnalysis/words.py " + 
+         #"#{here}/dataAnnotation/data/forkliftMturkEsdcs.stefie10.groundings.yaml"
+         "#{here}/test.yaml"
+         )
+end
+
+
+
+
+desc "View Evaluation Results"
+python_task :evaluation_results_browser => [:buildGui] do
+  sh "cd dataEvaluation && rake buildGui"
+  python("#{$pbd}/g3/evaluator/gui/evaluationResultsBrowser.py " + 
+	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
+         "#{here}/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "#{use_rrt} " +
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+        "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
+         "")
+end
+
+desc "View Evaluation Results"
+python_task :evaluation_results_browser_ambiguous => [:buildGui] do
+  sh "cd dataEvaluation && rake buildGui"
+  python("#{$pbd}/g3/evaluator/gui/evaluationResultsBrowser.py " + 
+	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
+         "#{here}/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "#{use_rrt} " +
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+         "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " + 
+         "")
+end
+
+python_task :evaluation_results_browser_ec2 => [:buildGui] do
+  sh "cd dataEvaluation && rake buildGui"
+  python("#{$pbd}/g3/evaluator/gui/evaluationResultsBrowser.py " + 
+	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
+         "#{here}/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id} " +
+         "#{use_rrt} " +
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+		"--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
+         "")
+end
+
+python_task :evaluation_results_browser_ec2_ambiguous => [:buildGui] do
+  sh "cd dataEvaluation && rake buildGui"
+  python("#{$pbd}/g3/evaluator/gui/evaluationResultsBrowser.py " + 
+	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
+         "#{here}/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id} " +
+         "#{use_rrt} " +
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+         "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " + 
+         "")
+end
+
+python_task :results_diff do
+  python("#{$pbd}/g3/evaluator/results_diff.py " +
+         "--result1-fname #{here}/dataEvaluation/data/evaluation-run-30/ " +
+         "--result2-fname #{here}/dataEvaluation/data/evaluation-run-31/ ")
+end
+
+
+
+
+desc "Analyze evaluation results, from Mturk, likert scores and stuff"
+task :analyze_evaluation do
+  python("#{$pbd}/evaluationMturk/analyzeEvaluation.py " +
+         "#{here}/dataEvaluation/data/evaluation-runs/evaluation-run-final-2/ " +
+         "#{here}/dataCollection/data/corpusCommandsForVideoSmallFilesOnly/")
+end
+
+
+desc "for simple aciton executor test"
+python_task :action_executor_test do
+  python("#{$pbd}/forklift/action_executor.py")
+end
+
+
+
+
+desc "generate evaluation confidence intervals"
+python_task :evaluation_stats do
+  python("#{$pbd}/dataEvaluation/evaluationStats.py")
+end
+
+python_task :heat_map do
+  python("#{$pbd}/g3/cost_functions/gui/heatMap.py " + 
+         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck "
+         #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck " 
+         #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_d8_full_1.5.pck " 
+         )
+
+end
+
+
+python_task :plot_entropy do
+  python("#{$pbd}/g3/evaluator/plot_entropy.py")
+end
+
+
+
+
+ec2 = "ec2-23-21-231-30.compute-1.amazonaws.com"
+task :mount_ec2 do
+  sh "mkdir -p ec2; sshfs $USER@#{ec2}:/mnt/extra/$USER/ ec2"
+end
+
+
+
+

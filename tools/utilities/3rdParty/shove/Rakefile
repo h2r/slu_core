@@ -1,0 +1,19 @@
+
+file "shove-0.2.5" => "shove-0.2.5.tar.bz2" do
+  sh "tar xf shove-0.2.5.tar.bz2"
+end
+task :setup => ["shove-0.2.5"] do
+  sh "cd shove-0.2.5 && python setup.py build"
+  puts "build: #{ENV['BUILD_PREFIX']}\n"
+  if ENV["BUILD_PREFIX"] 
+      sh "cd shove-0.2.5 && python setup.py install " + 
+      "--home #{ENV['BUILD_PREFIX']}"
+  end
+end
+
+
+task :clean do
+  sh "rm -rf shove-0.2.5"
+end
+
+

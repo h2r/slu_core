@@ -1,0 +1,12 @@
+file "slu_features" do
+  sh "git clone https://webdav.csail.mit.edu/~stefie10/slu_features.git"
+end
+
+
+task :setup => ["slu_features"] do
+  sh "cd slu_features && make BUILD_PREFIX=#{ENV['BUILD_PREFIX']}"
+end
+
+task :clean do
+  sh "rm -rf slu_features"
+end

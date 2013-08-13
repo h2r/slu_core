@@ -1,0 +1,35 @@
+package arlcm;
+
+// Written by AC on 2010-05-05:
+//
+// The idea is that this message will be used on a few different channels,
+// depending on what kind of task is meant.  The 3 possible task types:
+//
+//   1. Pick up [and move to a location] a pallet.
+//   2. Drop off a pallet (one's already been picked up).
+//   3. Reaquisition message.
+
+struct pallet_manipulation_command_t
+{
+  int64_t utime;    // Time this message was sent. (serves as uniqe ID also).
+
+  int64_t destination_id;
+  int64_t task_id;
+  boolean pickup;
+  int64_t pallet_id;
+
+  // Used for discover commands where the ID will be generated at a later
+  // stage: after the pallet is found.
+  const int64_t PALLET_ID_UNKNOWN = -1;
+
+  // And now fields for reaquisition:
+
+  int64_t roi_utime;  // Time the ROI-generating stroke was drawn (on tablet).
+  string camera;
+  botlcm.pose_t pose;
+  pointlist2d_t roi;  // in pixels
+
+  // And now fields for the guided tour.
+
+  int64_t image_utime;  // Time the image that was drawn on was taken.
+}

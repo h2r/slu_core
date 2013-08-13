@@ -1,0 +1,53 @@
+# list of subdirectories to build, one one each line.  Empty lines
+# and lines starting with '#' are ignored
+
+####################################################
+# low-level generic modules
+####################################################
+# generic utility modules.  Each python module is more or less standalone.
+tools/utilities
+
+# our feature library, implemented in c, with a python interface
+tools/features
+
+
+# python interface to the mallet machine learning toolkit
+tools/mallet
+
+# python interface to the stanford parser
+tools/stanford_parser
+
+
+# data structures and algorithms related to ESDCs.
+# includes stanford parser (hierarchical) extractor.
+tools/esdcs
+
+
+# Unit test infrastrucutre to run tests and send emails.
+tools/unit_tests
+
+
+####################################################
+# higher-level G^3 modules
+####################################################
+
+# infrastructure for training G^3 models, plus rake targets for all domains.
+tools/crf_training
+
+# core G^3 code:  the grounding graph data structure and inference algorithms.
+tools/g3
+
+
+####################################################
+# front-end application specific modules
+####################################################
+
+# top-level module for the forklift
+tools/forklift
+
+
+# top-level module for the PR2
+tools/pr2
+
+# utilities for reading datasets
+tools/corpora_utilities

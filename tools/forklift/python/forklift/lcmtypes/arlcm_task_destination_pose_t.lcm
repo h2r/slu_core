@@ -1,0 +1,19 @@
+// Message that describes destination pose commands to be sent to the meta-planner/task planner.
+
+
+package arlcm;
+
+struct task_destination_pose_t
+{
+    int64_t utime;
+
+    double pos[2];    // desired position of vehicle's bounding box center
+
+    boolean heading_matters;
+    double heading;   // desired vehicle heading. (also the bounding box
+                      // orientation) in radians counter-clockwise from X-axis.
+
+    int64_t task_id;
+
+}
+    

@@ -1,0 +1,101 @@
+// parametrization of a pallet in terms of its 6DOF pose and type
+//
+// pallets are assigned a right-handed Cartesian coordinate frame 
+// with the origin located at the base of the left-hand corner 
+// with the positive x-axis to the right along one stringer, 
+// and the z-axis up.
+
+package arlcm;
+
+struct pallet_t
+{
+    int64_t utime;
+
+    int64_t id;
+
+    int64_t relative_to_id; // Position is relative to the object with this id.
+                            // used for pallets on trailers or forklift.
+                            // 0 - local frame, 1 - forklift, 
+                            // otherwise - an object from the objects list.
+                            // currently only objects and not nested
+
+    double pos[3];          // x,y,z position (in meters) of the 
+                            // pallet's body-fixed coordinate frame
+                            // expressed in the world coordinate frame
+    
+    double orientation[4];  // quaternion that defines the rotation
+                            // from the body-fixed frame to the world
+                            // coordinate frame
+
+    // bounding box: if the pallet_type has a corresponding RWX model, then the
+    //               bounding box fields below should be set to the extents of 
+    //               the RWX model
+    double bbox_min[3];    // [m] minimum x,y,z extent of pallet in 
+                           // body-fixed frame
+    double bbox_max[3];    // [m] maximum x,y,z extent of pallet in 
+                           // body-fixed frame
+
+    pallet_enum_t pallet_type;
+
+    int32_t num_slot_pairs;   // number of slot pairs associated with pallet
+    pallet_slot_pair_t slot_pairs[num_slot_pairs];    // slot pairs
+   
+
+    // What follows is stuff for reaquisition positioning.  In other words, if
+    // I'm Pokey and I want to get near a pallet named <x>:
+    //   1) Which pallet is named <x>?
+    //   2) Where should I be to pick up <x>?
+    //   3) Where should I be looking to pick up <x>?
+
+    int64_t utime_updated;
+    int64_t last_updated_by;
+
+    // Enumeration of who will update the pallet position.
+    const int64_t REAQUISITION = 0x0000000000000001;
+    const int64_t LIDAR        = 0x0000000000000002;
+    const int64_t UI           = 0x0000000000000004;
+    const int64_t MANIPULATION = 0x0000000000000008;
+    const int64_t SIM          = 0x0000000000000010;
+    const int64_t ALL          = 0xffffffffffffffff;
+
+    // Amount of time before REAQUISITION can replace LIDAR.
+    const int64_t REAQ_REPLACE = 100000000;  // 1e8ms = 100s
+
+    // Position and orientation in the global frame.  This is meant to mimic
+    // how the navigator uses these fields.
+    double approach_lat;
+    double approach_lon;
+    double approach_theta;
+
+    // Finally, a label that assigns a name to the pallet.
+    int32_t label;
+
+    // These should be synced with src/gtk_gui/labels.txt
+    const int32_t LABEL_NONE                      =  0;
+    const int32_t LABEL_BRICKS                    =  1;
+    const int32_t LABEL_EMPTY_WOODEN              =  2;
+    const int32_t LABEL_ENGINE                    =  3;
+    const int32_t LABEL_FENCING                   =  4;
+    const int32_t LABEL_FENDER                    =  5;
+    const int32_t LABEL_GENERATOR                 =  6;
+    const int32_t LABEL_GENERATOR_ACCESSORIES     =  7;
+    const int32_t LABEL_GRAPPLE                   =  8;
+    const int32_t LABEL_GRILL                     =  9;
+    const int32_t LABEL_HEATER                    = 10;
+    const int32_t LABEL_HOOD_ASSEMBLY             = 11;
+    const int32_t LABEL_HOPPERS                   = 12;
+    const int32_t LABEL_INTERT_AMMO               = 13;
+    const int32_t LABEL_JMIC                      = 14;
+    const int32_t LABEL_MACHINE_GUN_MOUNTS        = 15;
+    const int32_t LABEL_MACHINE_GUN_RACKET_SYSTEM = 16;
+    const int32_t LABEL_POP_ASSEMBLY              = 17;
+    const int32_t LABEL_PUMP_ASSEMBLY             = 18;
+    const int32_t LABEL_REFRIGERATOR              = 19;
+    const int32_t LABEL_TIRE                      = 20;
+    const int32_t LABEL_TIRE_ASSEMBLY             = 21;
+    const int32_t LABEL_TIRES                     = 22;
+    const int32_t LABEL_TRAILER_CHASSIS           = 23;
+    const int32_t LABEL_TRANSMISSION              = 24;
+    const int32_t LABEL_WASHING_MACHINE           = 25;
+
+}

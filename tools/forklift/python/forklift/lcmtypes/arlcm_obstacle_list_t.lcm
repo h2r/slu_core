@@ -1,0 +1,6 @@
+package arlcm;
+
+struct obstacle_list_t {
+    rect_list_t rects;
+    track_list_t tracks;
+}

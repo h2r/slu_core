@@ -1,0 +1,49 @@
+here=File.dirname(__FILE__)
+$here=here
+$slu_home=File.expand_path("#{here}/../..")
+
+require "#{$slu_home}/rakefile.rb"
+
+desc "Build everything."
+task :all => [:build_python] 
+
+make_python_targets(:build_python, FileList["python/**/*.py"])
+
+desc "Clean everything."
+task :clean => [:clean_python] 
+
+
+desc "Run the test cases."
+python_task :partial_tests do
+  #python("/usr/bin/nosetests #{$pbd}/esdcs/test/dataStructures_test.py")
+  python("/usr/bin/nosetests -v " +
+         #"#{$pbd}/esdcs/esdcIo/test/annotationIo_test.py" +
+         #"#{$pbd}/esdcs/test/groundings_test.py " +
+         #"#{$pbd}/esdcs/test/candidates_test.py " +
+         #"#{$pbd}/esdcs/extractor/test/lccrfRerankingExtractor_test.py " +
+         "#{$pbd}/esdcs/extractor/test/stanfordParserExtractor_small_test.py " +
+         #"#{$pbd}/esdcs/test/candidates_test.py " + 
+         #"#{$pbd}/esdcs/test/dataStructures_test.py" + 
+         #"#{$pbd}/esdcs/esdcIo/test/annotationIo_test.py" + 
+         #"#{$pbd}/esdcs/esdcIo/test/yamlReader_test.py" + 
+         #"#{$pbd}/esdcs/extractor/test/correctStandoffs_test.py " + 
+         # "#{$pbd}/esdcs/esdcIo/test/format_test.py" + 
+         #"#{$pbd}/esdcs/extractor/test/stanfordParserExtractor_test.py" + 
+
+         "")
+end
+
+
+task :mallet_trainer do
+  python("python/esdcs/extractor/malletTrainer.py")
+end
+
+python_task :context3d => [:buildGui] do
+  python("#{$pbd}/esdcs/gui/context3d.py")
+end
+
+
+python_task :shrink_esdc_corpus => [:buildGui] do
+  python("#{$pbd}/esdcs/extractor/shrink_esdc_corpus.py")
+end
+

@@ -1,0 +1,637 @@
+- {assignmentId: 1UHEILPCI3FTRUYA5UOUI3MTDWFZ25, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ZCUUAGPYREB9FRC8RTU7680U7XWWV, similarityScore: SA, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1T6NL5CKDVJC5V40Z7PM1B7EBEYU29, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ZCUUAGPYREB9FRC8RTU7680U7XWWV, similarityScore: SA, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1EAXKYIMH9BFHTJQX2POHCF0YUAEFX, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ZCUUAGPYREB9FRC8RTU7680U7XWWV, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1KYX384DKMUDU2THPS9NNIXY28LRSV, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ZCUUAGPYREB9FRC8RTU7680U7XWWV, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1WBTUREXANNQEOJRS4NM669YES6QLA, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ZCUUAGPYREB9FRC8RTU7680U7XWWV, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1P5EYFSP47FHWWCSCQ6LH6VNG3OW5X, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: jBoYXxeLFjo, hitId: 1YGW2Q9QHY48X256150YXOF7GUJUPZ,
+  similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 158ULPJADZQ7SDAZS2EYSJBY155DRH, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: jBoYXxeLFjo, hitId: 1YGW2Q9QHY48X256150YXOF7GUJUPZ,
+  similarityScore: SD, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1BLHVIUSH52USHR6ZRD5PFHSOSC4RV, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: jBoYXxeLFjo, hitId: 1YGW2Q9QHY48X256150YXOF7GUJUPZ,
+  similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1PV952C7VNVGX0WINI2YK1FZE3AVH0, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: jBoYXxeLFjo, hitId: 1YGW2Q9QHY48X256150YXOF7GUJUPZ,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1LW9FJ8T0OR26GX7SSWHAF8JQSDUY8, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: jBoYXxeLFjo, hitId: 1YGW2Q9QHY48X256150YXOF7GUJUPZ,
+  similarityScore: SD, workerId: A2HA95B0GXATOO}
+- {assignmentId: 13UD5X6ZVC94VXS05SPMSCWYX87B7H, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1X5TBTJNUKR6KMG761BHG9MDDZGCY2, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1P5EYFSP47FHWWCSCQ6LH6VNG3PW5Y, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1X5TBTJNUKR6KMG761BHG9MDDZGCY2, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 18UAOYIHUT8HTLPASBD6NAA2EI877J, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1X5TBTJNUKR6KMG761BHG9MDDZGCY2, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1A85RJOEGQXWJ45CSSEYHG3MYOXVF2, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1X5TBTJNUKR6KMG761BHG9MDDZGCY2, similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1V12HOSXIDR43LLWFZ3PAKXPFNVKLV, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1W80OX3WZOVLMLIYGQ27BNV91VTWN4, similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 18O2G35AZH1TATVL68PSTF705RNQVA, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1W80OX3WZOVLMLIYGQ27BNV91VTWN4, similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1Z7E4OWEPKG3AIH29MQWBHEZSSCBLQ, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1W80OX3WZOVLMLIYGQ27BNV91VTWN4, similarityScore: D, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1PB518NRMVTG3N1LCRKMTFXRZW1GDV, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1W80OX3WZOVLMLIYGQ27BNV91VTWN4, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 16R9RXTXQVP2X4173CKGZ13YZ3ZGVO, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1W80OX3WZOVLMLIYGQ27BNV91VTWN4, similarityScore: D, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1EYOQB8OYX1RB49P1PBCSR12FU3R73, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1UK1ODC65OUKUM122JPEULSPNGHCIV, similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 18XCO6GMOYT4D90ZLBXVSUZWZVSZ8R, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1UK1ODC65OUKUM122JPEULSPNGHCIV, similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 10TSN068YD11AYZ4CMI17TQCN1CAUG, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1UK1ODC65OUKUM122JPEULSPNGHCIV, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1118DIZ43L1XXP27YB73RCK8WXQYI4, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1UK1ODC65OUKUM122JPEULSPNGHCIV, similarityScore: SD, workerId: A2HA95B0GXATOO}
+- {assignmentId: 1LYBFWVGW5SJYY23FC7EXC0RJ0DMZY, command: Place a second pallet of
+    tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 1UK1ODC65OUKUM122JPEULSPNGHCIV, similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1PQQSBST1TIG2OMC4H31JYDNJOHQNP, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: QOUQYdC0nr4, hitId: 1SLQ3JF1JDOUT32OEUJT0RKG57PXMY,
+  similarityScore: SD, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1LEJT4XZ49AUU60U7RWWR169KWJPKJ, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: QOUQYdC0nr4, hitId: 1SLQ3JF1JDOUT32OEUJT0RKG57PXMY,
+  similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1PV952C7VNVGX0WINI2YK1FZE3BHVN, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: QOUQYdC0nr4, hitId: 1SLQ3JF1JDOUT32OEUJT0RKG57PXMY,
+  similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 18X8BHI8U7CHKHQX15PFXVF4HMECXC, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: QOUQYdC0nr4, hitId: 1SLQ3JF1JDOUT32OEUJT0RKG57PXMY,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1RKTLLJM8M5KEFXVJDARJVE5DTEWKD, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: QOUQYdC0nr4, hitId: 1SLQ3JF1JDOUT32OEUJT0RKG57PXMY,
+  similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1E1F928TP4V2OLWCT485K8J4AU8VZ9, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: Ox1Ji5G2pUo, hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z253,
+  similarityScore: A, workerId: A3E157ZN8XPUKJ}
+- {assignmentId: 1GKK91Z9DVTJ4BQ6A9GMTOQ501R7VP, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: Ox1Ji5G2pUo, hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z253,
+  similarityScore: D, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1YMQIR5DOQWE7YXNW4OH5JPPEN3824, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: Ox1Ji5G2pUo, hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z253,
+  similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1B0N4GAYNJ75AULYTM4SSTKI97PSU0, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: Ox1Ji5G2pUo, hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z253,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1P5EYFSP47FHWWCSCQ6LH6VNG3N5W5, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: Ox1Ji5G2pUo, hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z253,
+  similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1R7L4CZ2T5Z9G4BRMZ9GKKHDNB6P48, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5FS5WVTMXAAP5QNFSFX3NY3U89NR, similarityScore: SD, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1GMFBXVT3NOMK0IPSVXNL1FSPS1K6I, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5FS5WVTMXAAP5QNFSFX3NY3U89NR, similarityScore: D, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1SUKYO5M0W16PIVQWIUOFHQEC0LQWG, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5FS5WVTMXAAP5QNFSFX3NY3U89NR, similarityScore: SD, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1CQU9IZI00FC8I9ZBI0ITBJE5VBQET, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5FS5WVTMXAAP5QNFSFX3NY3U89NR, similarityScore: D, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1DPUY3JEPQBQ98MXKFVYDRSXV1ST0G, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5FS5WVTMXAAP5QNFSFX3NY3U89NR, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1LFFS5WVTMXAAP5QNFSFX3NY9OHN94, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1QP46Y620UKRCNFR04SQPCNRHDQP5C, similarityScore: A,
+  workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1C2C9U8T72RY7NDPUTBQTYGN413L3F, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1QP46Y620UKRCNFR04SQPCNRHDQP5C, similarityScore: SD,
+  workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1T85T82OK3SC96OTSRJH211JAROKOY, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1QP46Y620UKRCNFR04SQPCNRHDQP5C, similarityScore: D,
+  workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 191O99ML4BTNFWQ1RQCFV0ON9ZL5ES, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1QP46Y620UKRCNFR04SQPCNRHDQP5C, similarityScore: SD,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1ZBWK4TEG4GC8NCTZZ26ZTO6F86CNU, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1QP46Y620UKRCNFR04SQPCNRHDQP5C, similarityScore: SD,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1N867NHYB2UGPXL8K1AE6M7P6PFJCD, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 1MJY70UP7MSRXYLCTLFF2RDSKT9FI9, similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1N0XMLJRBGT1G33DO5K4JVSTHWPTIT, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 1MJY70UP7MSRXYLCTLFF2RDSKT9FI9, similarityScore: N, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 18O2G35AZH1TATVL68PSTF705QGQV1, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 1MJY70UP7MSRXYLCTLFF2RDSKT9FI9, similarityScore: D, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1BNP9HK7WXVTSNZRQ5Y0A1QKYRJM2V, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 1MJY70UP7MSRXYLCTLFF2RDSKT9FI9, similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1VQ58LN3FTUJLCT1D0XYKSVFQZ8BWB, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 1MJY70UP7MSRXYLCTLFF2RDSKT9FI9, similarityScore: N, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1RE8JSQ1Z5HKEZW3KLR5GMJTGM9619, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 1KLFDOE6KVQ1QD0J373RKLC6BYRU3N, similarityScore: SA,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1QFTBTJNUKR6KMG761BHG9MDJTSYCQ, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 1KLFDOE6KVQ1QD0J373RKLC6BYRU3N, similarityScore: SA,
+  workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1LSHFVK3R8FZA5KR26D0NGFK3I22NM, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 1KLFDOE6KVQ1QD0J373RKLC6BYRU3N, similarityScore: SA,
+  workerId: AC8BGOG45QWA2}
+- {assignmentId: 1OAUU4G1WXELF1R2S7J2Z268MISVVX, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 1KLFDOE6KVQ1QD0J373RKLC6BYRU3N, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 12O1VZP8CDIR6PWAQ6H6C051CO40KK, command: Pu the tire pallet on the
+    trailer to the right of the other tire pallet., commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 1KLFDOE6KVQ1QD0J373RKLC6BYRU3N, similarityScore: SA,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 18F5FD61RNZU3JWWWX24EF9SEWEDHR, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1JP4JHPLY302DKDQUW6CI45XSPRIKF,
+  similarityScore: SA, workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 1C521YJXD4B1OMYCI1BYJPLSBB0HBM, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1JP4JHPLY302DKDQUW6CI45XSPRIKF,
+  similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1XXF30GKOCNZRKLGYAV9K9SSELREIB, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1JP4JHPLY302DKDQUW6CI45XSPRIKF,
+  similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1EYUXPSECCRDJQWXSMKKNN3T2TTXVV, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1JP4JHPLY302DKDQUW6CI45XSPRIKF,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 17CNQ8ISKQE78W4Y3GI0PUIACD8T4W, command: Move the pallet on the ground
+    to the platform; place it to the right of the pallet that is already on the platform.,
+  commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1JP4JHPLY302DKDQUW6CI45XSPRIKF,
+  similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 19CPFOKFOKBERZE58H0N4W6H048J9S, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JP4JHPLY302DKDQUW6CI45XSPQKIG, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1JRJMTAO2FF0BOGKG4I9DD8JPZD1HR, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JP4JHPLY302DKDQUW6CI45XSPQKIG, similarityScore: SA, workerId: A28KZG5EG91S75}
+- {assignmentId: 1Q7L65SQ463SSA52OUSSCSN3ZXCO98, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JP4JHPLY302DKDQUW6CI45XSPQKIG, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1SPKOC1AAO8D17FH3XFCHF0CB9BGF0, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JP4JHPLY302DKDQUW6CI45XSPQKIG, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1JG9ZG0XC6GB4EQBRK6Q5ONNHV6F6V, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JP4JHPLY302DKDQUW6CI45XSPQKIG, similarityScore: SA, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 15H97EMPY8MOVNGA66R56QKC9VZN3D, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JMSMOF0ATCLRKIE8O0Y88TWC8G5MX, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1QHGSX9M84OMWDWDBIUMRDX51T40MU, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JMSMOF0ATCLRKIE8O0Y88TWC8G5MX, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1VNWJF4QJ7SWLWHIMV27JP9UP5YX5V, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JMSMOF0ATCLRKIE8O0Y88TWC8G5MX, similarityScore: SA, workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 1MYSKJ7KGCI0NWN1M91PROOQRIM6UM, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JMSMOF0ATCLRKIE8O0Y88TWC8G5MX, similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1VQ58LN3FTUJLCT1D0XYKSVFQZ7WBV, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1JMSMOF0ATCLRKIE8O0Y88TWC8G5MX, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1APUL1WO1ID4RJMH5EG7S62K3F67T2, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk, hitId: 1J8454ALYVSHSF5LNRZOL010N3SEWX,
+  similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 16QB4JVA0ZMI2YA3OMJTAH5FUNZSWY, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk, hitId: 1J8454ALYVSHSF5LNRZOL010N3SEWX,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1WAKMXPVGW3Z852GWW93XUYI84BDUN, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk, hitId: 1J8454ALYVSHSF5LNRZOL010N3SEWX,
+  similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 16R9RXTXQVP2X4173CKGZ13YZ3VVGZ, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk, hitId: 1J8454ALYVSHSF5LNRZOL010N3SEWX,
+  similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 19BMJ43VGST7W4905Q08I8J3HIUI26, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk, hitId: 1J8454ALYVSHSF5LNRZOL010N3SEWX,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1GT8NEMV5M6E926WESEDXNTK4S8RTV, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1I0NMRWZYBD4S7KQBEDFKOYYY4Y9MR,
+  similarityScore: SA, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1M70CZLL5WNJSFRHYFVPR7NYSB6YZH, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1I0NMRWZYBD4S7KQBEDFKOYYY4Y9MR,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1KUSESAV27UPVHTU4H9SDS2UOA1SSH, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1I0NMRWZYBD4S7KQBEDFKOYYY4Y9MR,
+  similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 11DFQA4OV2LI6HQ89D7RG76NHDELUC, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1I0NMRWZYBD4S7KQBEDFKOYYY4Y9MR,
+  similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1QB2DCHPB3ZYMXS9PR92PYEP7WIF9A, command: Put the tire pallet on the
+    trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1I0NMRWZYBD4S7KQBEDFKOYYY4Y9MR,
+  similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 12TCS32PN4LEX1RW1DPDSXJF85YQTJ, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1H6HO572CPRLTZUT2G5C1A6XJ9L78P,
+  similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1FFQYXLGBXUKL22IMM3W3B491DIEA3, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1H6HO572CPRLTZUT2G5C1A6XJ9L78P,
+  similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1R0MZJ4A7DEX9WVUZG8RWLFQMSDB2T, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1H6HO572CPRLTZUT2G5C1A6XJ9L78P,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1P30HP15AQVM32HV71YM5IGF6L31MR, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1H6HO572CPRLTZUT2G5C1A6XJ9L78P,
+  similarityScore: A, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 16UGTZPSIEM61JAQ9XJOK70J8L9WR7, command: Arrange tire pallet to the
+    truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1H6HO572CPRLTZUT2G5C1A6XJ9L78P,
+  similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1Z7E4OWEPKG3AIH29MQWBHEZSTMBL2, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1FN8BHI8U7CHKHQX15PFXVF4BTMCXW, similarityScore: A, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1SHDOLTEXFJK1H3XD7OMG3Q3V473EF, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1FN8BHI8U7CHKHQX15PFXVF4BTMCXW, similarityScore: D, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1AXBMT9VP5Q3LQYTR9YSAWM1SE3NIM, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1FN8BHI8U7CHKHQX15PFXVF4BTMCXW, similarityScore: A, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1SY2NT639EW0E6Z16ABLHVEBG5VXPD, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1FN8BHI8U7CHKHQX15PFXVF4BTMCXW, similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1AYUFL3G02AVQCCT5RN6SG1FE7E5JA, command: Place the pallet of tires
+    on the left side of the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1FN8BHI8U7CHKHQX15PFXVF4BTMCXW, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1KMC2GTHEE72204KFJRCTK2J06QE7S, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1DYKCMBMTA6B80V1AOH4H9NQAIUX7N,
+  similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1BIP6KADAD7HB4MLX2M0KK0CAOTA39, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1DYKCMBMTA6B80V1AOH4H9NQAIUX7N,
+  similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 10SONXBSP8EIT6N0RAY6SV9L60XOXL, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1DYKCMBMTA6B80V1AOH4H9NQAIUX7N,
+  similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1E66A4RYP3MICCUT9U2Z1DRLJ9YZ3X, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1DYKCMBMTA6B80V1AOH4H9NQAIUX7N,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1FKW6XW2NZXO3KSVYESF4SZLO1GYKG, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 1DYKCMBMTA6B80V1AOH4H9NQAIUX7N,
+  similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1N58XWR4YA3058FETNXT9EVSF0YHS1, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: nQA5183YVTs,
+  hitId: 1DGB4JVA0ZMI2YA3OMJTAH5FOU1WSG, similarityScore: D, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1TNCNR2WP2EDOXALK1Y4O79KC0Y24G, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: nQA5183YVTs,
+  hitId: 1DGB4JVA0ZMI2YA3OMJTAH5FOU1WSG, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1GCW492B7OBSWIOA0NEN0RH16LFAJL, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: nQA5183YVTs,
+  hitId: 1DGB4JVA0ZMI2YA3OMJTAH5FOU1WSG, similarityScore: N, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 13UD5X6ZVC94VXS05SPMSCWYX8YB78, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: nQA5183YVTs,
+  hitId: 1DGB4JVA0ZMI2YA3OMJTAH5FOU1WSG, similarityScore: D, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 11Z0GF7AGK2K8SNRWRJTSYCGPQ0TD8, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: nQA5183YVTs,
+  hitId: 1DGB4JVA0ZMI2YA3OMJTAH5FOU1WSG, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1BTK2HKKFGER13ASN3XU2FCDQA7FHJ, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: J0zOQsQVfHg, hitId: 1CQERJE91UEJRW165J6HX2OMG0E7U6,
+  similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 16UGTZPSIEM61JAQ9XJOK70J8MQWRQ, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: J0zOQsQVfHg, hitId: 1CQERJE91UEJRW165J6HX2OMG0E7U6,
+  similarityScore: D, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1CBENVBXRCIQGX7FGYZYRWB70UET11, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: J0zOQsQVfHg, hitId: 1CQERJE91UEJRW165J6HX2OMG0E7U6,
+  similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 147J5BE8YLI0KVZC1BJTROFXDIVCF0, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: J0zOQsQVfHg, hitId: 1CQERJE91UEJRW165J6HX2OMG0E7U6,
+  similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1TX1YH6FW69ZVPAWSSDOKXRDE8AHEJ, command: lift the tire pallet to
+    the truck, commandYoutubeId: _DUzirxysxE, displayedYoutubeId: J0zOQsQVfHg, hitId: 1CQERJE91UEJRW165J6HX2OMG0E7U6,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1W33QDP08I0VYLFD4DMSYVRK2U3WL2, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1CQERJE91UEJRW165J6HX2OMG0DU7S, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 13VDHTXQCI7EPDDI8QJXEX3GPADX42, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1CQERJE91UEJRW165J6HX2OMG0DU7S, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1CFJQCH8A63AVEFVKK3VJBU1PNLZR8, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1CQERJE91UEJRW165J6HX2OMG0DU7S, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1PC0CY03RLVNCMT49KIWBOZAY4WTMU, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1CQERJE91UEJRW165J6HX2OMG0DU7S, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 12NQ8RO9UXO7Q2XVVB91WXX4WM89SJ, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1CQERJE91UEJRW165J6HX2OMG0DU7S, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1UQEPV8QFCEMR3533N1HVEQV5W6YSC, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1BFFCNK65J8USA17TJ9N8TGPKB7ZXH, similarityScore: SA, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 14IIHZSHR9736LCG5W80OPPS47M936, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1BFFCNK65J8USA17TJ9N8TGPKB7ZXH, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1JPBN55412ILARO350P7VEOZ13Q30M, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1BFFCNK65J8USA17TJ9N8TGPKB7ZXH, similarityScore: SA, workerId: A28KZG5EG91S75}
+- {assignmentId: 1GG33PTF6C6P1XU0RYU8HRFLYARS10, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1BFFCNK65J8USA17TJ9N8TGPKB7ZXH, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1QB2DCHPB3ZYMXS9PR92PYEP7WEF96, command: 'Lift the tire pallet and
+    proceed forward to set it on the platform directly ahead, to the right of the
+    tire pallet already there.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1BFFCNK65J8USA17TJ9N8TGPKB7ZXH, similarityScore: SA, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 1BKNQ0NREEU66NTWNQS2YQC1JQFBVA, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ACHY6IH1W3SF41PWLS6EYSOVIXNSG, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1N0XMLJRBGT1G33DO5K4JVSTHVETIG, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ACHY6IH1W3SF41PWLS6EYSOVIXNSG, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1M780GAGJU9T0D35F205XW6N255G2F, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ACHY6IH1W3SF41PWLS6EYSOVIXNSG, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1BHC620AZQ26TWRJEGDAFPMOAUV4SJ, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ACHY6IH1W3SF41PWLS6EYSOVIXNSG, similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 15GX7RL8L6EQKBDYGC8DR25LUMX1B0, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 1ACHY6IH1W3SF41PWLS6EYSOVIXNSG, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 14FU8VF7ZEUHAOISD7A30E7WEXTM6M, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19WIU4A18VKLP7D2IRZS7U26OBBUUV, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1YI1SX6RFX0852AAKBER62TQY5PT9V, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19WIU4A18VKLP7D2IRZS7U26OBBUUV, similarityScore: SA, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1DJY0VCTJYC9NRKMYT08OHST7FVC0J, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19WIU4A18VKLP7D2IRZS7U26OBBUUV, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1HWJ7J0R4DV9S1FEXE3D95XC0XCLJC, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19WIU4A18VKLP7D2IRZS7U26OBBUUV, similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1O8OOQ6TKT0JF7BCEHLUZ00OCO9GGX, command: Load the skid right next
+    to the other skid of tires on the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19WIU4A18VKLP7D2IRZS7U26OBBUUV, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1CQU9IZI00FC8I9ZBI0ITBJE5WIEQQ, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19QSVHCHSJ6WQICWA2UMMAPQKN6S2U, similarityScore: SA, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1J0D8TJWMEQTXQWICFUMHK8AF6PZJE, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19QSVHCHSJ6WQICWA2UMMAPQKN6S2U, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 12FQQH67F7Z2VHL7R0TTVC1X8K8CWJ, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19QSVHCHSJ6WQICWA2UMMAPQKN6S2U, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1W33QDP08I0VYLFD4DMSYVRK2TJWLG, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19QSVHCHSJ6WQICWA2UMMAPQKN6S2U, similarityScore: A, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 1C9EC6Q75ASPH9OKCOWK2PTI9M5NMI, command: 'Place the lifted tyre pallet,
+    next to another tyre pallet on the trolley.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 19QSVHCHSJ6WQICWA2UMMAPQKN6S2U, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1T12NT0N8C5NOQ31YVTGYP9RWC0BGW, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 16E1IX2IO5K5O0WUB52FRFFOE9G7K9, similarityScore: SD, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1GJLPRYUBOPXFST261EJV217O33JBS, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 16E1IX2IO5K5O0WUB52FRFFOE9G7K9, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1JXSWG3H9MM4SVW3BX61KZSZ76OJXY, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 16E1IX2IO5K5O0WUB52FRFFOE9G7K9, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1PVQ0TW615GOHT7V4869XSSHJ5SKG6, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 16E1IX2IO5K5O0WUB52FRFFOE9G7K9, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 12NQ8RO9UXO7Q2XVVB91WXX4WM7S91, command: Raise tire pallet. Move
+    forward to unoccupied location on truck. Lower tire pallet. Reverse to starting
+    position. Lower forks., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 16E1IX2IO5K5O0WUB52FRFFOE9G7K9, similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 12FQQH67F7Z2VHL7R0TTVC1X8KFWCA, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 16DH8WFAWGT7PTDJM9QHMRRLV1Y098, similarityScore: SA,
+  workerId: A3BBU6BVZNLE8C}
+- {assignmentId: 1P3NF2BH2S94E21G6M71KS3NKREM81, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 16DH8WFAWGT7PTDJM9QHMRRLV1Y098, similarityScore: SA,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1U4J0BHLAEYKC6TAW5S8S46UJJ3BD3, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 16DH8WFAWGT7PTDJM9QHMRRLV1Y098, similarityScore: SA,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 10WJ3XQCEI9NKCXIYHK1YJFD2IHGT6, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 16DH8WFAWGT7PTDJM9QHMRRLV1Y098, similarityScore: SA,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 11U4SWU079GJPJWTU7G9338TI0KL4J, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: _DUzirxysxE, hitId: 16DH8WFAWGT7PTDJM9QHMRRLV1Y098, similarityScore: A,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 18L3DRZIXB5EIHPOY7IS29X328B3WU, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: sYAzo5eFROo,
+  hitId: 15XXRN85QJVF3AWHJED16A2IB91ZWO, similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1XM8L9MSF7A6W6HX8IUVJ7WSEYQ7N9, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: sYAzo5eFROo,
+  hitId: 15XXRN85QJVF3AWHJED16A2IB91ZWO, similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 18X8BHI8U7CHKHQX15PFXVF4HMKXC3, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: sYAzo5eFROo,
+  hitId: 15XXRN85QJVF3AWHJED16A2IB91ZWO, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 11Z0GF7AGK2K8SNRWRJTSYCGPQ2DTU, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: sYAzo5eFROo,
+  hitId: 15XXRN85QJVF3AWHJED16A2IB91ZWO, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1NGBDN59XQQLZAMSXL23V39ZMFTG5D, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: sYAzo5eFROo,
+  hitId: 15XXRN85QJVF3AWHJED16A2IB91ZWO, similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 14VK4PGPPVPS61RHKNTLE2HEY0623Z, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 15F7HFNE7RJGJ1N0DG4M75L8YKL2CB, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 19BMJ43VGST7W4905Q08I8J3HI12IX, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 15F7HFNE7RJGJ1N0DG4M75L8YKL2CB, similarityScore: D, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 15J14SDLW9FA7ENWW9XX8YOCYJRCB4, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 15F7HFNE7RJGJ1N0DG4M75L8YKL2CB, similarityScore: D, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1E70OR4WZ8YJ2HXML8THJCWAS1S653, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 15F7HFNE7RJGJ1N0DG4M75L8YKL2CB, similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 16WZMKFIPYLMKN98NMMRM1KHAD1LCW, command: 'Lift the tire pallet in
+    the air, then proceed to deposit it to the right of the tire pallet already on
+    the table right in front of you.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 15F7HFNE7RJGJ1N0DG4M75L8YKL2CB, similarityScore: D, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1GYRLZXJ1ABW1744I5TNOQ21T76IAZ, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 15CQIR5DOQWE7YXNW4OH5JPP8T0285, similarityScore: SD,
+  workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1U4CVV14KHX4REJ9Q339SQU7J2NZ9V, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 15CQIR5DOQWE7YXNW4OH5JPP8T0285, similarityScore: SD,
+  workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1LYBFWVGW5SJYY23FC7EXC0RJ1SMZF, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 15CQIR5DOQWE7YXNW4OH5JPP8T0285, similarityScore: SD,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 1CZ4JHPLY302DKDQUW6CI45XYIKKIY, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 15CQIR5DOQWE7YXNW4OH5JPP8T0285, similarityScore: SD,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1GJ70QLSHF79O04Y7VJSYNYC27BSCJ, command: lift the tire pallet you
+    are carrying and set on the truck in front of you, commandYoutubeId: _DUzirxysxE,
+  displayedYoutubeId: JKYVANU_-4M, hitId: 15CQIR5DOQWE7YXNW4OH5JPP8T0285, similarityScore: SD,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1GT8NEMV5M6E926WESEDXNTK4SCRTZ, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 156GQ2SNEP4B7PN2UTL05OQK0L2II4,
+  similarityScore: SA, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 16QB4JVA0ZMI2YA3OMJTAH5FUOBWSG, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 156GQ2SNEP4B7PN2UTL05OQK0L2II4,
+  similarityScore: SA, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1Y3DDZOQR3EVIAHHMAUQ89Z0XBWH6A, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 156GQ2SNEP4B7PN2UTL05OQK0L2II4,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 173NVZJU3VE6ZCSP1XYQJOZFKVS41B, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 156GQ2SNEP4B7PN2UTL05OQK0L2II4,
+  similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 186PL258DRFNBTSNO98QJQVJD8GTZD, command: 'Please lift the set of
+    six tires up and set them on the trailer, to the right of the set of tires already
+    on it.', commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE, hitId: 156GQ2SNEP4B7PN2UTL05OQK0L2II4,
+  similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1LVQ3JF1JDOUT32OEUJT0RKGB1WMXK, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 14C8L9MSF7A6W6HX8IUVJ7WS84L7NE, similarityScore: N, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1ERMA9XIZYFGVXX7NUIH6KHOVI9DMW, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 14C8L9MSF7A6W6HX8IUVJ7WS84L7NE, similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1QCCC51MBJ448JQUPPVCENQUT1P8YA, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 14C8L9MSF7A6W6HX8IUVJ7WS84L7NE, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1UE05L2K11BZ1ZPDP8IACS5W85XLGA, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 14C8L9MSF7A6W6HX8IUVJ7WS84L7NE, similarityScore: D, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1KTQPGQVK90EL3GX1WUV5FK0YSB29B, command: Place the pallet of tires
+    on the right side of the truck., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: NbNyoEJwKzc,
+  hitId: 14C8L9MSF7A6W6HX8IUVJ7WS84L7NE, similarityScore: D, workerId: A3PYEW6693PCHT}
+- {assignmentId: 10H6A4S3EKA7CAAH3URFP0CO67N4BY, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 12X39F8XEUA2KPC7YMAB3F1FF3WUGV, similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 16Y18XK7249DI1EHCDKNISNT6NQSQ4, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 12X39F8XEUA2KPC7YMAB3F1FF3WUGV, similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1UET689X5BB4MZYV4C09LI6I5V82X0, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 12X39F8XEUA2KPC7YMAB3F1FF3WUGV, similarityScore: SD, workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 1LFVPD9WWRZVKGELY6HETZFYCWY25Q, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 12X39F8XEUA2KPC7YMAB3F1FF3WUGV, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1WEEGY4HYZ6NBFJU2R5IZUU0MSHEEZ, command: Lift pallet up and place
+    the pallet beside the other pallet on the truck bed. Reverse the forklift slowly
+    from the truck bed., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 12X39F8XEUA2KPC7YMAB3F1FF3WUGV, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1G2UCCMEOD1E6UCF0EB0HOK25IZ6DK, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: 1WkmH8M16Zk,
+  hitId: 11UCVV14KHX4REJ9Q339SQU7D8GZ9Y, similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1UHFEEUHLO7N72USI8EZ16HELAKAKP, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: 1WkmH8M16Zk,
+  hitId: 11UCVV14KHX4REJ9Q339SQU7D8GZ9Y, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1XIYNFV4Y7DHAQ76NBNYG49FVWMBFH, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: 1WkmH8M16Zk,
+  hitId: 11UCVV14KHX4REJ9Q339SQU7D8GZ9Y, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1QQQ4TJOII0CKJOZOXPIY1TJ1H6ERB, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: 1WkmH8M16Zk,
+  hitId: 11UCVV14KHX4REJ9Q339SQU7D8GZ9Y, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 12LMOPDSLZYJHYNIDMOJKM11W67TWI, command: Lift tire pallet. Move to
+    unoccupied location on truck. Lower tire pallet. Reverse to starting location.
+    Lower forks. End., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: 1WkmH8M16Zk,
+  hitId: 11UCVV14KHX4REJ9Q339SQU7D8GZ9Y, similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 140LZG788NZSE5MSJ2MECWSSFS8O8Z, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 107PSSIL6LJMXMGPKKD61J3OQSNSML, similarityScore: SA, workerId: AC8BGOG45QWA2}
+- {assignmentId: 1QKNTVGY2SLHSQK33LDD25FPTSC2O6, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 107PSSIL6LJMXMGPKKD61J3OQSNSML, similarityScore: SA, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1WL6Y3CYCOXI7MKOD80GN6IJDG7Y3K, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 107PSSIL6LJMXMGPKKD61J3OQSNSML, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1P0064VCVMMWLRUZ38WS16NGNJK3HE, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 107PSSIL6LJMXMGPKKD61J3OQSNSML, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 13YS82B84NEDHSU53B138MHABUS0Q8, command: Place the pallet of tires
+    that is on the forklift next to the pallet of tires that is already loaded on
+    the trailer., commandYoutubeId: _DUzirxysxE, displayedYoutubeId: _DUzirxysxE,
+  hitId: 107PSSIL6LJMXMGPKKD61J3OQSNSML, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}

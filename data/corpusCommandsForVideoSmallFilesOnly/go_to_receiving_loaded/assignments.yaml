@@ -1,0 +1,53 @@
+- {assignmentId: 1DGUDLED3GI2QXAGT6BO8L92BJ410U, command: go left, hitId: 134EQPYETKD01OJMD15I0UU0A34EE2,
+  workerId: A21F8Y7VRQCP4Z, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1EYO022LTI841D9HCZBCTR12NX4R7K, command: Pick up the pallet of tires
+    on the forks of your truck and move them to the trailer on your left for loading.,
+  hitId: 134EQPYETKD01OJMD15I0UU0A34EE2, workerId: A1YN1PFUDPN2VS, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1RNKMKAZ4C3LZPGLVZN678N401RB95, command: Take the pallet of tires
+    to the trailer on the left and wait., hitId: 134EQPYETKD01OJMD15I0UU0A34EE2, workerId: A40W0EWYGHNV0,
+  youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 15OA5LS45FK4X7GEAI0QN6BKFLHSKD, command: Carry the loaded pallet
+    over to the trailer., hitId: 134EQPYETKD01OJMD15I0UU0A34EE2, workerId: A1MP2NU7ZFA0Z3,
+  youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1S2ACTOGXMVEVUZWVJVIOS8T28EQQM, command: 'Take the tire pallet to
+    the left, proceeding to the table containing a tire pallet. Stop immediately in
+    front of this table.', hitId: 178707HY8TRY7T0DD2HC7XMGX9GEYH, workerId: A2HM35CWB7IIFM,
+  youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1YMQSIZAJB3RX7XF7EOH6JPQSWF82G, command: Take the pallet with the
+    tires and drive over to the trailer., hitId: 178707HY8TRY7T0DD2HC7XMGX9GEYH, workerId: ACPUTK2MNMYHB,
+  youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 10W54VUORQH1D2AZ3HFG6108S9VFXH, command: 'Reorient the forklift by
+    going in reverse and pointing the front of the forklift to your left.   Then go
+    forward, pointing the front of the forklift further left, driving forward so that
+    the forklift is adjacent to the truck with the tires on it.', hitId: 178707HY8TRY7T0DD2HC7XMGX9GEYH,
+  workerId: AXVXK5E9WHO26, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1K49UT2XYPYGLAE65THO4GNJWF34MZ, command: 'Back up, turn left, and
+    approach the truck bed with the tire pallet.', hitId: 178707HY8TRY7T0DD2HC7XMGX9GEYH,
+  workerId: A3K6HCRWJ6CGL1, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1Y1ZGL622EBDCN03WOH0UNNWRVI7GF, command: Move backward with a pallet
+    of tires and turn to the left. Go forward toward a trailer bed containing another
+    pallet of tires. Stop the forklift in front of the trailer bed., hitId: 178707HY8TRY7T0DD2HC7XMGX9GEYH,
+  workerId: A3S82OHUGFBR7L, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 109MIKS83JZ1EFBZUTD0BBMJN4350K, command: move towards the truck with
+    the tire pallet, hitId: 1BT28VJ6M9T7GHCXBO2JFIOBTZXCON, workerId: A19NQYAQBPEWOB,
+  youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1Z8FV75ASO0NMTM8TXM1Y7SNXNH8N2, command: 'Pick up the pallet of tires
+    directly in front of the forklift, swing to the left and bring the pallet toward
+    the platform with another pallet of tires on top.', hitId: 1N2WE0W829I5MRO2BXEN1RH1U4TJA4,
+  workerId: A2HM35CWB7IIFM, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1GYRVQRGWVI9RG4WTFTNPQ211COAIT, command: Move the tire pallet to
+    the trailer., hitId: 1N2WE0W829I5MRO2BXEN1RH1U4TJA4, workerId: A2MWAXV1YRK5GH,
+  youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1BIPGB4A5YEU1DMD8CM0LK0CIUR3AM, command: Take those tires over to
+    the trailer and get ready to load them up next to the other ones., hitId: 1N2WE0W829I5MRO2BXEN1RH1U4TJA4,
+  workerId: A2ZH5LDUY5UFD4, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1W6CBQM4VCA5EEE0ARQENMAAJWDP1W, command: Pick up the tire pallet
+    in front of you and move to the trailer on your left., hitId: 1N2WE0W829I5MRO2BXEN1RH1U4TJA4,
+  workerId: A3B031YKKWFYFM, youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 1KYXDZYAF71QKBT9029NOIXYAEFRSB, command: Please head towards the
+    pallet cart., hitId: 1N2WE0W829I5MRO2BXEN1RH1U4TJA4, workerId: AIR4UQNPIMFCJ,
+  youtubeId: Ox1Ji5G2pUo}
+- {assignmentId: 11ALUIBO9KW43NHKXZL6R5OBPPTK1I, command: 'Reverse forklift until
+    it faces truck. Move forward to truck. Avoid obstacles. Stop when bed of truck
+    is reached. ', hitId: 1WL9FT64Q82TN9WAYS2YL1FZ2KZHV3, workerId: A15RX0RUEW3B8L,
+  youtubeId: Ox1Ji5G2pUo}

@@ -1,0 +1,8 @@
+package arlcm;
+
+struct pointlist3d_t {
+    int64_t utime;	     
+
+    int32_t npoints;
+    point3d_t points[npoints];
+}

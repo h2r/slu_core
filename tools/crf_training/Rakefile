@@ -1,0 +1,78 @@
+here=File.dirname(__FILE__)
+$slu_home=File.expand_path("#{here}/../..")
+require "#{$slu_home}/rakefile.rb"
+
+data_home="#{$slu_home}/data"
+
+desc "Build everything."
+make_python_targets(:build_python, FileList["python/**/*.py"])
+task :all => [:build_python] 
+
+
+desc "Clean everything."
+task :clean => [:clean_python] 
+
+sigma = (ENV['SIGMA'] or "1.5")
+model = ENV['MODEL']
+
+training_home="#{here}/models"
+
+
+
+desc 'high level target to train the forklift'
+python_task :train_forklift => [:generate_examples_forklift_aaai11,
+                                :continuous_to_discrete_forklift_aaai11,
+                                :train_lccrf_forklift_aaai11]
+
+desc "Generate examples"
+python_task :generate_examples_forklift_aaai11 do
+  python("#{$pbd}/dcrf3/generate_examples.py " + 
+         "--outfile_training=#{training_home}/training_continuous_forklift.pck " + 
+         "--outfile_test=#{training_home}/testing_continuous_forklift.pck " +
+         "--infile_positive=#{data_home}/aaai11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
+         "--infile_negative=#{data_home}/aaai11/corpusNegativeExamples.annotated.yaml " + 
+         "--infile_labeled=#{data_home}/aaai11/easy_negative_objects.yaml " + 
+         "--split=scenario " + 
+	 "--feature_extractor=GGGFeatures")
+end
+
+desc "continuous to discrete"
+python_task :continuous_to_discrete_forklift_aaai11 do
+  python("#{$pbd}/dcrf3/continuous_to_discrete_dataset.py "+
+         "#{training_home}/training_continuous_forklift.pck "+
+         "#{training_home}/training_continuous_forklift.pck "+
+	 "#{training_home}/training_discrete_forklift.pck")
+end
+
+desc "Train CRF forklift"
+python_task :train_lccrf_forklift_aaai11 do
+  python("#{$pbd}/dcrf3/train_lccrf.py " + 
+         "--training_filename=#{training_home}/training_discrete_forklift.pck " + 
+         "--crf_filename=#{training_home}/crf_discrete_forklift.pck --sigma=#{sigma} ")
+end
+
+python_task :partial_tests do
+  python("/usr/bin/nosetests -v #{here}/src/dcrf3/test/dataset_test.py")
+end
+
+
+python_task :dump_features do
+  python("#{$pbd}/dcrf3/dump_features.py #{training_home}/annotation/models/#{model}")
+end
+
+
+desc "Test CRF the forklift dataset"
+python_task :crf_results_browser_forklift => [:buildGui] do
+  python("#{$pbd}/dcrf3/gui/resultsBrowser.py " +
+         "#{training_home}/crf_discrete_forklift_1.5.pck " + 
+         "#{training_home}/testing_continuous_forklift.pck ")
+end
+
+
+desc "Test CRF on spatial relations dataset"
+python_task :crf_results_browser_sr => [:buildGui] do
+  python("#{$pbd}/dcrf3/gui/resultsBrowser.py " +
+         "#{training_home}/crf_discrete_sr_1.5.pck " + 
+         "#{training_home}/training_continuous_sr.pck ")
+
+end

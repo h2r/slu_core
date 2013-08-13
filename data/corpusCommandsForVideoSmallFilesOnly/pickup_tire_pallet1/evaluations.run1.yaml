@@ -1,0 +1,120 @@
+- {assignmentId: 1GZD17JW8ME1HLTMJDSMCPKKU61EL2, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: J0zOQsQVfHg, hitId: 1WQ064VCVMMWLRUZ38WS16NGHL1H3B,
+  similarityScore: D, workerId: AXKROYUZUKAUX}
+- {assignmentId: 18FJ9C3KSTU6GJSDUGPW7GTPUCK9E0, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: J0zOQsQVfHg, hitId: 1WQ064VCVMMWLRUZ38WS16NGHL1H3B,
+  similarityScore: D, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1OGZF86T9JMURLOHRCJ4NC1EJYWKNT, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: J0zOQsQVfHg, hitId: 1WQ064VCVMMWLRUZ38WS16NGHL1H3B,
+  similarityScore: N, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 1PSOHYBS9BCYPLB5918EHWA6IO7760, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: J0zOQsQVfHg, hitId: 1WQ064VCVMMWLRUZ38WS16NGHL1H3B,
+  similarityScore: SD, workerId: A3RUBZV5K0TL2J}
+- {assignmentId: 159VKMZ198E3C1SR9JHWB18NPR28AD, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: J0zOQsQVfHg, hitId: 1WQ064VCVMMWLRUZ38WS16NGHL1H3B,
+  similarityScore: D, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 19CPFOKFOKBERZE58H0N4W6HZKGJ9V, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1NKNJ0I2F9TAENQQBJCC0EBUH9SQYM, similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1118DIZ43L1XXP27YB73RCK8VEBYIM, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1NKNJ0I2F9TAENQQBJCC0EBUH9SQYM, similarityScore: SA, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 147BNP8WO1FG86ECW5EG6FS38JWL7M, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1NKNJ0I2F9TAENQQBJCC0EBUH9SQYM, similarityScore: A, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 1IBVCXXN3OPLHG9L1JT79J795B513R, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1NKNJ0I2F9TAENQQBJCC0EBUH9SQYM, similarityScore: A, workerId: A3RUBZV5K0TL2J}
+- {assignmentId: 1RJRLP61WUHWWEA4HN0ELRB7R81JS2, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1NKNJ0I2F9TAENQQBJCC0EBUH9SQYM, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1DO5XRGKXWMJ7H7YPKJPC5KL7R7GMO, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1J4IKW3A2FJA30HDWVOI8SUYYS9TCV, similarityScore: SA, workerId: AXKROYUZUKAUX}
+- {assignmentId: 12TCS32PN4LEX1RW1DPDSXJF7MBTQW, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1J4IKW3A2FJA30HDWVOI8SUYYS9TCV, similarityScore: A, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1JZ46Y620UKRCNFR04SQPCNRMN35PQ, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1J4IKW3A2FJA30HDWVOI8SUYYS9TCV, similarityScore: N, workerId: A3RUBZV5K0TL2J}
+- {assignmentId: 1H5ZKZVFCLAEMAVM5KZIENZWR2N7H1, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1J4IKW3A2FJA30HDWVOI8SUYYS9TCV, similarityScore: N, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 1HWJ7J0R4DV9S1FEXE3D95XCZEVJLQ, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1J4IKW3A2FJA30HDWVOI8SUYYS9TCV, similarityScore: A, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1QXTYW3D4555ECICSR8X61JO8D3PLY, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 1H6NN57I9RBPEBPBB6XN09LKCD6YP3,
+  similarityScore: A, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1UWF0YXP3YV5NUT82K02MECWVR745Y, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 1H6NN57I9RBPEBPBB6XN09LKCD6YP3,
+  similarityScore: A, workerId: AXKROYUZUKAUX}
+- {assignmentId: 1PVQ0TW615GOHT7V4869XSSHIMAGKH, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 1H6NN57I9RBPEBPBB6XN09LKCD6YP3,
+  similarityScore: N, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 1V33LAVCRGCPGGN3RDMEARPRN78ZNT, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 1H6NN57I9RBPEBPBB6XN09LKCD6YP3,
+  similarityScore: A, workerId: A3RUBZV5K0TL2J}
+- {assignmentId: 1GMFBXVT3NOMK0IPSVXNL1FSO856K3, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 1H6NN57I9RBPEBPBB6XN09LKCD6YP3,
+  similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 15OJ5Y5C85PH4576WAYEU9U3MNHY6T, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1DS6XDEPKJ91HME4XOKISIIXEMDQRK, similarityScore: SA, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1CBENVBXRCIQGX7FGYZYRWB7ZAJT11, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1DS6XDEPKJ91HME4XOKISIIXEMDQRK, similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1GJ70QLSHF79O04Y7VJSYNYC1OUSCZ, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1DS6XDEPKJ91HME4XOKISIIXEMDQRK, similarityScore: N, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 15Y6RV5IQ0XI0TJFKHX2SJQ2MSB9HF, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1DS6XDEPKJ91HME4XOKISIIXEMDQRK, similarityScore: A, workerId: A3RUBZV5K0TL2J}
+- {assignmentId: 1U4CVV14KHX4REJ9Q339SQU7IIR9Z4, command: 'Please pick up the pallet
+    on the far end, the last one.', commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1DS6XDEPKJ91HME4XOKISIIXEMDQRK, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1UEN94OQH5X9YT5HI2JU3IM04EKFWE, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI, hitId: 1A3B3VGGJQ3JT8SYJQ5VJ5RP78VYM7,
+  similarityScore: SD, workerId: AXKROYUZUKAUX}
+- {assignmentId: 1FLYMXSX6IYAK61CSGO16JONDEEMQN, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI, hitId: 1A3B3VGGJQ3JT8SYJQ5VJ5RP78VYM7,
+  similarityScore: SD, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1EUJ1VE6GI13CJ92GEBHI16Y0D4S77, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI, hitId: 1A3B3VGGJQ3JT8SYJQ5VJ5RP78VYM7,
+  similarityScore: SD, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 10W5U40RW5AONTA7S7FG5107DGOXFN, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI, hitId: 1A3B3VGGJQ3JT8SYJQ5VJ5RP78VYM7,
+  similarityScore: SD, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 14MU0A4RSR45NF1SS1L2B80EHLIXXC, command: Get the pallet containing
+    tyres, commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: j1SraLR-0rI, hitId: 1A3B3VGGJQ3JT8SYJQ5VJ5RP78VYM7,
+  similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1Z46SUPSRFZP4F8YHL1AUMOOBQP5TW, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 17MJ3XQCEI9NKCXIYHK1YJFDWK1TG5,
+  similarityScore: SA, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1I988W6VESZPGSL21QOX9AIJ0SQCVQ, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 17MJ3XQCEI9NKCXIYHK1YJFDWK1TG5,
+  similarityScore: SA, workerId: A3RUBZV5K0TL2J}
+- {assignmentId: 1K5ZX1I50T804ZV2KLE9Z8P9JOHH0B, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 17MJ3XQCEI9NKCXIYHK1YJFDWK1TG5,
+  similarityScore: SA, workerId: AXKROYUZUKAUX}
+- {assignmentId: 1QCPESRAJHQMXJ69Q4MXZD3MEC01YX, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 17MJ3XQCEI9NKCXIYHK1YJFDWK1TG5,
+  similarityScore: A, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 1ZNH8WFAWGT7PTDJM9QHMRRL0B890C, command: Pick up the first tire pallet.,
+  commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: npun2WwQ2Xg, hitId: 17MJ3XQCEI9NKCXIYHK1YJFDWK1TG5,
+  similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 147BNP8WO1FG86ECW5EG6FS38JXL7N, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 11GEPV8QFCEMR3533N1HVEQVZXDYSJ, similarityScore: SD, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 11Z0GF7AGK2K8SNRWRJTSYCGO7LTDQ, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 11GEPV8QFCEMR3533N1HVEQVZXDYSJ, similarityScore: SD, workerId: AXKROYUZUKAUX}
+- {assignmentId: 1AJYNTP3VQEN52K6JSLH3W2GEAIC7X, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 11GEPV8QFCEMR3533N1HVEQVZXDYSJ, similarityScore: SD, workerId: A2HM35CWB7IIFM}
+- {assignmentId: 16TVPJN5EVK2XKZA7PX7551Q5XVL1O, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 11GEPV8QFCEMR3533N1HVEQVZXDYSJ, similarityScore: SD, workerId: A3RUBZV5K0TL2J}
+- {assignmentId: 1NU1ODC65OUKUM122JPEULSPSQQICV, command: Pick up the pallet of tires
+    on the left side of the line., commandYoutubeId: npun2WwQ2Xg, displayedYoutubeId: yjOB0pQfTSk,
+  hitId: 11GEPV8QFCEMR3533N1HVEQVZXDYSJ, similarityScore: SD, workerId: A2V3P1XE33NYC3}

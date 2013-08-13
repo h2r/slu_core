@@ -1,0 +1,21 @@
+
+
+Starting...
+manipulations: 0
+destinations: 1
+ok
+ok
+on_pallet_list(): Added 1 pallets
+Start 0 manipulation and 1 summoning tasks remaining.
+entering while loop
+x, y, 7.690, 44.222 dist: 15.047
+dist < 10: 0
+x, y, 13.997, 14.370 dist: 25.488
+dist < 10: 0
+x, y, -6.886, 26.598 dist: 7.983
+dist < 10: 1
+Teleporting to: -6.886, 26.598
+Currently 0 manipulation and 1 summoning tasks remaining.
+Generating Summoning Pose: Destination is checkpoint_id = 25
+Start 0 manipulation and 0 summoning tasks remaining.
+Looks like we're done

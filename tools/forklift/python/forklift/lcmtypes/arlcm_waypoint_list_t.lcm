@@ -1,0 +1,9 @@
+package arlcm;
+
+struct waypoint_list_t
+{
+	int64_t utime;
+	int32_t numWaypoints;
+
+	waypoint_t waypoints [numWaypoints];
+}

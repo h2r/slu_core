@@ -1,0 +1,9 @@
+package arlcm;
+
+struct track_list_t
+{
+	int64_t utime;
+
+	int32_t ntracks;
+	track_t tracks[ntracks];
+}

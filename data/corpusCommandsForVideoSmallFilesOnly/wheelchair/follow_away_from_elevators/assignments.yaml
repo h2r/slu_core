@@ -1,0 +1,13 @@
+- {assignmentId: 140YBURTB6SNTE2ZVRDZYM5KAZUO18, command: 'The robot should follow
+    behind the man at a distance of about 6 feet, proceeding along the walkway surrounded
+    by a railing on either side. Come to a stop when the man stops.', hitId: 1A791BHQ8ONF1F74ZOY0PMHLMSLZUG,
+  workerId: A2HM35CWB7IIFM, youtubeId: GcM5cfYV0sM}
+- {assignmentId: 14DRQO39MVN083ER0GE68KHB44J9V8, command: go down the curved walkway
+    staying in the middle of it, hitId: 1A791BHQ8ONF1F74ZOY0PMHLMSLZUG, workerId: AWRBULBU52BCD,
+  youtubeId: GcM5cfYV0sM}
+- {assignmentId: 1C8TZA18AK6AH7FL91FFD0JMC34XSY, command: TURN 45 RIGHT AND FOLLOW
+    SIGNAL, hitId: 1A791BHQ8ONF1F74ZOY0PMHLMSLZUG, workerId: A1DGNCZZWELLVX, youtubeId: GcM5cfYV0sM}
+- {assignmentId: 1H95HE9IS7FI9MMTOVT5R8I9IIQ4ER, command: follow me, hitId: 1A791BHQ8ONF1F74ZOY0PMHLMSLZUG,
+  workerId: A38G0XF1CY8UZI, youtubeId: GcM5cfYV0sM}
+- {assignmentId: 1TNCXIWTKNLQE6ADVBY4P79KLGU42L, command: Follow the man., hitId: 1A791BHQ8ONF1F74ZOY0PMHLMSLZUG,
+  workerId: AOG0BC9JYJHNV, youtubeId: GcM5cfYV0sM}

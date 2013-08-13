@@ -1,0 +1,6 @@
+package arlcm;
+
+struct pointlist2d_t {
+    int32_t npoints;
+    point2d_t points[npoints];
+}

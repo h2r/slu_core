@@ -1,0 +1,19 @@
+
+file "JPype-0.5.4.1" => "JPype-0.5.4.1.zip" do
+  sh "unzip -o JPype-0.5.4.1.zip"
+end
+task :setup => ["JPype-0.5.4.1"] do
+  sh "cd JPype-0.5.4.1 && python setup.py build"
+  puts "build: #{ENV['BUILD_PREFIX']}\n"
+  if ENV["BUILD_PREFIX"] 
+      sh "cd JPype-0.5.4.1 && python setup.py install " + 
+      "--home #{ENV['BUILD_PREFIX']}"
+  end
+end
+
+
+task :clean do
+  sh "rm -rf JPype-0.5.4.1"
+end
+
+

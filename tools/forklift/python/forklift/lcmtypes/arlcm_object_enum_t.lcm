@@ -1,0 +1,30 @@
+// An enumerated list of the different types of objects that the
+// bot may have to interact with / manipulate
+
+package arlcm;
+
+// NOTE: be sure to change config file if changing identifier to value mapping
+enum object_enum_t {
+     UNKNOWN = 0,               // Unknown object type, use bounding box
+     SEMI_TRUCK = 1,            // Load / unload from back only
+     SEMI_TRUCK_WHEEL = 2,      // 
+     FLATBED_TRUCK = 3,         // Load / unload from back and sides
+     FLATBED_TRUCK_WHEEL = 4,   // 
+     FLATBED_TRAILER = 5,       // Load / unload from back and sides
+     FLATBED_TRAILER_WHEEL = 6, // 
+     LR3 = 7,                   // 
+     OPERATOR = 8,              // 
+     BOX = 9,                   // 
+     DRUM_55GAL = 10,           // 
+     SHIP_CONTAINER = 11,       // 
+     SIGN_POST = 12,            // Mark ASLs
+     BERM = 13,                 // Placed at the back end of ASLs
+     // forklift parts below (used to develop and test forklift renderer and 
+     // mtrans, although it's conceivable that forklift parts are strewn about 
+     // in the world, especially if the forklift drives itself into a wall)
+     FORKLIFT_BODY = 1000,      // 
+     FORKLIFT_WHEEL = 1001,     // 
+     FORKLIFT_MAST = 1002,      // 
+     FORKLIFT_CARRIAGE = 1003,  // 
+     FORKLIFT_TINE = 1004       // 
+}

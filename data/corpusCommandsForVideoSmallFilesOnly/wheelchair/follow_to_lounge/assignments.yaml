@@ -1,0 +1,17 @@
+- {assignmentId: 1M8WE12NZTJ1HNPA1DA3TAB66XP1EI, command: 'The robot should follow
+    the man, first turning left toward a hall lined with a wall of file cabinets,
+    then right which leads into a waiting area. Stop near the center of this room,
+    in front of the Coke machine.', hitId: 1XCLP4J3VO71B7O4EWPNPBYFDPRSEN, workerId: A2HM35CWB7IIFM,
+  youtubeId: 16yml-Lrypc}
+- {assignmentId: 16B5YQLY1NHD34V8MG5PFU31XP0Z7L, command: 'follow my movements. ',
+  hitId: 1XCLP4J3VO71B7O4EWPNPBYFDPRSEN, workerId: AWRBULBU52BCD, youtubeId: 16yml-Lrypc}
+- {assignmentId: 1NAPNPLBGH93E2T6OMZXSB3QYSFD2X, command: 'CONTINUE FOLLOWING THE
+    SENSOR. TURN 45 RIGHT AND STOP. STOP, DO NOT FOLLOW SENSOR.', hitId: 1XCLP4J3VO71B7O4EWPNPBYFDPRSEN,
+  workerId: A1DGNCZZWELLVX, youtubeId: 16yml-Lrypc}
+- {assignmentId: 1CBEXM5UMXP36677R8ZYSWB79A51T7, command: Turn left at the corner
+    and then go forward down the hallway. Turn right at the end of the hallway and
+    then stop in the middle of the room., hitId: 1XCLP4J3VO71B7O4EWPNPBYFDPRSEN, workerId: AQAXDL1INQC9Q,
+  youtubeId: 16yml-Lrypc}
+- {assignmentId: 1UA6COTO5T8GUFI2SF2KRCVE6GTOW5, command: 'slow turn left, forward,
+    .... slow turn right, forward, STOp', hitId: 1XCLP4J3VO71B7O4EWPNPBYFDPRSEN, workerId: A3M7R38UIJOPKT,
+  youtubeId: 16yml-Lrypc}

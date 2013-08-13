@@ -1,0 +1,15 @@
+- {assignmentId: 1W6CBQM4VCA5EEE0ARQENMAAK4Q1P2, command: 'The robot should follow
+    the man down the hall, then turn into the hall on the left, proceeding until the
+    hall turns to the right. Come to a stop at the desk.', hitId: 1NAKJST68G0WUKQYLJGMUOQ5Q6I7VM,
+  workerId: A2HM35CWB7IIFM, youtubeId: jXeyGG125FU}
+- {assignmentId: 1SSO4RSFS4HXXJBDZCN53H0JK7X06V, command: Follow the man in the blue
+    shirt., hitId: 1NAKJST68G0WUKQYLJGMUOQ5Q6I7VM, workerId: AHLEIW6IVQ98T, youtubeId: jXeyGG125FU}
+- {assignmentId: 1EYO022LTI841D9HCZBCTR12O8HR7K, command: 'Follow behind the man in
+    the blue shirt, do not him him.', hitId: 1NAKJST68G0WUKQYLJGMUOQ5Q6I7VM, workerId: AWRBULBU52BCD,
+  youtubeId: jXeyGG125FU}
+- {assignmentId: 1OWBVZRTLW52N8TX5H4NKZSB58L2WV, command: CONTINUE FOLLING THE SENSOR.
+    TURN 45 RIGHT TO STOP., hitId: 1NAKJST68G0WUKQYLJGMUOQ5Q6I7VM, workerId: A1DGNCZZWELLVX,
+  youtubeId: jXeyGG125FU}
+- {assignmentId: 1BTKC8EHA1L4RCAKYDXU3FCDZQSFHB, command: "Go straight.\r\nmake a\
+    \ 90 degree left turn.\r\nGo Straight\r\nmake a 45 degree right turn and stop.",
+  hitId: 1NAKJST68G0WUKQYLJGMUOQ5Q6I7VM, workerId: A29TZW1NPATNCJ, youtubeId: jXeyGG125FU}

@@ -1,0 +1,18 @@
+
+
+Starting...
+manipulations: 1
+destinations: 0
+ok
+ok
+on_pallet_list(): Added 3 pallets
+on_object_list(): Added 1 trailers
+Start 1 manipulation and 0 summoning tasks remaining.
+entering while loop
+x, y, -20.500, 45.987 dist: 7.983
+dist < 10: 1
+Teleporting to: -20.500, 45.987
+Currently 1 manipulation and 0 summoning tasks remaining.
+Generating PMC Task: Pickup pallet_id = 330574133945606151 without a drop-off
+Start 0 manipulation and 0 summoning tasks remaining.
+Looks like we're done

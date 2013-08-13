@@ -1,0 +1,293 @@
+- assignmentId: 1K49UT2XYPYGLAE65THO4GNIQB6M44
+  command:
+  - Load the forklift onto the trailer.
+  - - EVENT:
+        l: the forklift
+        l2:
+          PATH: {l: the trailer, r: onto}
+        r: Load
+- assignmentId: 15PXCRE3XML4J4PZT5SNY8OGUBMBT3
+  command:
+  - turn and move to the truck on the right
+  - - EVENT:
+        l:
+          PATH: {l: the truck, r: to}
+        l2:
+          PLACE: {l: the right, r: 'on'}
+        r: turn
+- assignmentId: 1V0IJO9U99FD1UNG15YTE69GOWONXN
+  command:
+  - turn towards the truck on the right and move forward a bit
+  - - EVENT:
+        l:
+          PATH:
+            l:
+              OBJECT: {f: the truck, l: the right, r: 'on'}
+            r: towards
+        r: turn
+    - EVENT: {l: a bit, r: move forward}
+- assignmentId: 180EECVWKNJIZU1EVUL8JNEZMI2U0R
+  command:
+  - Back your forklift up and then move it over near the trailer on your left.
+  - - EVENT:
+        f: your forklift
+        l: it
+        l2:
+          PLACE:
+            l:
+              OBJECT: {f: the trailer, l: your left, r: 'on'}
+            r: near
+        r:
+        - - Back
+          - [0, 4]
+        - - up
+          - [19, 21]
+        - - move
+          - [31, 35]
+        - - over
+          - [39, 43]
+- assignmentId: 1IBH2UV96D1T6PIUZKAEPREV8CNUIQ
+  command:
+  - Move to the right side of the trailer of the trailer on the right and wait.
+  - - EVENT:
+        l:
+          PATH:
+            l:
+              OBJECT:
+                f: the right side
+                l:
+                - - the
+                  - [26, 29]
+                - - trailer
+                  - [30, 37]
+                l2:
+                - - the
+                  - [41, 44]
+                - - trailer
+                  - [45, 52]
+                r:
+                - - of
+                  - [23, 25]
+            r: to
+        r: Move
+    - OBJECT:
+        f:
+        - - the
+          - [41, 44]
+        - - trailer
+          - [45, 52]
+        l:
+        - - the
+          - [56, 59]
+        - - right
+          - [60, 65]
+        r: 'on'
+- assignmentId: 1UENJVINCQ4MO259TCJU4IM0CR0FWU
+  command:
+  - zig-zag backwards then turn left and go to the tailor hitch.
+  - - EVENT: {f: zig-zag, r: then turn left}
+    - EVENT:
+        l:
+          PATH: {l: the tailor hitch, r: to}
+        r: go
+- assignmentId: 14DRQO39MVN083ER0GE68KHB3W19V9
+  command:
+  - "Drive over to the trailer>\r\n"
+  - - EVENT:
+        l:
+          PATH:
+            l:
+            - - the
+              - [14, 17]
+            - - trailer
+              - [18, 25]
+            - - "\r\n"
+              - [26, 28]
+            r: to
+        r: Drive over
+- assignmentId: 15GXHIF5GRL3AKDQRM8DS25L2SYB1X
+  command:
+  - Line the truck up like you're going to load something up on the trailer.
+  - - EVENT:
+        l: something
+        l2:
+          PLACE: {l: the trailer, r: 'on'}
+        r:
+        - - to
+          - [36, 38]
+        - - load
+          - [39, 43]
+        - - up
+          - [54, 56]
+    - EVENT:
+        f: Line
+        r:
+        - - up
+          - [15, 17]
+        - - like
+          - [18, 22]
+        - - going
+          - [30, 35]
+        - - load
+          - [39, 43]
+        - - up
+          - [54, 56]
+    - EVENT:
+        f: you
+        r:
+        - - '''re'
+          - [26, 29]
+        - - going
+          - [30, 35]
+        - - load
+          - [39, 43]
+        - - up
+          - [54, 56]
+- assignmentId: 1AYUPCXDVNH8GLCLG1N6TG1FMDCJ58
+  command:
+  - Back up and head over to the trailer on your left.
+  - - EVENT:
+        l:
+          OBJECT: {f: the trailer, l: your left, r: 'on'}
+        r: to
+- assignmentId: 1NHGPMGTFHXD4XWP7RFV7S7SHD37MG
+  command:
+  - Back up a bit and proceed leftward to the first wheeled platform you see.
+  - - EVENT:
+        l:
+          PATH: {l: the first wheeled platform, r: to}
+        r: proceed leftward
+    - EVENT:
+        f: you
+        r:
+        - - up
+          - [5, 7]
+        - - bit
+          - [10, 13]
+        - - see
+          - [69, 72]
+- assignmentId: 1C55XR8L8744VPPH47DNIWYBYJ68CN
+  command:
+  - Head straight to the pallet cart and stop in front of it.
+  - - EVENT:
+        f: Head straight
+        l:
+          PATH: {l: it, r: in front of}
+        r: cart
+    - EVENT:
+        l:
+          PATH:
+            l: the pallet
+            r:
+            - - to
+              - [14, 16]
+        r: Head straight
+
+
+
+- assignmentId: 1I6RJZIRQCJ0UYVHVO8S8OM0JQKV87
+  command:
+  - Lift the box pallet and swing right, depositing it to the right of the tire pallets,
+    with an empty platform further to the right.
+  - - EVENT: {r: Lift, l: the box pallet}
+    - EVENT: {r: swing right}
+    - EVENT:
+        r: depositing
+        l:
+        - - it
+          - [48, 50]
+        l2:
+        - PLACE: {r: to the right of, l: the tire pallets}
+        - PLACE:
+            r: with
+            l:
+              EVENT:
+                f: an empty platform
+                r: further to
+                l:
+                - - the
+                  - [119, 122]
+                - - right
+                  - [123, 128]
+- assignmentId: 1E3L8I5G7WP6XQU6JMEE5SBAJJXX3P
+  command:
+  - pick up the pallet of tires that is on the ground, to the right of the pallet
+    of boxes.
+  - - EVENT:
+        r: pick up
+        l:
+          OBJECT:
+            f: the pallet of tires that is on the ground
+            r: to the right of
+            l:
+              OBJECT:
+                f:
+                - - the
+                  - [67, 70]
+                - - pallet
+                  - [71, 77]
+                r:
+                - - of
+                  - [19, 21]
+                l: boxes
+
+
+- assignmentId: 23
+  command:
+  - Pick the tire pallet up.
+  - - OBJECT:
+        f: the tire pallet
+    - OBJECT:
+        f: the tire pallet
+    - OBJECT:
+        f: the tire pallet
+  groundingIsCorrect: [true, true, false]
+  objectGroundings:
+  - - - PhysicalObject
+      - lcmId: 330574145974857216
+        path:
+          points_xyztheta:
+          - [10.17486311963595, 54.395559146942986, 0.6468073659999998, 0.0]
+          timestamps: ['1291316716919193']
+        prism:
+          points:
+          - [8.209762848031898, 52.33737219862422]
+          - [7.3504017793285, 54.04890264722486]
+          - [12.13996339124002, 56.453746095261856]
+          - [12.999324459943416, 54.74221564666122]
+          zEnd: 0.8500074167999998
+          zStart: 0.44360731519999963
+        tag: [trailer1]
+  - - - PhysicalObject
+      - lcmId: 330574145974857216
+        path:
+          points_xyztheta:
+          - [10.17486311963595, 54.395559146942986, 0.6468073659999998, 0.0]
+          timestamps: ['1291316716919193']
+        prism:
+          points:
+          - [8.209762848031898, 52.33737219862422]
+          - [7.3504017793285, 54.04890264722486]
+          - [12.13996339124002, 56.453746095261856]
+          - [12.999324459943416, 54.74221564666122]
+          zEnd: 0.8500074167999998
+          zStart: 0.44360731519999963
+        tag: [trailer2]
+
+  - - - PhysicalObject
+      - lcmId: 330574145974857216
+        path:
+          points_xyztheta:
+          - [10.17486311963595, 54.395559146942986, 0.6468073659999998, 0.0]
+          timestamps: ['1291316716919193']
+        prism:
+          points:
+          - [8.209762848031898, 52.33737219862422]
+          - [7.3504017793285, 54.04890264722486]
+          - [12.13996339124002, 56.453746095261856]
+          - [12.999324459943416, 54.74221564666122]
+          zEnd: 0.8500074167999998
+          zStart: 0.44360731519999963
+        tag: [trailer3]
+
+

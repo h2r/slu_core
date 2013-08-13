@@ -1,0 +1,647 @@
+- {assignmentId: 1P5EYFSP47FHWWCSCQ6LH6VNG4YW59, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1Z5MHQERCQXOF8FVFL6FTYYI9CRAN8, similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1IPMBD64H6UCBR286SVE0STVDOFJUE, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1Z5MHQERCQXOF8FVFL6FTYYI9CRAN8, similarityScore: A, workerId: A28KZG5EG91S75}
+- {assignmentId: 15CCJAH2S915O4I4QVX1DN46G1BACC, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1Z5MHQERCQXOF8FVFL6FTYYI9CRAN8, similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1TVNALMCNT9GTV72T0KJKDGEEGSVIW, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1Z5MHQERCQXOF8FVFL6FTYYI9CRAN8, similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1N9JHZKCLKEH9VHBSW0X8G35T046ZE, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1Z5MHQERCQXOF8FVFL6FTYYI9CRAN8, similarityScore: N, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1CD92RUD4H0Y8VXWCERCU5KXBYSKJV, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1XANTVGY2SLHSQK33LDD25FPNY42O8, similarityScore: D,
+  workerId: AC8BGOG45QWA2}
+- {assignmentId: 1QCPESRAJHQMXJ69Q4MXZD3MFW0Y1Z, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1XANTVGY2SLHSQK33LDD25FPNY42O8, similarityScore: D,
+  workerId: AY0BJCGY2DHIX}
+- {assignmentId: 118NTLZ4UT7YACYRN5TKMB9MZ2TXB7, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1XANTVGY2SLHSQK33LDD25FPNY42O8, similarityScore: A,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1GNCP6FAZU7XNL4LS6JN8DTGG5YRC0, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1XANTVGY2SLHSQK33LDD25FPNY42O8, similarityScore: SD,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1C9EC6Q75ASPH9OKCOWK2PTI9M7MNJ, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: j1SraLR-0rI, hitId: 1XANTVGY2SLHSQK33LDD25FPNY42O8, similarityScore: SD,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 144F8AMVNIHGXSPELEU9ASW69L4F1D, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1V99YI9OSPG0XJE4FGJ2TM0PW6C9WI, similarityScore: A, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 19R2MS0NVGO9U67N8SNW2I3SG28RAT, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1V99YI9OSPG0XJE4FGJ2TM0PW6C9WI, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1ZNH8WFAWGT7PTDJM9QHMRRL1UP09N, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1V99YI9OSPG0XJE4FGJ2TM0PW6C9WI, similarityScore: N, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 1V0I9XFXEO80BLNOQVYTD69GGQOXNB, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1V99YI9OSPG0XJE4FGJ2TM0PW6C9WI, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1OJSQ5M7ZSJINQC1VV1VPI629OW5DD, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z526, similarityScore: A, workerId: A33V10XAI3IWXS}
+- {assignmentId: 11U4SWU079GJPJWTU7G9338TI104LK, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z526, similarityScore: N, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 162VKSM3VQK364BJ98HHBBKLYZBTLX, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z526, similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1QLP91Q80CQN63IISN675JMH7EDTYN, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z526, similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1OFLV6Z6WW513SPJ8XDWG7EPVYQV3R, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: PPkdCXBk9iM,
+  hitId: 1S5VPD9WWRZVKGELY6HETZFY63Z526, similarityScore: A, workerId: A3RWM882PB22CT}
+- {assignmentId: 100H8I2R2DF6T84WI0IX24AI5KGBUX, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1S3YH5Y5CVM3PI3SDM5ZXBAPLMZ4YH, similarityScore: D, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 19CPFOKFOKBERZE58H0N4W6H0359JD, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1S3YH5Y5CVM3PI3SDM5ZXBAPLMZ4YH, similarityScore: D, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1IPMBD64H6UCBR286SVE0STVDO5UJF, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1S3YH5Y5CVM3PI3SDM5ZXBAPLMZ4YH, similarityScore: D, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1HYO3DVEM5ZDTT95GQQ3DCRF7GVR01, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1S3YH5Y5CVM3PI3SDM5ZXBAPLMZ4YH, similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1RKTLLJM8M5KEFXVJDARJVE5DTEKW1, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1S3YH5Y5CVM3PI3SDM5ZXBAPLMZ4YH, similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 18O2G35AZH1TATVL68PSTF705RKVQC, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1RHHH17MNXUPSK4BH0BHT9EG7M4PGU, similarityScore: SA, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1GGQ123RYEK7CXELQJ3NW12TCG08S3, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1RHHH17MNXUPSK4BH0BHT9EG7M4PGU, similarityScore: D, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1GCW492B7OBSWIOA0NEN0RH16LGAJM, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1RHHH17MNXUPSK4BH0BHT9EG7M4PGU, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1XNP33BPSCOGO2AI7P5O4FYQE5336C, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1RHHH17MNXUPSK4BH0BHT9EG7M4PGU, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1U4J0BHLAEYKC6TAW5S8S46UJJZBDZ, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1RHHH17MNXUPSK4BH0BHT9EG7M4PGU, similarityScore: SA, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 10ZQ6HG69XEDSOAMTP312MGIM0NZFS, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1RDKIGIORXW2CZ8T9P86GKLCBP8UM3, similarityScore: SA,
+  workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1BWIXU43TGWIJ95U6WUYTCCFMHXEDP, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1RDKIGIORXW2CZ8T9P86GKLCBP8UM3, similarityScore: A,
+  workerId: AY0BJCGY2DHIX}
+- {assignmentId: 11FDWS4W9Z1TS0MDGTS33DZ89DWJYK, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1RDKIGIORXW2CZ8T9P86GKLCBP8UM3, similarityScore: SA,
+  workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1MOYBEPGHZMTMUALJNESY5H51DMVRD, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1RDKIGIORXW2CZ8T9P86GKLCBP8UM3, similarityScore: SA,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 1O3DPQVME26Q1WIBNCNITV1STWFK5P, command: Spin around in a circle
+    and pick up the box pallet in between the tire pallets., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1RDKIGIORXW2CZ8T9P86GKLCBP8UM3, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1ZKI2UEFXSMQC2T5M5NJ8OAHCJ0OUF, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1Q2QWGH9VB0V2CLX44OCJTND8YQNP0, similarityScore: SA,
+  workerId: ACPUTK2MNMYHB}
+- {assignmentId: 149YWCWUXGLBCPEGM0X93SOFT5TOTO, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1Q2QWGH9VB0V2CLX44OCJTND8YQNP0, similarityScore: SA,
+  workerId: A2V78R6KLF4XS4}
+- {assignmentId: 1F73QAZHD0SNS95IB30FESSS32AJFR, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1Q2QWGH9VB0V2CLX44OCJTND8YQNP0, similarityScore: SA,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1KTQPGQVK90EL3GX1WUV5FK0YTS921, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1Q2QWGH9VB0V2CLX44OCJTND8YQNP0, similarityScore: SA,
+  workerId: AY0BJCGY2DHIX}
+- {assignmentId: 12EEZ9INQRGOERH99XU8YWWX47J7OA, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1Q2QWGH9VB0V2CLX44OCJTND8YQNP0, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1I372H21QN9LMAAQYEJVK4VIAZ8ZEA, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: D0Yt9G1Eg4o,
+  hitId: 1PQMQ4MMDV5WHFABXWVANJF7W5YEXQ, similarityScore: SD, workerId: AC8BGOG45QWA2}
+- {assignmentId: 1TEJUXA9T60SCXPPR8ZDDJ3V0C23JZ, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: D0Yt9G1Eg4o,
+  hitId: 1PQMQ4MMDV5WHFABXWVANJF7W5YEXQ, similarityScore: SD, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1NTX35GGS76PPZSY1LYPPK9LD02GNC, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: D0Yt9G1Eg4o,
+  hitId: 1PQMQ4MMDV5WHFABXWVANJF7W5YEXQ, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1YMQIR5DOQWE7YXNW4OH5JPPEMW28P, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: D0Yt9G1Eg4o,
+  hitId: 1PQMQ4MMDV5WHFABXWVANJF7W5YEXQ, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 12C9RTO6W6C0JEVUAODOTQ5EITLW8V, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: D0Yt9G1Eg4o,
+  hitId: 1PQMQ4MMDV5WHFABXWVANJF7W5YEXQ, similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1X5WIYB20EMO8A20U0UYIZ8NUVLZK9, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1OIG51P9LFD40BGGSRKN3CG32NHEUY, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1JPBN55412ILARO350P7VEOZ12G037, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1OIG51P9LFD40BGGSRKN3CG32NHEUY, similarityScore: A, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1P64EQTILTW6Q5RTNYN6MEZ6AITMC1, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1OIG51P9LFD40BGGSRKN3CG32NHEUY, similarityScore: A, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1XIQ70M88CVRP9WB11KQH1XM2MOXDV, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1OIG51P9LFD40BGGSRKN3CG32NHEUY, similarityScore: SA, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1D5HJR55JK7LL17SRRO923G3RBJ5Y0, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1OIG51P9LFD40BGGSRKN3CG32NHEUY, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1TUD2B444CRI5GY9SHTK3EPLEUFGA6, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI, hitId: 1NVG6HT25AP1KH9WOJTJJ1M75VHIBU,
+  similarityScore: A, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1YMQIR5DOQWE7YXNW4OH5JPPENA285, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI, hitId: 1NVG6HT25AP1KH9WOJTJJ1M75VHIBU,
+  similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1JCSS9BY59K5AR34QNPGSIW19XFO6A, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI, hitId: 1NVG6HT25AP1KH9WOJTJJ1M75VHIBU,
+  similarityScore: N, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1EAXKYIMH9BFHTJQX2POHCF0YTYEFJ, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI, hitId: 1NVG6HT25AP1KH9WOJTJJ1M75VHIBU,
+  similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 162VKSM3VQK364BJ98HHBBKLYZ3LTH, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI, hitId: 1NVG6HT25AP1KH9WOJTJJ1M75VHIBU,
+  similarityScore: A, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1790JZ5TQ9EZJMUCP6WKQM6W58RJPO, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1NPD17JW8ME1HLTMJDSMCPKKPWPLEC, similarityScore: N, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1CWSMOF0ATCLRKIE8O0Y88TWI2I5MP, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1NPD17JW8ME1HLTMJDSMCPKKPWPLEC, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 11QNJJIORRG1A8V3TT8Y12GTBDP8D8, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1NPD17JW8ME1HLTMJDSMCPKKPWPLEC, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 11B85YFJ7LBNF7Y6ONH5JWPX71BZBO, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1NPD17JW8ME1HLTMJDSMCPKKPWPLEC, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1QCCC51MBJ448JQUPPVCENQUT1M8Y7, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: j1SraLR-0rI,
+  hitId: 1NPD17JW8ME1HLTMJDSMCPKKPWPLEC, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1C2C9U8T72RY7NDPUTBQTYGN40UL34, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1N633PTF6C6P1XU0RYU8HRFLSHSS1D, similarityScore: D, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1WNHVUSK88VL74D378BQ161898Z79Y, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1N633PTF6C6P1XU0RYU8HRFLSHSS1D, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1O5D2KSASZM00U6MQ3WUZKQOKKFI0R, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1N633PTF6C6P1XU0RYU8HRFLSHSS1D, similarityScore: SD, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1EB3NKR7JMGGKL7IISSTOFDG0W4HU0, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1N633PTF6C6P1XU0RYU8HRFLSHSS1D, similarityScore: D, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 12O6NQHG0AHZSGKIF06ZXZL2JVRZLD, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npun2WwQ2Xg,
+  hitId: 1N633PTF6C6P1XU0RYU8HRFLSHSS1D, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1WYIAKITMPOVZX98QJBA9IISUX5OOV, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1MAW6XW2NZXO3KSVYESF4SZLI8OKYM, similarityScore: N, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1O5D2KSASZM00U6MQ3WUZKQOKLO0IK, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1MAW6XW2NZXO3KSVYESF4SZLI8OKYM, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1UUJEB28XREAQO5QOY1C54LZJTERY6, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1MAW6XW2NZXO3KSVYESF4SZLI8OKYM, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1YP7HFNE7RJGJ1N0DG4M75L84DE2CS, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1MAW6XW2NZXO3KSVYESF4SZLI8OKYM, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 180TNUYN7ZG6PCQC2ND0UGVFPMCZCW, command: 'Pick up the center cargo
+    pallet, and back away.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1MAW6XW2NZXO3KSVYESF4SZLI8OKYM, similarityScore: A, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1P5EYFSP47FHWWCSCQ6LH6VNG3V5WD, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1LX0OR4WZ8YJ2HXML8THJCWAM8156N, similarityScore: SA, workerId: A28KZG5EG91S75}
+- {assignmentId: 1VJGN3RKBTGE22O97MX2PHB98HTWA7, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1LX0OR4WZ8YJ2HXML8THJCWAM8156N, similarityScore: A, workerId: AC8BGOG45QWA2}
+- {assignmentId: 1JR6K6K0UHTIMO05FPROSNVR35FH8N, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1LX0OR4WZ8YJ2HXML8THJCWAM8156N, similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 10WJ3XQCEI9NKCXIYHK1YJFD2IMGTB, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1LX0OR4WZ8YJ2HXML8THJCWAM8156N, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1YNR1EYYSVWMEZQYCV1623YOYG2BAX, command: Use gear to lower fork.
+    move straight forward. use gear to lower fork to slide under pallet. use gear
+    to lift fork to lift pallet, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1LX0OR4WZ8YJ2HXML8THJCWAM8156N, similarityScore: A, workerId: A3PYEW6693PCHT}
+- {assignmentId: 147BNP8WO1FG86ECW5EG6FS393Q7L7, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1LTLYRBJCBIT7HUE8CEE4SBA5G8X3I, similarityScore: N, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1CTO36LYP7DQUPRMKX5PQSP7ROJDJX, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1LTLYRBJCBIT7HUE8CEE4SBA5G8X3I, similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1BNP9HK7WXVTSNZRQ5Y0A1QKYROM20, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1LTLYRBJCBIT7HUE8CEE4SBA5G8X3I, similarityScore: N, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1YUL9CXFK3472078CB60HP5KJTOIJ1, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1LTLYRBJCBIT7HUE8CEE4SBA5G8X3I, similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1TUD2B444CRI5GY9SHTK3EPLETUGAJ, command: pick up the pallet of boxes
+    that is between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: srbcn-sul-w,
+  hitId: 1LTLYRBJCBIT7HUE8CEE4SBA5G8X3I, similarityScore: A, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1VOSB1Y9Q1533RISJGJTQB3LMKE4GE, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1KGOCMV1KWZL2M22NH9X3G4P2IKUVK, similarityScore: A, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1YP7HFNE7RJGJ1N0DG4M75L84ENC2D, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1KGOCMV1KWZL2M22NH9X3G4P2IKUVK, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 147J5BE8YLI0KVZC1BJTROFXDHMCFP, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1KGOCMV1KWZL2M22NH9X3G4P2IKUVK, similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1UFQYC7DRR044SNNHQRKZIAQVNEU5X, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1KGOCMV1KWZL2M22NH9X3G4P2IKUVK, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1FJ98NOKB2881P1DNX3G8MCKUELHXS, command: Remove the package pallet
+    from the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1KGOCMV1KWZL2M22NH9X3G4P2IKUVK, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 17MLRQ3UJQXNRA6PFOYNB2KHXEQU8C, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: npu6pP3a9js, hitId: 1JSC9U8T72RY7NDPUTBQTYGNY7YL3K, similarityScore: A,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 140LZG788NZSE5MSJ2MECWSSFS28OD, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: npu6pP3a9js, hitId: 1JSC9U8T72RY7NDPUTBQTYGNY7YL3K, similarityScore: N,
+  workerId: A1DU86OQ04FLKF}
+- {assignmentId: 16B5OZR162A0DVVGB65PEU31OCY7ZQ, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: npu6pP3a9js, hitId: 1JSC9U8T72RY7NDPUTBQTYGNY7YL3K, similarityScore: D,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1CFJQCH8A63AVEFVKK3VJBU1PNEZR1, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: npu6pP3a9js, hitId: 1JSC9U8T72RY7NDPUTBQTYGNY7YL3K, similarityScore: D,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1RQW2Q9QHY48X256150YXOF7MNAUPE, command: Turn your forklift around
+    and pick up the pallet of boxes that is in between the pallets of tires., commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: npu6pP3a9js, hitId: 1JSC9U8T72RY7NDPUTBQTYGNY7YL3K, similarityScore: D,
+  workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1GAAAC8FQ1OV5XXAKJ14NIS8E6RPPM, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HUOKCZF9T1QPHI5RVXO4AC0KWWOV1, similarityScore: SD, workerId: AC8BGOG45QWA2}
+- {assignmentId: 1BUA1057I163BAPQ7CSX8V0F64570M, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HUOKCZF9T1QPHI5RVXO4AC0KWWOV1, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1VJGN3RKBTGE22O97MX2PHB98HPAWH, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HUOKCZF9T1QPHI5RVXO4AC0KWWOV1, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1TVNALMCNT9GTV72T0KJKDGEEGQIVH, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HUOKCZF9T1QPHI5RVXO4AC0KWWOV1, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1O41PMMTSGLKD2XJIY5HRAAP8SE2QW, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HUOKCZF9T1QPHI5RVXO4AC0KWWOV1, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 17ZH5HT0SW9F9BPXHCD2AL8IVS9D3Z, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HOUFL3G02AVQCCT5RN6SG1F8EL5JT, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1Y91XO7TY207WIY1ISUH0WAV6NC19A, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HOUFL3G02AVQCCT5RN6SG1F8EL5JT, similarityScore: A, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 12LLBD11NIDANLK3EIIE0E5RBW7XLU, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HOUFL3G02AVQCCT5RN6SG1F8EL5JT, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1YRFY082KZNNTC6BDRVIH1EYZROLOX, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HOUFL3G02AVQCCT5RN6SG1F8EL5JT, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1LDYH5Y5CVM3PI3SDM5ZXBAPRFQ4YW, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1HOUFL3G02AVQCCT5RN6SG1F8EL5JT, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1ZBWK4TEG4GC8NCTZZ26ZTO6F9HNCI, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1GOKWEFNI6BIWOUZQZFNSVRHHVE9IB, similarityScore: A,
+  workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1HW6O0HTVXK8V3GK50HKHNR1OYSQ6F, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1GOKWEFNI6BIWOUZQZFNSVRHHVE9IB, similarityScore: A,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 16TINWXH6XYK8KJV6A6MKFOYKNT8LS, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1GOKWEFNI6BIWOUZQZFNSVRHHVE9IB, similarityScore: SA,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1QEMEQ4POXMDR3RUA1JENUUUM4KDDH, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1GOKWEFNI6BIWOUZQZFNSVRHHVE9IB, similarityScore: SA,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 18IS1M8UUV9YWA1OIBSE3DNX5JDROT, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: TE9dp_Yp_Yc, hitId: 1GOKWEFNI6BIWOUZQZFNSVRHHVE9IB, similarityScore: SA,
+  workerId: A2V3P1XE33NYC3}
+- {assignmentId: 173ATCT6VXSOACCA0I75YYMNY0S84R, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1G1MJ43VGST7W4905Q08I8J3BP52ID, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1SHDOLTEXFJK1H3XD7OMG3Q3V3SE39, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1G1MJ43VGST7W4905Q08I8J3BP52ID, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1TUD2B444CRI5GY9SHTK3EPLETZAGI, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1G1MJ43VGST7W4905Q08I8J3BP52ID, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1DGH17US0XP7BOU9HHK3MVWAHO9808, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1G1MJ43VGST7W4905Q08I8J3BP52ID, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1PI0OX3WZOVLMLIYGQ27BNV97OJNW9, command: Take the package pallet
+    out of the row of tire pallets., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1G1MJ43VGST7W4905Q08I8J3BP52ID, similarityScore: SA, workerId: A2HA95B0GXATOO}
+- {assignmentId: 1SL3H5CB3RC77KSA20Y2499Q3BGGO2, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1D2UDNOYUIXR868KB5LTT6T4U6PEP2, similarityScore: N,
+  workerId: A33V10XAI3IWXS}
+- {assignmentId: 1MTPCG8LHYD9AL82ZD8MFAPMASNR34, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1D2UDNOYUIXR868KB5LTT6T4U6PEP2, similarityScore: N,
+  workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1VYVCZC0HYHE1FXF1RYSS3DT2YVBQB, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1D2UDNOYUIXR868KB5LTT6T4U6PEP2, similarityScore: N,
+  workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 18349PPT0ZBY6YS8NRK5M5F858ITXG, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1D2UDNOYUIXR868KB5LTT6T4U6PEP2, similarityScore: A,
+  workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1A85RJOEGQXWJ45CSSEYHG3MYOWVF1, command: lift pallet, commandYoutubeId: TE9dp_Yp_Yc,
+  displayedYoutubeId: EpzCfBH84k8, hitId: 1D2UDNOYUIXR868KB5LTT6T4U6PEP2, similarityScore: D,
+  workerId: A3PYEW6693PCHT}
+- {assignmentId: 1XEHG865RAHBG3KZME6O3YITNYMBOE, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: 1WkmH8M16Zk, hitId: 1BXBNP8WO1FG86ECW5EG6FS339L7LC,
+  similarityScore: N, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1N6Y5M4X8SAS40HWRECCBVNUL1FX6J, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: 1WkmH8M16Zk, hitId: 1BXBNP8WO1FG86ECW5EG6FS339L7LC,
+  similarityScore: D, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 18U4EGQVJ4BXXEGZL80VGZWDDQZX1L, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: 1WkmH8M16Zk, hitId: 1BXBNP8WO1FG86ECW5EG6FS339L7LC,
+  similarityScore: A, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1Q5HDWI6TFCASW5QHDQ6TE4QIBPQG9, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: 1WkmH8M16Zk, hitId: 1BXBNP8WO1FG86ECW5EG6FS339L7LC,
+  similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1XLL07AMZNHUGGC6MCO5KP7NS6AQ4G, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: 1WkmH8M16Zk, hitId: 1BXBNP8WO1FG86ECW5EG6FS339L7LC,
+  similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 17CO2VP3PL6XF36NYN3CK0CPROWGH6, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: FqY3CwUY9lk,
+  hitId: 1BGT3NXKPWYCIAT04XZRXX9XJR0V22, similarityScore: D, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 18XCO6GMOYT4D90ZLBXVSUZWZVX8Z5, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: FqY3CwUY9lk,
+  hitId: 1BGT3NXKPWYCIAT04XZRXX9XJR0V22, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1RNWA50JE9HKVZAR2Y09VH6B6P7RJE, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: FqY3CwUY9lk,
+  hitId: 1BGT3NXKPWYCIAT04XZRXX9XJR0V22, similarityScore: D, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1PC0CY03RLVNCMT49KIWBOZAY4TMTK, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: FqY3CwUY9lk,
+  hitId: 1BGT3NXKPWYCIAT04XZRXX9XJR0V22, similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1QKNTVGY2SLHSQK33LDD25FPTRUO28, command: turn around to the right
+    lift the box pallet on the left, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: FqY3CwUY9lk,
+  hitId: 1BGT3NXKPWYCIAT04XZRXX9XJR0V22, similarityScore: SD, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 12EEZ9INQRGOERH99XU8YWWX48VO75, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1AZV8O7A6FNOPFVJSLWKKHS24XXS5V, similarityScore: N, workerId: A33V10XAI3IWXS}
+- {assignmentId: 17CO2VP3PL6XF36NYN3CK0CPRP0HGD, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1AZV8O7A6FNOPFVJSLWKKHS24XXS5V, similarityScore: A, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1CCYEZ1TXEZLQJFGJ2FAMQEQHNJRXZ, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1AZV8O7A6FNOPFVJSLWKKHS24XXS5V, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1TNCNR2WP2EDOXALK1Y4O79KC0Z42J, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1AZV8O7A6FNOPFVJSLWKKHS24XXS5V, similarityScore: SA, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1R08M0A7TCIC09RLRWO4FIJFTKJWD2, command: turn around to the right
+    and pick up the box pallet on the right, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 1AZV8O7A6FNOPFVJSLWKKHS24XXS5V, similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 10N6611QPPN4MS5UVJ967NJQO6HG84, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 1A30X41SOUNCO0V6DWWFU7N6IVF5RL, similarityScore: D, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1RTXE18R3D0SQMQ2T28V1AVK4BC2AB, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 1A30X41SOUNCO0V6DWWFU7N6IVF5RL, similarityScore: D, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1H957NFLXM85JDM1DLT5Q8I99414EZ, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 1A30X41SOUNCO0V6DWWFU7N6IVF5RL, similarityScore: D, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1TVNALMCNT9GTV72T0KJKDGEEGVVIZ, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 1A30X41SOUNCO0V6DWWFU7N6IVF5RL, similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 12CMTGEU44YI8EB9B349EGI64NKW1G, command: 'Swing around in a circle,
+    then proceed forward and pick up the second box pallet you see, the one located
+    between the tire pallets.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 1A30X41SOUNCO0V6DWWFU7N6IVF5RL, similarityScore: A, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1WBTUREXANNQEOJRS4NM669YETILQJ, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 18UJKGJ03LXIWXTEI9H9OL5RJQYZAD, similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 154PW9PSVKQJTSAC7RE3ITGUN8ZDSI, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 18UJKGJ03LXIWXTEI9H9OL5RJQYZAD, similarityScore: D, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1IF464DGKKY629NDNCJNYKINPX9VTE, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 18UJKGJ03LXIWXTEI9H9OL5RJQYZAD, similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1VHHI3JI334WPFFMNIH2672ZVDHLD0, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 18UJKGJ03LXIWXTEI9H9OL5RJQYZAD, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1YMQIR5DOQWE7YXNW4OH5JPPEMP82O, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 18UJKGJ03LXIWXTEI9H9OL5RJQYZAD, similarityScore: SA, workerId: A2HA95B0GXATOO}
+- {assignmentId: 11ALKRHREZPRDEHSMPL6Q5OBHHL1K1, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18G0L68CZP2JZ8BIU8ZJMSTLREJD15,
+  similarityScore: SA, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 1RE8JSQ1Z5HKEZW3KLR5GMJTGMZ16U, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18G0L68CZP2JZ8BIU8ZJMSTLREJD15,
+  similarityScore: N, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1QY7DBD4379L59X42I51R7PK6DKKD4, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18G0L68CZP2JZ8BIU8ZJMSTLREJD15,
+  similarityScore: SA, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1FPH0T5Q0PWL3BY5SOY5PLM6IN2IOO, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18G0L68CZP2JZ8BIU8ZJMSTLREJD15,
+  similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1DQOCMV1KWZL2M22NH9X3G4P8BBUVZ, command: Pick up pallet 3 from backline,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 18G0L68CZP2JZ8BIU8ZJMSTLREJD15,
+  similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1DJY0VCTJYC9NRKMYT08OHST7GB0CP, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 183FQA4OV2LI6HQ89D7RG76NBKIUL1, similarityScore: A, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 16Q2AY43OTGFLLX0QR3MBIAAOXF66X, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 183FQA4OV2LI6HQ89D7RG76NBKIUL1, similarityScore: SA, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1O8DHN23DS2JEK8G6G5ZBOE4C04FP9, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 183FQA4OV2LI6HQ89D7RG76NBKIUL1, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1K6SC6E3IVI3LJVYGNFGVSCMSM722P, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 183FQA4OV2LI6HQ89D7RG76NBKIUL1, similarityScore: SA, workerId: AC8BGOG45QWA2}
+- {assignmentId: 1E1F928TP4V2OLWCT485K8J4ATUZVX, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 183FQA4OV2LI6HQ89D7RG76NBKIUL1, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1Y3DDZOQR3EVIAHHMAUQ89Z0XB5H6J, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 17ZM8TYB8YSOO6B7JJD0ABMJ95F50M, similarityScore: N, workerId: AC8BGOG45QWA2}
+- {assignmentId: 1HWJ7J0R4DV9S1FEXE3D95XC0YXLJZ, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 17ZM8TYB8YSOO6B7JJD0ABMJ95F50M, similarityScore: N, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 15H97EMPY8MOVNGA66R56QKC9W83N4, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 17ZM8TYB8YSOO6B7JJD0ABMJ95F50M, similarityScore: A, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1YUL9CXFK3472078CB60HP5KJUYJIE, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 17ZM8TYB8YSOO6B7JJD0ABMJ95F50M, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1F0B7CNN8PAGPEML6X6S0F4V4SQYDA, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: jBoYXxeLFjo,
+  hitId: 17ZM8TYB8YSOO6B7JJD0ABMJ95F50M, similarityScore: A, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 19BMJ43VGST7W4905Q08I8J3HJCI2Q, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 16U6SUPSRFZP4F8YHL1AUMOO6GC5TY, similarityScore: SD, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1TEJUXA9T60SCXPPR8ZDDJ3V0CYJ3B, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 16U6SUPSRFZP4F8YHL1AUMOO6GC5TY, similarityScore: SD, workerId: A33V10XAI3IWXS}
+- {assignmentId: 18SLW2RSQFCVGZ7E97AHXTLBPPS2EM, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 16U6SUPSRFZP4F8YHL1AUMOO6GC5TY, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1W6C1ZS70R3SO5E8ZHQEMMAABQEP1B, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 16U6SUPSRFZP4F8YHL1AUMOO6GC5TY, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 11Z0GF7AGK2K8SNRWRJTSYCGPQ2TDA, command: Pick up the skid of boxes
+    surrounded by tires, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: J0zOQsQVfHg,
+  hitId: 16U6SUPSRFZP4F8YHL1AUMOO6GC5TY, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1I988W6VESZPGSL21QOX9AIJ1CPCVU, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Ox1Ji5G2pUo,
+  hitId: 16EZ913E4PIW6PGCN24TLU13EOXFUI, similarityScore: SD, workerId: AY0BJCGY2DHIX}
+- {assignmentId: 1KMC2GTHEE72204KFJRCTK2J06VE7X, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Ox1Ji5G2pUo,
+  hitId: 16EZ913E4PIW6PGCN24TLU13EOXFUI, similarityScore: D, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1QCCC51MBJ448JQUPPVCENQUT1QY81, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Ox1Ji5G2pUo,
+  hitId: 16EZ913E4PIW6PGCN24TLU13EOXFUI, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1JZ46Y620UKRCNFR04SQPCNRN6M5PC, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Ox1Ji5G2pUo,
+  hitId: 16EZ913E4PIW6PGCN24TLU13EOXFUI, similarityScore: SD, workerId: A2V78R6KLF4XS4}
+- {assignmentId: 1IHJWUAELFRNG0ZN9YRBBUTOSXVBML, command: Lift the pallet of boxes
+    in the middle and wait., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Ox1Ji5G2pUo,
+  hitId: 16EZ913E4PIW6PGCN24TLU13EOXFUI, similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 1A7K0M4LAQ82R4Y4K8CR16OZWGYSL8, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 16AI2UEFXSMQC2T5M5NJ8OAH6PNOUC,
+  similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 147BNP8WO1FG86ECW5EG6FS392M7L1, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 16AI2UEFXSMQC2T5M5NJ8OAH6PNOUC,
+  similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1BNP9HK7WXVTSNZRQ5Y0A1QKYRO2MG, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 16AI2UEFXSMQC2T5M5NJ8OAH6PNOUC,
+  similarityScore: SA, workerId: A2VVFRG9DLZ4JR}
+- {assignmentId: 10K1C29NWMRSIPD2C05YINXJ1QUSP1, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 16AI2UEFXSMQC2T5M5NJ8OAH6PNOUC,
+  similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 10SJGF9ZUU6X38DTF8JSXHX1NNBIMX, command: Pick up a pallet of boxes.,
+  commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 16AI2UEFXSMQC2T5M5NJ8OAH6PNOUC,
+  similarityScore: A, workerId: A1DU86OQ04FLKF}
+- {assignmentId: 147J5BE8YLI0KVZC1BJTROFXDISFC0, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 14M6U7VDLBZYHB27DRETPIN39RMUWU, similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1KSRYXZAAUDLRXEVMIKUMYW22XM6BC, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 14M6U7VDLBZYHB27DRETPIN39RMUWU, similarityScore: SD, workerId: A3BBU6BVZNLE8C}
+- {assignmentId: 1N6Y5M4X8SAS40HWRECCBVNUL07X69, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 14M6U7VDLBZYHB27DRETPIN39RMUWU, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1EXUUU6P6NHJ1YWC8N70607SHK4GY0, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 14M6U7VDLBZYHB27DRETPIN39RMUWU, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1QMLFDP6030OLYOC3MPNOBYFNJOESY, command: grab the middle pallet of
+    assorted boxes, commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: JKYVANU_-4M,
+  hitId: 14M6U7VDLBZYHB27DRETPIN39RMUWU, similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1R9RRVVR8VHO0OQLKGF9JGRBTBORIA, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npu6pP3a9js,
+  hitId: 14ASC70OY5WSHGTQ3YME8HR005FP0R, similarityScore: D, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1JM8PJE4G0QX2FCCUX9M5JTA2S6IZT, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npu6pP3a9js,
+  hitId: 14ASC70OY5WSHGTQ3YME8HR005FP0R, similarityScore: N, workerId: A33V10XAI3IWXS}
+- {assignmentId: 109M8TYB8YSOO6B7JJD0ABMJFY9504, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npu6pP3a9js,
+  hitId: 14ASC70OY5WSHGTQ3YME8HR005FP0R, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1ERMA9XIZYFGVXX7NUIH6KHOVI6MD2, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npu6pP3a9js,
+  hitId: 14ASC70OY5WSHGTQ3YME8HR005FP0R, similarityScore: D, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1R08M0A7TCIC09RLRWO4FIJFTKJDWJ, command: Pick up the package palette
+    in the row behind you., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: npu6pP3a9js,
+  hitId: 14ASC70OY5WSHGTQ3YME8HR005FP0R, similarityScore: D, workerId: A2HA95B0GXATOO}
+- {assignmentId: 1432Y4P9ROMUQ8C50E2JEIOB5IFOCP, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 13WC1ZS70R3SO5E8ZHQEMMAA5XLP1U,
+  similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 19BMJ43VGST7W4905Q08I8J3HI1I2D, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 13WC1ZS70R3SO5E8ZHQEMMAA5XLP1U,
+  similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 13DB3VGGJQ3JT8SYJQ5VJ5RPD6BYML, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 13WC1ZS70R3SO5E8ZHQEMMAA5XLP1U,
+  similarityScore: SA, workerId: A1MBBN0PCAGVX6}
+- {assignmentId: 1NHGFVMWKWQ0EOWXWHFV6S7S9727MT, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 13WC1ZS70R3SO5E8ZHQEMMAA5XLP1U,
+  similarityScore: D, workerId: A2HA95B0GXATOO}
+- {assignmentId: 1CB1L8L9JEW8RXR0FJ8D66YFEZ3T82, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc, hitId: 13WC1ZS70R3SO5E8ZHQEMMAA5XLP1U,
+  similarityScore: SA, workerId: AEUGCBFJPU0MX}
+- {assignmentId: 10H6A4S3EKA7CAAH3URFP0CO67JB41, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 12T3LAVCRGCPGGN3RDMEARPRIXXZNX, similarityScore: D, workerId: A33V10XAI3IWXS}
+- {assignmentId: 1NGBDN59XQQLZAMSXL23V39ZMF3G5N, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 12T3LAVCRGCPGGN3RDMEARPRIXXZNX, similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1R5M2F19QGH013QYZ5FE9QW7FC0SIQ, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 12T3LAVCRGCPGGN3RDMEARPRIXXZNX, similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1MB01B03FBD8EHZG60ZN96UX1G4EC6, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 12T3LAVCRGCPGGN3RDMEARPRIXXZNX, similarityScore: SD, workerId: A3PYEW6693PCHT}
+- {assignmentId: 1GGQ123RYEK7CXELQJ3NW12TCGRS8E, command: Turn the forklift around
+    and pick up the pallet in the middle., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: EpzCfBH84k8,
+  hitId: 12T3LAVCRGCPGGN3RDMEARPRIXXZNX, similarityScore: SD, workerId: A2V3P1XE33NYC3}
+- {assignmentId: 18H367RB1976SN775EUQ5JG5F3S40E, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 11E4ZWQ0POLSQCZKOMEVWH1KXZ6KB7, similarityScore: SA, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 19UMIU2OH12QEVCSTVNXN3SUKNOSBR, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 11E4ZWQ0POLSQCZKOMEVWH1KXZ6KB7, similarityScore: SA, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 1X2B6LVNNMIZ3F2LTI6DLESCMVWKX6, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 11E4ZWQ0POLSQCZKOMEVWH1KXZ6KB7, similarityScore: A, workerId: A28KZG5EG91S75}
+- {assignmentId: 150ERJE91UEJRW165J6HX2OMMTAU7D, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 11E4ZWQ0POLSQCZKOMEVWH1KXZ6KB7, similarityScore: SA, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1PC0CY03RLVNCMT49KIWBOZAY4WMTN, command: Lift the mixed carton pallet
+    that is the third pallet from your right., commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: TE9dp_Yp_Yc,
+  hitId: 11E4ZWQ0POLSQCZKOMEVWH1KXZ6KB7, similarityScore: SA, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1WU5LIYAV6Q7MB8QODVQ17T8SELKUM, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Q8AKQKKj8A0, hitId: 102M0FRNR0OI3TB0TO0RF7S5CXYKFP,
+  similarityScore: D, workerId: ACPUTK2MNMYHB}
+- {assignmentId: 1QGOG08DUDCBFZ1YITLU50OQ6PDHHC, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Q8AKQKKj8A0, hitId: 102M0FRNR0OI3TB0TO0RF7S5CXYKFP,
+  similarityScore: SD, workerId: AJ74BNWTCX0MJ}
+- {assignmentId: 18UAOYIHUT8HTLPASBD6NAA2EID77O, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Q8AKQKKj8A0, hitId: 102M0FRNR0OI3TB0TO0RF7S5CXYKFP,
+  similarityScore: SD, workerId: A1TIIFQIDZMUQ9}
+- {assignmentId: 1SL3H5CB3RC77KSA20Y2499Q3A4OGW, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Q8AKQKKj8A0, hitId: 102M0FRNR0OI3TB0TO0RF7S5CXYKFP,
+  similarityScore: SD, workerId: A2WNW8A4MOR7T7}
+- {assignmentId: 1YC5UPZ6951RJL8ZYPJ1HSTMAJLC9R, command: 'Spin the forklift in a
+    circle, then pick up the pallet of boxes furthest to the right, between pallets
+    of tires.', commandYoutubeId: TE9dp_Yp_Yc, displayedYoutubeId: Q8AKQKKj8A0, hitId: 102M0FRNR0OI3TB0TO0RF7S5CXYKFP,
+  similarityScore: SD, workerId: A3PYEW6693PCHT}

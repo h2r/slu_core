@@ -1,0 +1,364 @@
+(in /home/rdeits/slu/tools/du_crf3)
+tools/du_crf3
+
+-------------------------------------------
+-- tools/du_crf3
+-------------------------------------------
+(in /home/rdeits/slu/tools/du_crf3)
+/home/rdeits/slu/build/lib/python2.6:/home/rdeits/slu/build/lib/python:/home/rdeits/slu/tools/map_partitioning/src/:/home/rdeits/slu/cutilities/python/:/home/rdeits/slu/cutilities/python/:/usr/local/lib/python2.6/site-packages:/usr/local/lib/python2.6/dist-packages:
+
+Factor: 355034
+weights: 2
+length: 177514
+length: 177514
+name0: True
+name1: False
+************ Feature weights
+O: True
+O: False
+Factor: 355034
+weights: 2
+loaded jvm /usr/lib/jvm/java-6-sun/jre/lib/i386/client/libjvm.so
+classpath: /home/rdeits/slu/build/share/java/stanford-ner-2009-01-16.jar:/home/rdeits/slu/build/share/java/slu-mallet.jar:/home/rdeits/slu/build/share/java/mallet-deps.jar:/home/rdeits/slu/build/share/java/mallet.jar:/home/rdeits/slu/build/share/java/stanford-parser-2010-11-30.jar
+del <function <lambda> at 0x117cb5a4>
+---------------------------------------------
+ 0.825 accuracy 904 of 1096 0.876 precision 0.837 recall 0.856 fscore
+570 TP 334 TN 81 FP 111 FN
+******* esdc type
+EVENT  0.796 accuracy 215 of 270 0.790 precision 0.807 recall 0.799 fscore
+109 TP 106 TN 29 FP 26 FN
+PATH  0.730 accuracy 46 of 63 0.792 precision 0.613 recall 0.691 fscore
+19 TP 27 TN 5 FP 12 FN
+PLACE  0.727 accuracy 64 of 88 0.750 precision 0.682 recall 0.714 fscore
+30 TP 34 TN 10 FP 14 FN
+OBJECT  0.858 accuracy 579 of 675 0.918 precision 0.875 recall 0.896 fscore
+412 TP 167 TN 37 FP 59 FN
+******* node type
+EVENT  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+PATH  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+PLACE  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+OBJECT  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+******* esdc type (events only; all object arguments)
+ 0.784 accuracy 76 of 97 0.850 precision 0.694 recall 0.764 fscore
+34 TP 42 TN 6 FP 15 FN
+******* esdc type (events only; not all object arguments)
+ 0.803 accuracy 139 of 173 0.765 precision 0.872 recall 0.815 fscore
+75 TP 64 TN 23 FP 11 FN
+******* verbs
+pick  0.742 accuracy 46 of 62 0.941 precision 0.516 recall 0.667 fscore
+16 TP 30 TN 1 FP 15 FN
+place  0.889 accuracy 32 of 36 1.000 precision 0.778 recall 0.875 fscore
+14 TP 18 TN 0 FP 4 FN
+move  0.917 accuracy 33 of 36 0.895 precision 0.944 recall 0.919 fscore
+17 TP 16 TN 2 FP 1 FN
+lift  0.850 accuracy 51 of 60 0.897 precision 0.812 recall 0.852 fscore
+26 TP 25 TN 3 FP 6 FN
+take   1.000 accuracy 12 of 12 1.000 precision 1.000 recall 1.000 fscore
+6 TP 6 TN 0 FP 0 FN
+back  0.875 accuracy 7 of 8 0.800 precision 1.000 recall 0.889 fscore
+4 TP 3 TN 1 FP 0 FN
+turn   0.833 accuracy 5 of 6 0.750 precision 1.000 recall 0.857 fscore
+3 TP 2 TN 1 FP 0 FN
+proceed  0.833 accuracy 5 of 6 0.750 precision 1.000 recall 0.857 fscore
+3 TP 2 TN 1 FP 0 FN
+deposit  0.833 accuracy 10 of 12 0.750 precision 1.000 recall 0.857 fscore
+6 TP 4 TN 2 FP 0 FN
+put   0.833 accuracy 5 of 6 1.000 precision 0.667 recall 0.800 fscore
+2 TP 3 TN 0 FP 1 FN
+go   0.750 accuracy 3 of 4 0.667 precision 1.000 recall 0.800 fscore
+2 TP 1 TN 1 FP 0 FN
+prepare  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+******* verbs (events only)
+pick  0.742 accuracy 46 of 62 0.941 precision 0.516 recall 0.667 fscore
+16 TP 30 TN 1 FP 15 FN
+place  0.889 accuracy 32 of 36 1.000 precision 0.778 recall 0.875 fscore
+14 TP 18 TN 0 FP 4 FN
+move  0.917 accuracy 33 of 36 0.895 precision 0.944 recall 0.919 fscore
+17 TP 16 TN 2 FP 1 FN
+lift  0.812 accuracy 26 of 32 0.812 precision 0.812 recall 0.812 fscore
+13 TP 13 TN 3 FP 3 FN
+take   1.000 accuracy 12 of 12 1.000 precision 1.000 recall 1.000 fscore
+6 TP 6 TN 0 FP 0 FN
+back  0.875 accuracy 7 of 8 0.800 precision 1.000 recall 0.889 fscore
+4 TP 3 TN 1 FP 0 FN
+turn   0.833 accuracy 5 of 6 0.750 precision 1.000 recall 0.857 fscore
+3 TP 2 TN 1 FP 0 FN
+proceed  0.833 accuracy 5 of 6 0.750 precision 1.000 recall 0.857 fscore
+3 TP 2 TN 1 FP 0 FN
+deposit  0.833 accuracy 10 of 12 0.750 precision 1.000 recall 0.857 fscore
+6 TP 4 TN 2 FP 0 FN
+put   0.833 accuracy 5 of 6 1.000 precision 0.667 recall 0.800 fscore
+2 TP 3 TN 0 FP 1 FN
+go   0.750 accuracy 3 of 4 0.667 precision 1.000 recall 0.800 fscore
+2 TP 1 TN 1 FP 0 FN
+prepare  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+******* objects and places
+left  0.585 accuracy 48 of 82 0.667 precision 0.553 recall 0.605 fscore
+26 TP 22 TN 13 FP 21 FN
+right  0.540 accuracy 27 of 50 0.609 precision 0.500 recall 0.549 fscore
+14 TP 13 TN 9 FP 14 FN
+ on   0.468 accuracy 29 of 62 0.588 precision 0.278 recall 0.377 fscore
+10 TP 19 TN 7 FP 26 FN
+between  0.667 accuracy 12 of 18 0.714 precision 0.556 recall 0.625 fscore
+5 TP 7 TN 2 FP 4 FN
+next  0.750 accuracy 6 of 8 1.000 precision 0.600 recall 0.750 fscore
+3 TP 3 TN 0 FP 2 FN
+near  0.250 accuracy 1 of 4 0.000 precision 0.000 recall 0.000 fscore
+0 TP 1 TN 1 FP 2 FN
+front  0.524 accuracy 11 of 21 0.600 precision 0.273 recall 0.375 fscore
+3 TP 8 TN 2 FP 8 FN
+ by   0.500 accuracy 3 of 6 0.000 precision 0.000 recall 0.000 fscore
+0 TP 3 TN 0 FP 3 FN
+ of   0.737 accuracy 112 of 152 0.817 precision 0.628 recall 0.710 fscore
+49 TP 63 TN 11 FP 29 FN
+******* paths
+to  0.750 accuracy 36 of 48 0.875 precision 0.583 recall 0.700 fscore
+14 TP 22 TN 2 FP 10 FN
+across  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+toward  0.750 accuracy 3 of 4 0.667 precision 1.000 recall 0.800 fscore
+2 TP 1 TN 1 FP 0 FN
+through  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+along  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+around  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+left  0.750 accuracy 12 of 16 1.000 precision 0.500 recall 0.667 fscore
+4 TP 8 TN 0 FP 4 FN
+past  0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN
+****** ons we are missing
+the truck on the right
+the truck on the right
+over near the trailer on your left
+the trailer on your left
+the right side of the trailer of the trailer on the right
+the trailer on the right
+the trailer on your left
+the pallet of tires on the far right
+the two tire pallets on the right
+the first crate on the left
+the first pallet on the left
+the outside tire pallet all the way on the left
+the pallet of tires on the left
+the tire pallet on the left
+the box pallet on the right
+the box pallet on the right
+the pallet of tires that is on the left side of the non-empty
+the trailer on the left
+the flatbed truck on the left
+the tire pallet that is on the far left
+the pallet of tires on the left side of the line
+the pallet of tires on the left side of the trailer
+the pallets on the ground and the other trailer
+between the pallets on the ground and the other trailer
+the truck on the right
+the trailer on your left
+the pallet of tires on the far right
+outside of the two tire pallets on the right
+the first pallet on the left
+the trailer on the left
+on the trailer on the left
+the trailer on the left
+the box pallet on the right
+****** to we are missing
+with an empty platform further to the right
+the skid next to it
+the first pallet of tires to your left
+the trailer that is to the left of where your forklift is now
+the other trailer to the right
+near the other trailer to the right
+the row to the right
+with an empty platform further to the right
+the skid next to it
+the first pallet of tires to your left
+the trailer to your left
+the other trailer to the right
+near the other trailer to the right
+two pallets to the right
+the trailer to the left
+the trailer to your left
+****** pick we are missing
+pick it up off the ground
+pick it up
+pick up the first pallet on the left
+pick up the first tire pallet
+pick up the left most skid of tires
+pick up the outside tire pallet all the way on the left
+pick up the pallet of tires on the left
+please pick up the pallet on the far end, the last one
+you can safely pick up the pallet of tires that sits by itself
+pick up that pallet with the fork lift
+pick up the tire pallet on the left
+pick up the first pallet of tires to your left
+pick up the left-most tire pallet
+pick up the tire pallet that is on the far left
+pick up the pallet of tires on the left side of the line
+position your forklift so that you can safely pick up the pallet of tires that sits by itself
+****** go we are missing
+go to the tailor hitch
+go to the first crate on the left
+go to the tailor hitch
+****** objects we are missing
+the truck on the right
+the truck on the right
+the trailer on your left
+the right side
+the right side of the trailer of the trailer on the right
+the trailer on the right
+the tailor hitch
+the trailer on your left
+the first wheeled platform you see
+the pallet of tires on the far right
+the two tire pallets on the right
+the pallet containing tyres
+the leftmost pallet of tires
+the first crate on the left
+the first pallet on the left
+pallet of tires
+the left most skid of tires
+the skid next to it
+the outside tire pallet all the way on the left
+the pallet of tires on the left
+the pallet of tires
+the pallet of tires that sits by itself
+the pallet of tires
+the tire pallet on the left
+the first pallet of tires
+the first pallet of tires to your left
+the box pallet on the right
+the pallet of boxes directly in front of you
+the box pallet in front of you
+the box pallet on the right
+the one that is directly in front of the forklift, between the pallets with tires
+the one that is directly in front of the forklift
+the loading dock
+the trailer that is to the left of where your forklift is now
+the pallet of tires that is on the left side of the non-empty
+the two trucks
+the area by the other trailer
+the other trailer to the right
+the trailer on the left
+the long side of the trailer
+the flatbed truck on the left
+the line
+the tire pallet that is on the far left
+the pallet of tires on the left side of the line
+the pallet of tires
+the box pallet that is between the tire pallets
+the mixed carton pallet in front of you
+the empty space in the row of pallets
+the pallet of tires on the left side of the trailer
+the pallets on the ground and the other trailer
+the truck on the right
+the tailor hitch
+the trailer on your left
+the first wheeled platform you see
+the pallet cart
+the pallet of tires on the far right
+the row
+tire pallets
+the row
+the row to the right
+the pallets towards the left
+it
+the pallet containing tyres
+pallets
+the line
+the first pallet on the left
+the skid next to it
+the first pallet of tires to your left
+the trailer on the left
+the pallet of boxes
+the pallet of boxes directly in front of you
+boxes
+the trailer to your left
+the trailer on the left
+the box pallet on the right
+the first set
+the goods
+the non-empty
+the left tire pallet
+the other trailer to the right
+the left tire pallet
+me
+the pair of tire pallets
+the line
+the pallet of boxes
+pallets
+the trailer to the left
+the tire pallets
+the mixed carton pallet in front of you
+the trailer to your left
+the row
+your original position
+pallet box
+the two pallets
+tires
+the left-most tire pallet
+****** events we are missing
+line the truck up like you're going to load something up on the trailer
+pick it up off the ground
+pick it up
+pick up the first pallet on the left
+lower forklift
+lift pallet
+pick up the first tire pallet
+pick up the left most skid of tires
+pick up the outside tire pallet all the way on the left
+pick up the pallet of tires on the left
+please pick up the pallet on the far end, the last one
+you can safely pick up the pallet of tires that sits by itself
+pick up that pallet with the fork lift
+pick up the tire pallet on the left
+pick up the first pallet of tires to your left
+pick up the left-most tire pallet
+remove the package pallet from the row of tire pallets
+place in designated area
+place it on the ground between the two trucks
+put it on the ground behind you
+place the tire pallet on the floor
+then swing to the right
+swing to the right
+pick up the tire pallet that is on the far left
+pick up the pallet of tires on the left side of the line
+place it between the pallets on the ground and the other trailer
+move to the right side of the trailer of the trailer on the right
+drive over to the trailer
+you're going to load something up on the trailer
+to the trailer on your left
+head straight to the pallet cart
+drop them to the right of the second set of tire pallets
+depositing it to the right of the tire pallets, with an empty platform further to the right
+get the pallet containing tyres
+go to the first crate on the left
+bring pallet of tires forward
+pull parallel to the skid next to it
+with the fork lift
+position your forklift so that you can safely pick up the pallet of tires that sits by itself
+drop off tire palette on truck bed
+drop the pallets to the right of the first set of tires
+drop your loaded pallet just in front of and in between the pallets of tires
+unload the left skid of tires
+them off at a new drop off line 100 ft behind me
+proceed until you come to a stop in front of the empty table
+stop a few feet away from the trailer
+turn the forklift to the right in a circular motion
+move forward toward an empty trailer bed
+then swing to the right
+swing to the right
+you come to a row of pallets
+when you come to a row of pallets
+then back up to your original position
+depositing the pallet in the empty space in the row of pallets
+lower the pallet onto the ground
+****** fridges
+ 0.000 accuracy 0 of 0 0.000 precision 0.000 recall 0.000 fscore
+0 TP 0 TN 0 FP 0 FN

@@ -1,0 +1,15 @@
+// Message that describes sequence of waypoints for the vehicle to follow
+
+
+package arlcm;
+
+struct task_pose_trajectory_t
+{
+    int64_t utime;
+
+    waypoint_list_t waypoints;
+
+    int64_t task_id;
+
+}
+    

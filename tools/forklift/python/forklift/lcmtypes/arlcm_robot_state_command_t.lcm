@@ -1,0 +1,14 @@
+package arlcm;
+
+// state:
+// The states and faults are documented in robot_status_t
+
+struct robot_state_command_t
+{
+    int64_t utime;
+    int32_t state; 
+    int64_t faults;
+    int64_t fault_mask;
+    string sender;
+    string comment;
+}

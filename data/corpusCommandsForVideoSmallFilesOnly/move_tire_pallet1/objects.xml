@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+    <item type="pallet">
+        <id>330264293858889216</id>
+        <type id="pallet_enum_t">5</type>
+        <label>6</label>
+        <position id="local-frame">-1.600000 27.400000 0.000000</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+    </item>
+    <item type="pallet">
+        <id>330264293858890752</id>
+        <type id="pallet_enum_t">6</type>
+        <label>21</label>
+        <position id="local-frame">1.100000 22.000000 0.000000</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+    </item>
+    <item type="pallet">
+        <id>330264293858890240</id>
+        <type id="pallet_enum_t">6</type>
+        <label>21</label>
+        <position id="local-frame">-0.290000 24.670000 0.000000</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+    </item>
+    <item type="pallet">
+        <id>330264293858095872</id>
+        <type id="pallet_enum_t">6</type>
+        <label>21</label>
+        <position id="local-frame">-2.450000 30.400000 0.000000</position>
+        <orientation id="local-frame">0.965926 0.000000 0.000000 0.258819</orientation>
+        <approach id="lat_lon_theta">0.000000 0.000000 0.000000</approach>
+    </item>
+</objects>

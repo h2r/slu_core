@@ -1,0 +1,9 @@
+GG:
+  factors:
+  - id: factor_1
+    nodes: {G_node: [node_2], L_node: [node_1]}
+    type: LG_factor
+  nodes:
+  - {id: node_1, type: lambda}
+  - {id: node_2, type: gamma}
+

@@ -1,0 +1,13 @@
+file "mallet" => "mallet-2.0.7.tar.gz" do
+  sh "tar xzf mallet-2.0.7.tar.gz"
+end
+
+task :setup => ["mallet"] do
+  sh "cd mallet-2.0.7/ && ant && ant jar"
+  if ENV["BUILD_PREFIX"] 
+    sh "cp mallet-2.0.7/dist/mallet*.jar #{ENV['BUILD_PREFIX']}/share/java"
+  end
+end
+task :clean do
+  sh "rm -rf mallet-2.0.7"
+end

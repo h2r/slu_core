@@ -1,0 +1,19 @@
+graph esdc_parse {
+  0 [label="EVENT" style=filled fillcolor="#6BC3FA" pos="-0.5,3" pin=true];
+  1 [label="phi" style=filled fillcolor="#CCCCCC"];
+  4 [label="phi" style=filled fillcolor="#CCCCCC"];
+  3 [label="Forklift" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+  6 [label="stop" fontsize=20 shape=box style=filled fillcolor="#CFE8D2"];
+
+  2 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+  5 [label="" shape=box style=filled fillcolor="#000000" fixedsize="true" height="0.3" width="0.3"];
+
+
+  2 -- 0 [ label=" " fontcolor="#858585"];
+  2 -- 1 [ label=" " fontcolor="#858585"];
+  2 -- 3 [ label=f fontcolor="#858585"];
+  5 -- 0 [ label=" " fontcolor="#858585"];
+  5 -- 6 [ label=r fontcolor="#858585"];
+  5 -- 4 [ label=" " fontcolor="#858585"];
+}
+
