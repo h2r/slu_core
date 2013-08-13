@@ -14,12 +14,11 @@ task :setup do
   sh "echo \"import nltk; nltk.download('wordnet')\" | rake python"
   sh "cd tools/stanford_parser && make setup"
   sh "cd tools/mallet && make setup"
-#  sh "cd tools/reconcile && make setup"
   sh "cd tools/jpype && make setup"
-  sh "cd tools/utilities && make setup"
   sh "cd tools/features && make setup"
   sh "rake buildGui"
   sh "rake touch"
+  sh "rake everything"
 end
 
 task :touch do 
