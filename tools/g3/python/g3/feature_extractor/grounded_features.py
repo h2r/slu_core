@@ -1,6 +1,6 @@
 from scipy import mod, isnan, arange
 from features.linguistic_features import sfe_language_object as language_object
-from esdcs.groundings import Path, PhysicalObject, Place
+from spatial_features.groundings import Path, PhysicalObject, Place
 from g3.annotation_to_ggg import assignPathGroundingsToGGG
 from assert_utils import array_equal
 import numpy as na

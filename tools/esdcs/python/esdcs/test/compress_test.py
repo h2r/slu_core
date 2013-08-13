@@ -1,7 +1,7 @@
 import unittest
 from esdcs.dataStructures import ExtendedSdc, _getEntireText, ExtendedSdcGroup
 from esdcs import dataStructures
-from esdcs import groundings
+from spatial_features import groundings
 from numpy import array
 from assert_utils import assert_array_equal as aeq
 

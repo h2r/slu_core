@@ -2,7 +2,7 @@ from state import State
 from esdcs.dataStructures import ExtendedSdc
 from graph import GGG, Node, GroundingGraphStructure, Factor
 from esdcs_to_ggg import ggg_from_esdc
-from esdcs.groundings import assignPathGroundings
+from spatial_features.groundings import assignPathGroundings
 from esdcs.esdcIo.annotationIo import Annotation
 
 def compute_node_id(ggg, esdc):

@@ -1,0 +1,11 @@
+task :setup 
+
+FileList["*/*.bz2"].each do |src|
+  target = File.join(File.dirname(src), File.basename(src, ".bz2"))
+  file target => [src] do |t|
+    sh "bunzip2 < #{src} > #{t}"
+  end
+  task :setup => [target]
+end
+
+

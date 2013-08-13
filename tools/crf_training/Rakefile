@@ -20,9 +20,9 @@ training_home="#{here}/models"
 
 
 desc 'high level target to train the forklift'
-python_task :train_forklift => [:generate_examples_forklift_aaai11,
-                                :continuous_to_discrete_forklift_aaai11,
-                                :train_lccrf_forklift_aaai11]
+python_task :train_forklift_aaai11 => [:generate_examples_forklift_aaai11,
+                                       :continuous_to_discrete_forklift_aaai11,
+                                       :train_lccrf_forklift_aaai11]
 
 desc "Generate examples"
 python_task :generate_examples_forklift_aaai11 do

@@ -1,7 +1,7 @@
 import yaml
 from esdcs import esdcIo
 import collections
-from esdcs import groundings
+from spatial_features import groundings
 from itertools import chain
 import os
 import traceback

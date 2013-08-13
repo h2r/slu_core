@@ -1,9 +1,9 @@
-from esdcs import groundings
+from spatial_features import groundings
 import numpy as na
 from numpy import transpose as tp
 from hash_utils import fasthash
 import spatial_features_cxx as sf
-from groundings import PhysicalObject, Place
+from spatial_features.groundings import PhysicalObject, Place
 
 def unique_groundings(groundings):
     hashes = set()

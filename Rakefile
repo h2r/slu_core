@@ -37,14 +37,6 @@ end
 
 task :default => [:setup, :everything]
 
-
-task :build_carmen do
-  carmen = "#{here}/nlp/3rdParty/carmen/carmen"
-  sh "cd #{carmen}/src/ && echo -e 'Y\nY\nY\n\n\n8\n' | ./configure"
-  sh "cd #{carmen}/src && make ECHO=echo"
-  sh "cd #{carmen}/src/python && make all ECHO=echo"
-end
-
 task :clean do
   sh "make clean"
 end

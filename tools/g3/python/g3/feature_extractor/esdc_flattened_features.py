@@ -2,7 +2,7 @@ from features.feature_utils import merge, EsdcFeatureTypeError
 from grounded_features import GGGFeatures
 from itertools import combinations
 from esdcs.dataStructures import ExtendedSdc
-from esdcs.groundings import assignPathGroundings, Path
+from spatial_features.groundings import assignPathGroundings, Path
 
 class EsdcFlattenedFeatures:
     def __init__(self):

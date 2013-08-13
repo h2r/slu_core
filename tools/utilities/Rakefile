@@ -12,12 +12,6 @@ task :all => [:build_python]
 desc "Clean everything."
 task :clean => [:clean_python] 
 
-task :setup do
-  sh "cd 3rdParty/shove/ && rake setup"
-#  sh "cd 3rdParty/pylibmc/ && rake setup"
-end
-
-
 
 desc "Run the test cases."
 python_task :partial_tests do
