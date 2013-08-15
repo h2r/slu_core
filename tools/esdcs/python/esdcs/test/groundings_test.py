@@ -1,10 +1,10 @@
 
 import unittest
 from numpy import transpose as tp, array
-from esdcs.groundings import Path, Prism, PhysicalObject
+from spatial_features.groundings import Path, Prism, PhysicalObject
 import math
 from assert_utils import assert_array_equal as aeq
-from affineMatrix import AffineMatrix
+
 class TestCase(unittest.TestCase):
     def testPath(self):
         pobj = PhysicalObject(Prism.from_points_xy(tp([(0, 0), (1, 0), (1, 1), (0, 1)]), 0, 3),
@@ -70,34 +70,3 @@ class TestCase(unittest.TestCase):
         aeq(newp.centroid2d(),
             (0.5, 0.5))
                          
-    def testAffineMatrix(self):
-        m = AffineMatrix()
-        m.rotate(math.pi/4)
-        aeq(m.transformPt((0, 0)),
-            [0, 0])
-        aeq(m.transformPt((-0.5, -0.5)),
-            [0, -math.pow(2, 0.5)/2])
-
-
-        
-        m1 = AffineMatrix()
-        m1.translate(-0.5, -0.5)
-
-        m2 = AffineMatrix()
-        m2.rotate(math.pi/4)
-        
-        aeq(m2.transformPt(m1.transformPt((0, 0))),
-            [0, -math.pow(2, 0.5)/2])
-        
-        
-        m = AffineMatrix()
-        m.rotate(math.pi/4)
-        m.translate(-0.5, -0.5)
-        aeq(m.transformPt((0, 0)),
-            [0, -math.pow(2, 0.5)/2])
-        
-
-
-        
-        
-        

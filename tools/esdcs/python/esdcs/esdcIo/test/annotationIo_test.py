@@ -1,6 +1,6 @@
 import unittest
 from esdcs.esdcIo import annotationIo
-from esdcs.groundings import PhysicalObject, Prism, Place, Path
+from spatial_features.groundings import PhysicalObject, Prism, Place, Path
 from esdcs.dataStructures import null_ids
 from numpy import transpose as tp
 import numpy as na

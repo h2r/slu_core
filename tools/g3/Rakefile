@@ -3,10 +3,10 @@
 
 
 here=File.dirname(__FILE__)
-$slu_home=File.expand_path("#{here}/../..")
+$home=File.expand_path("#{here}/../..")
 
-require "#{$slu_home}/rakefile.rb"
-training_home="#{$slu_home}/data/directions/direction_training"
+require "#{$home}/rakefile.rb"
+training_home="#{$home}/data/directions/direction_training"
 
   
 task :dotty do
@@ -68,7 +68,7 @@ python_task :describer_browser do
   python("#{$pbd}/g3/describer/gui/describerBrowser.py " + 
          "--training=#{training_home}/annotation/datasets/training_continuous_sr.pck " + 
          "--test=#{training_home}/annotation/datasets/test_continuous_sr.pck " +
-         "--model=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck "
+         "--model=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck "
          )
 end
 
@@ -77,7 +77,7 @@ python_task :describe do
   python("#{$pbd}/g3/describer/describe.py " + 
          "--training=#{training_home}/annotation/datasets/training_continuous_sr.pck " + 
          "--test=#{training_home}/annotation/datasets/test_continuous_sr.pck " +
-         "--model=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck "
+         "--model=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck "
          )
 end
 
@@ -85,6 +85,6 @@ end
 
 python_task :ggg_browser => [:buildGui] do
   python("#{$pbd}/g3/gui/gggBrowser.py " + 
-         "--training_filename #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forklift.automatic.v1.withPaths.yaml "
+         "--training_filename #{$home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forklift.automatic.v1.withPaths.yaml "
          )
 end

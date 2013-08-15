@@ -1,32 +1,37 @@
-ENV['SLU_HOME'] = $slu_home
+ENV['SLU_HOME'] = $home
 
-$build_dir = "#{$slu_home}/build"
+if ENV['BUILD_DIR']
+  $build_dir = ENV['BUILD_DIR']
+else
+  $build_dir = "#{$home}/build"
+end
+
 $python_version = `python -c "import sys; sys.stdout.write(sys.version[:3])"`
-
-$python_build_dir = "#{$slu_home}/build/lib/python#{$python_version}"
+$last_build = "#{$build_dir}/last_build"
+$python_build_dir = "#{$build_dir}/lib/python#{$python_version}"
 $pbd = $python_build_dir
 
-$python_build_dir = "#{$slu_home}/build/lib/python#{$python_version}"
-$jar_build_dir = "#{$slu_home}/build/share/java"
-$data_home = "#{$slu_home}/build/data/"
+$python_build_dir = "#{$build_dir}/lib/python#{$python_version}"
+$jar_build_dir = "#{$build_dir}/share/java"
+$data_home = "#{$build_dir}/data/"
 $cc = "g++"
 
 directory $python_build_dir
 
-$lib_build_dir = "#{$slu_home}/build/lib/"
+$lib_build_dir = "#{$build_dir}/lib/"
 directory $lib_build_dir
 
-$include_build_dir = "#{$slu_home}/build/include/"
+$include_build_dir = "#{$build_dir}/include/"
 directory $include_build_dir
 
 ENV['PYTHONPATH'] = ["#{$python_build_dir}",
-                     "#{$slu_home}/build/lib/python",
+                     "#{$build_dir}/lib/python",
                      "/usr/local/lib/python#{$python_version}/site-packages",
                      "/usr/local/lib/python#{$python_version}/dist-packages",
                      ENV['PYTHONPATH']].join(":")
-ENV['JAVA_LIB'] = "#{$slu_home}/java/slu-java/share/java/"
+ENV['JAVA_LIB'] = "#{$home}/java/slu-java/share/java/"
 ENV['DATA_HOME'] = $data_home
-ENV['CLASSPATH']  = FileList["#{$slu_home}/build/share/java/*.jar"].join(":")
+ENV['CLASSPATH']  = FileList["#{$build_dir}/share/java/*.jar"].join(":")
                      
 
 ENV['LD_LIBRARY_PATH'] = [$lib_build_dir].join(":")
@@ -108,7 +113,7 @@ def python(file)
   if ($debug_python)
     sh "gdb --args python -d #{file}"
   elsif  ($valgrind_python)
-    sh "valgrind --tool=memcheck --suppressions=#{$slu_home}/etc/valgrind-python.supp  --suppressions=#{$slu_home}/etc/valgrind-java.supp python -u #{file}"         
+    sh "valgrind --tool=memcheck --suppressions=#{$home}/etc/valgrind-python.supp  --suppressions=#{$home}/etc/valgrind-java.supp python -u #{file}"         
   elsif ($memprof_python)
     sh "memprof /usr/bin/python #{file}"
   elsif ($pdb_python)
@@ -171,7 +176,7 @@ end
 
 task :clean_python do
   rm_rf $python_build_dir, :verbose=>true
-  sh "cd #{$slu_home} && rake touch"
+  sh "cd #{$home} && rake touch"
 end
 
 
@@ -194,9 +199,16 @@ end
 task :default => :all
 
 task :everything do
-  FileList['tools/*'].each do |f|
-    sh "cd #{f} && make BUILD_DIR=#{$build_dir}"
+  if File.exist?($last_build) 
+    build_cmd = "-newer #{$last_build}"
+  else
+    build_cmd = ""
   end
+  subdirs = `find #{$home}/tools/* #{build_cmd} -printf "%H\n" | sort -u`.split("\n")
+  subdirs.each do |f|
+      sh "cd #{f} && rake BUILD_DIR=#{$build_dir}"
+  end
+  sh "touch #{$last_build}"
 end
 
 

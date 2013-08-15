@@ -17,8 +17,8 @@ class TestCase(unittest.TestCase):
                     current_metadata = esdc.metadata
                     print current_metadata[0]
                     parse_i += 1
-
-                print l
+                    print l
+                    
             self.fail("Correct esdc not in results.")
     
 
@@ -467,10 +467,8 @@ class TestCase(unittest.TestCase):
         esdc_groups = self.extractor.extractTopNEsdcs('Drive over to the trailer>\r\n', n=20)
         self.ain(esdc_groups,
                  [{'EVENT': {'r': 'Drive over',
-                             'l': {'PATH': {'r': 'to', 'l': 'the trailer'}}}}])
-
-        
-                 
+                             'l': {'PATH': {'r': 'to', 
+                                            'l': [['the', [14, 17]], ['trailer', [18, 25]], ['>', [25, 26]]]}}}}])
 
     def testGoLeft(self):
 

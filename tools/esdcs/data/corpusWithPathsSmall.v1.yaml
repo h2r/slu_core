@@ -1054,7 +1054,7 @@
           - [12.13996339124002, 56.453746095261856, 0.8500074167999998]
           - [12.999324459943416, 54.74221564666122, 0.8500074167999998]
         tag: [flatbed, trailer]
-  source: [person 1, null, null, null, null]
+  source: [null, null, null, null, null]
 - agent:
     lcmId: -100
     path:

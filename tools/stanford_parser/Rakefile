@@ -1,6 +1,6 @@
 here=File.dirname(__FILE__)
-$slu_home=File.expand_path("#{here}/../..")
-require "#{$slu_home}/rakefile.rb"
+$home=File.expand_path("#{here}/../..")
+require "#{$home}/rakefile.rb"
 task :all => [:build_python] 
 make_python_targets(:build_python, FileList["python/**/*.py"])
 task :clean => [:clean_python] 

@@ -1,4 +1,3 @@
-from esdcs.extractor import lccrfRerankingExtractor
 from esdcs.extractor import stanfordParserExtractor
 
 
@@ -21,6 +20,7 @@ def make_extractor(esdc_extractor_name, model_name=None):
     to create an extractor by name from command line arguments.
     """
     if esdc_extractor_name == "lccrfRerankingExtractor":
+        from esdcs.extractor import lccrfRerankingExtractor
         extractor = lccrfRerankingExtractor.Extractor(model_name)
     elif esdc_extractor_name == "stanfordParserExtractor":
         extractor = stanfordParserExtractor.Extractor()

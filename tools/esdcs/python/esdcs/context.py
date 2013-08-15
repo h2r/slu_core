@@ -192,7 +192,8 @@ class Context:
             self.start_t = 0
             self.end_t = 0
         self.length_seconds = (self.end_t - self.start_t) / 1000000.0
-        self.centroid3d = self.centroid3d / count
+        if count != 0:
+            self.centroid3d = self.centroid3d / count
 
         self.repr = ("Context(%s, %s)" %
                      tuple(repr(x) for x in (self.objects, self.places)))

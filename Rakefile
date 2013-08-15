@@ -1,5 +1,5 @@
 here=File.dirname(__FILE__)
-$slu_home=File.expand_path("#{here}")
+$home=File.expand_path("#{here}")
 require "#{here}/rakefile.rb"
 
 task :apt do

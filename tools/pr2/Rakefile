@@ -1,6 +1,6 @@
 here=File.dirname(__FILE__)
-$slu_home=File.expand_path("#{here}/../..")
-require "#{$slu_home}/rakefile.rb"
+$home=File.expand_path("#{here}/../..")
+require "#{$home}/rakefile.rb"
 
 run_id = (ENV['RUN_ID'] or  -1)
 
@@ -12,16 +12,16 @@ make_python_targets(:build_python, FileList["python/**/*.py"])
 desc "Clean everything."
 task :clean => [:clean_python] 
 
-training_home="#{$slu_home}/data/directions/direction_training"
+training_home="#{$home}/data/directions/direction_training"
 
 
 
 desc "cost function browser for forklift"
 python_task :cost_function_browser => [:buildGui] do
     python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py --use-rrt=False " +
-           #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_1.5.pck " + 
-           "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " + 
-           #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_continuous_pr2_bolt_2012_1.5.pck " + 
+           #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_1.5.pck " + 
+           "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " + 
+           #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_continuous_pr2_bolt_2012_1.5.pck " + 
            "--limits=-10,10,-10,10 " +
            "--state-type=pr2 " +
            #"--start-state-file make_green_box_furthest_away_from_you.pck " + 
@@ -49,24 +49,24 @@ end
 desc "parse a bag file into a corpus"
 python_task :parse_bag do
   #python("#{$pbd}/pr2/parse_bag.py")
-  #python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py data/videos/08_pick_place_behind/08_pick_place_behind.bag")
-  python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video1/test.bag")
-  python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video2/test.bag")
-  python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video3/test.bag")
-  python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video4/test.bag")
-  python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video5/test.bag")
-  python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video6/test.bag")
+  #python("#{$home}/tools/ros_bag_parser/src/bag_parser.py data/videos/08_pick_place_behind/08_pick_place_behind.bag")
+  python("#{$home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video1/test.bag")
+  python("#{$home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video2/test.bag")
+  python("#{$home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video3/test.bag")
+  python("#{$home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video4/test.bag")
+  python("#{$home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video5/test.bag")
+  python("#{$home}/tools/ros_bag_parser/src/bag_parser.py data/videos/video6/test.bag")
 
-  #python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py #{here}/test.bag")
+  #python("#{$home}/tools/ros_bag_parser/src/bag_parser.py #{here}/test.bag")
 end
 
 
 desc "object annotator"
 python_task :pr2_commander => [:buildGui] do
   python("#{$pbd}/pr2/gui/pr2CommanderGui.py " +
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " + 
-         #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_1.5.pck " + 
-         #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " + 
+         #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_1.5.pck " + 
+         #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
          ""
          )
 end
@@ -113,7 +113,7 @@ python_task :record do
   #fname = "/home/andyh/pr2_training_videos_summer/fFbWvao-NL8.bag"
   #fname = "/home/andyh/pr2_training_videos_summer/_ENSl0x4Uz0.bag"
   sh("rosbag record /tf /mit/object_list /usb_cam/image_raw /rosout -O #{fname}")
-  python("#{$slu_home}/tools/ros_bag_parser/src/bag_parser.py #{fname}")
+  python("#{$home}/tools/ros_bag_parser/src/bag_parser.py #{fname}")
   #sh("bash -c 'source ~/.bin/rossim.sh && rosrun ros_bag_parser bag2video.sh #{fname}'")
 
 end
@@ -199,7 +199,7 @@ python_task :evaluation_results_browser => [:buildGui] do
 	 "#{training_home}/annotation/datasets/test_continuous_pr2_bolt_2012.pck " + 
          "#{here}/dataEvaluation/data/evaluation-run-#{run_id}/ " +
          "#{use_rrt} " +
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " +
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " +
          "")
 end
 
@@ -256,7 +256,7 @@ python_task :export_examples_from_inference do
          "--corpus-fname=#{here}/data/sls_bolt_summer_2012/stack_blue_on_red_and_orange_on_blue_BbZo019wffk.groundings.testing.yaml " + 
          "--corpus-fname=#{here}/data/sls_bolt_summer_2012/stack_red_block_on_blue_block_IomxyrtX9ws.groundings.testing.yaml " + 
          "--corpus-fname=#{here}/data/sls_bolt_summer_2012/make_2_by_2_vertical_square_fFbWvao-NL8.groundings.testing.yaml " + 
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " + 
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_pr2_bolt_2012_1.5.pck " + 
          "")
 
 end

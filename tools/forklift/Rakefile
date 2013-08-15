@@ -1,6 +1,6 @@
 here=File.dirname(__FILE__)
-$slu_home=File.expand_path("#{here}/../..")
-require "#{$slu_home}/rakefile.rb"
+$home=File.expand_path("#{here}/../..")
+require "#{$home}/rakefile.rb"
 
 desc "Build everything."
 task :all => [:buildGui, :build_python] 
@@ -9,23 +9,23 @@ make_python_targets(:build_python, FileList["python/**/*.py"])
 desc "Clean everything."
 task :clean => [:clean_python] 
 
-training_home="#{$slu_home}/data/directions/direction_training"
+training_home="#{$home}/data/directions/direction_training"
 
 ENV['PYTHONPATH'] = [ENV['PYTHONPATH'],
-                     "#{$slu_home}/tools/du_crf3/src/",
-                     "#{$slu_home}/tools/rrt/src/",
-                     "#{$slu_home}/tools/refexp_crf/src/",
-                     "#{$slu_home}/nlp/3rdParty/orange/",
-                     "#{$slu_home}/nlp/3rdParty/orange/orange",
-                     "#{$slu_home}/nlp/3rdParty/orange/orange/OrangeWidgets",
-                     "#{$slu_home}/nlp/3rdParty/orange/orange/OrangeWidgets/Classify",
+                     "#{$home}/tools/du_crf3/src/",
+                     "#{$home}/tools/rrt/src/",
+                     "#{$home}/tools/refexp_crf/src/",
+                     "#{$home}/nlp/3rdParty/orange/",
+                     "#{$home}/nlp/3rdParty/orange/orange",
+                     "#{$home}/nlp/3rdParty/orange/orange/OrangeWidgets",
+                     "#{$home}/nlp/3rdParty/orange/orange/OrangeWidgets/Classify",
                      "#{$agile_home}/software/src/swig/",
                     ].join(':')
 
 
 
-ENV['FORKLIFT_RNDF'] = "#{$slu_home}/data/directions/forklift/Lee_at_Waverly_RNDF_onezone.txt"
-#ENV['FORKLIFT_RNDF'] = "#{$slu_home}/data/directions/forklift/Lee_RNDF_demo.txt"
+ENV['FORKLIFT_RNDF'] = "#{$home}/data/directions/forklift/Lee_at_Waverly_RNDF_onezone.txt"
+#ENV['FORKLIFT_RNDF'] = "#{$home}/data/directions/forklift/Lee_RNDF_demo.txt"
 run_id = (ENV['RUN_ID'] or  -1)
 use_rrt = (ENV['USE_RRT'] or "True")
 state_type = (ENV['STATE_TYPE'] or "navigation")
@@ -54,18 +54,18 @@ end
 desc "Run the inference command gui."
 python_task :agile_gui => [:buildGui] do
   python("#{$pbd}/forklift/gui/agileGui.py " + 
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_all_1.5.pck " + 
-         "--rndf-filename=#{$slu_home}/data/directions/forklift/Lee_RNDF_demo.txt " + 
-         "--skeleton-filename=#{$slu_home}/data/directions/forklift/partitions/forklift_full_part.pck ")
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_all_1.5.pck " + 
+         "--rndf-filename=#{$home}/data/directions/forklift/Lee_RNDF_demo.txt " + 
+         "--skeleton-filename=#{$home}/data/directions/forklift/partitions/forklift_full_part.pck ")
 
 end
 
 desc "Run the inference command gui."
 python_task :agile_gui_waverly => [:buildGui] do
   python("#{$pbd}/forklift/gui/agileGui.py " + 
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_all_1.5.pck " + 
-         "--rndf-filename=#{$slu_home}/data/directions/forklift/Lee_at_Waverly_RNDF_onezone.txt " + 
-         "--skeleton-filename=#{$slu_home}/data/directions/forklift/partitions/forklift_full_part.pck")
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_all_1.5.pck " + 
+         "--rndf-filename=#{$home}/data/directions/forklift/Lee_at_Waverly_RNDF_onezone.txt " + 
+         "--skeleton-filename=#{$home}/data/directions/forklift/partitions/forklift_full_part.pck")
 
 end
 
@@ -99,8 +99,8 @@ end
 desc "cost function browser for forklift"
 python_task :cost_function_browser_esdcSearch => [:buildGui] do
     python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py --use-rrt=#{use_rrt} " +
-           "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
-           #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
+           "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
+           #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
            "--limits=10,40,10,40 " +
            "--state-type=forklift " +
 	   "--merging #{merging} " + 
@@ -112,8 +112,8 @@ end
 desc "cost function browser for forklift"
 python_task :cost_function_browser => [:buildGui] do
     python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py --use-rrt=#{use_rrt} " +
-           "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
-           #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
+           "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
+           #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
            "--limits=10,40,10,40 " +
            "--state-type=forklift " +
 	   "--merging #{merging} " + 
@@ -140,7 +140,7 @@ end
 desc "evaluator"
 python_task :esdc_evaluator => [:everything] do
   python("#{$pbd}/forklift/corpusAnalysis/esdcEvaluator.py " + 
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_esdcs_1.5.pck " +
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_esdcs_1.5.pck " +
          "--corpus-filename #{training_home}/annotation/datasets/test_continuous_esdcs.pck ")
 
 end
@@ -193,7 +193,7 @@ ambiguous_corpus_flags = "--corpus-fname  #{here}/dataAnnotation/data/dialog_amb
      "--qa_corpus_1 #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_all_questions.yaml " +
      "--qa_corpus_2 #{here}/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_all_questions_set000.yaml "
 
-results_base_flags = "--result-fname-base #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run- "
+results_base_flags = "--result-fname-base #{$home}/tools/forklift/dataEvaluation/data/evaluation-run- "
 
 desc "Generate CRF plans on navigation dataset"
 python_task :evaluate => [:buildGui] do
@@ -303,7 +303,7 @@ end
 
 python_task :export_evaluation_as_annotations do
   python("#{$pbd}/g3/evaluator/export_as_annotations.py " + 
-         "--result-fname #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run-training-set/ " +
+         "--result-fname #{$home}/tools/forklift/dataEvaluation/data/evaluation-run-training-set/ " +
          "--state-type forklift "         
          )
 end
@@ -313,20 +313,20 @@ desc "Node binding metric for evaluation (evaluates correct groundings and
       graphs node entropies based on the inference results)"
 python_task :node_evaluation_real do
   python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
-         "--result-fname #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--result-fname #{$home}/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
          "--state-type forklift " + 
          "--question_type #{question_type} " +
-	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml ")
+	 "--original-commands #{$home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml ")
 end
 
 desc "Node binding metric for evaluation (evaluates correct groundings and
       graphs node entropies based on the inference results)"
 python_task :node_evaluation_ambiguous do
   python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
-         "--result-fname #{$slu_home}/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--result-fname #{$home}/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
          "--state-type forklift " + 
          "--question_type #{question_type} " +
-	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml "
+	 "--original-commands #{$home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml "
          )
 end
 
@@ -335,22 +335,22 @@ desc "Node binding metric for evaluation (evaluates correct groundings and
       graphs node entropies based on the inference results)"
 python_task :node_evaluation_ec2 do
   python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
-         "--result-fname #{$slu_home}/tools/forklift/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--result-fname #{$home}/tools/forklift/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
          "--state-type forklift " + 
          "--question_type #{question_type} " +
-	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml ")
-#	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/forklift_ambiguous_larger_corpus_commands.yaml ") 
+	 "--original-commands #{$home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml ")
+#	 "--original-commands #{$home}/tools/forklift/dataAnnotation/data/forklift_ambiguous_larger_corpus_commands.yaml ") 
 end
 
 desc "Node binding metric for evaluation (evaluates correct groundings and
       graphs node entropies based on the inference results)"
 python_task :node_evaluation_ec2_ambiguous do
   python("#{$pbd}/g3/evaluator/evaluate_nodes.py " +
-         "--result-fname #{$slu_home}/tools/forklift/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
+         "--result-fname #{$home}/tools/forklift/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id}/ " +
          "--state-type forklift " + 
          "--question_type #{question_type} " +
-	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml ")
-#	 "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/forklift_ambiguous_larger_corpus_commands.yaml ") 
+	 "--original-commands #{$home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml ")
+#	 "--original-commands #{$home}/tools/forklift/dataAnnotation/data/forklift_ambiguous_larger_corpus_commands.yaml ") 
 end
 
 
@@ -373,8 +373,8 @@ python_task :evaluation_results_browser => [:buildGui] do
 	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
          "#{here}/dataEvaluation/data/evaluation-run-#{run_id}/ " +
          "#{use_rrt} " +
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
-        "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+        "--original-commands #{$home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
          "")
 end
 
@@ -385,8 +385,8 @@ python_task :evaluation_results_browser_ambiguous => [:buildGui] do
 	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
          "#{here}/dataEvaluation/data/evaluation-run-#{run_id}/ " +
          "#{use_rrt} " +
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
-         "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " + 
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+         "--original-commands #{$home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " + 
          "")
 end
 
@@ -396,8 +396,8 @@ python_task :evaluation_results_browser_ec2 => [:buildGui] do
 	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
          "#{here}/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id} " +
          "#{use_rrt} " +
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
-		"--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+		"--original-commands #{$home}/tools/forklift/dataAnnotation/data/commands_AAAI_11/forkliftMturkEsdcs.stefie10.groundings.withPaths.yaml " +
          "")
 end
 
@@ -407,8 +407,8 @@ python_task :evaluation_results_browser_ec2_ambiguous => [:buildGui] do
 	 "#{training_home}/annotation/datasets/test_continuous_forklift.pck " + 
          "#{here}/ec2/slu/tools/forklift/dataEvaluation/data/evaluation-run-#{run_id} " +
          "#{use_rrt} " +
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
-         "--original-commands #{$slu_home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " + 
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " +
+         "--original-commands #{$home}/tools/forklift/dataAnnotation/data/dialog_ambiguous_RSS_12/forklift_ambiguous_larger_corpus_commands.yaml " + 
          "")
 end
 
@@ -444,9 +444,9 @@ end
 
 python_task :heat_map do
   python("#{$pbd}/g3/cost_functions/gui/heatMap.py " + 
-         "--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck "
-         #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck " 
-         #"--model-filename=#{$slu_home}/data/directions/direction_training/annotation/models/crf_discrete_d8_full_1.5.pck " 
+         "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck "
+         #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_sr_1.5.pck " 
+         #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_d8_full_1.5.pck " 
          )
 
 end
