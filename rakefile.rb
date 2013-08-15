@@ -1,5 +1,6 @@
 ENV['SLU_HOME'] = $slu_home
 
+$build_dir = "#{$slu_home}/build"
 $python_version = `python -c "import sys; sys.stdout.write(sys.version[:3])"`
 
 $python_build_dir = "#{$slu_home}/build/lib/python#{$python_version}"
@@ -193,7 +194,9 @@ end
 task :default => :all
 
 task :everything do
-  sh "cd #{$slu_home} && make all"
+  FileList['tools/*'].each do |f|
+    sh "cd #{f} && make BUILD_DIR=#{$build_dir}"
+  end
 end
 
 
