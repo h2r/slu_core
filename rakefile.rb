@@ -1,7 +1,7 @@
 ENV['SLU_HOME'] = $home
 
-if ENV['BUILD_DIR']
-  $build_dir = ENV['BUILD_DIR']
+if ENV['BUILD_PREFIX']
+  $build_dir = ENV['BUILD_PREFIX']
 else
   $build_dir = "#{$home}/build"
 end
