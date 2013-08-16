@@ -16,7 +16,6 @@ task :setup do
   sh "cd tools/mallet && make setup"
   sh "cd tools/jpype && make setup"
   sh "cd tools/features && make setup"
-  sh "rake buildGui"
   sh "rake touch"
   sh "rake everything"
 end
@@ -28,11 +27,6 @@ task :touch do
   sh "rm -rf build/last_build"
 end
 
-task :buildGui do
-  sh "cd tools/esdcs && rake buildGui"
-  sh "cd tools/forklift && rake buildGui"
-  sh "cd tools/g3 && rake buildGui"
-end
 
 task :default => [:setup, :everything]
 
