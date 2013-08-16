@@ -1,6 +1,6 @@
 from g3.state import State, Action
 from actionMap import ActionMap, tmapFromObjects, tmapFromObjectsAndPlaces
-from esdcs.groundings import PhysicalObject, Prism, Place, Path
+from spatial_features.groundings import PhysicalObject, Prism, Place, Path
 from esdcs.context import Context
 from numpy import transpose, arctan2, zeros, ones, arange
 import spatial_features_cxx as sf

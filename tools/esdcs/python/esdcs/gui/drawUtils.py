@@ -1,7 +1,7 @@
 import landmark_icon_cache
 import math
 import matplotlib.patches
-from esdcs.groundings import PhysicalObject, Path, Place
+from spatial_features.groundings import PhysicalObject, Path, Place
 from matplotlib_util import size_of_axes_in_data_coordinates
 
 def drawPath(axes, path, plotArgs, shouldDrawStartAndEnd=True, 

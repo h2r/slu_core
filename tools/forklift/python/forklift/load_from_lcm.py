@@ -4,7 +4,7 @@ from arlcm.pallet_enum_t import pallet_enum_t
 from arlcm.pallet_t import pallet_t 
 from arlcm.object_t import object_t 
 from arlcm.object_enum_t import object_enum_t
-from esdcs.groundings import PhysicalObject, Prism
+from spatial_features.groundings import PhysicalObject, Prism
 from actionMap import ActionMap
 
 objectTypes = dict()

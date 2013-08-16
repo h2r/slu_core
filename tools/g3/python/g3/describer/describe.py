@@ -2,7 +2,7 @@ from numpy import transpose as tp
 from esdcs.dataStructures import ExtendedSdc
 from esdcs.esdcIo.annotationIo import Annotation
 from esdcs import esdcIo
-from esdcs.groundings import PhysicalObject, Prism
+from spatial_features.groundings import PhysicalObject, Prism
 from g3.cost_functions.cost_function_crf import CostFnCrf
 from g3.graph import GGG
 from standoff import TextStandoff

@@ -1,6 +1,6 @@
 import matplotlib_qt
 from forklift.forkState import waverly_state_truck
-from esdcs.groundings import assignPathGroundings, Prism, Place, Path, PhysicalObject
+from spatial_features.groundings import assignPathGroundings, Prism, Place, Path, PhysicalObject
 from esdcs.gui.drawUtils import drawObject
 from esdcs.dataStructures import ExtendedSdcGroup
 from esdcs.esdcIo.annotationIo import Annotation

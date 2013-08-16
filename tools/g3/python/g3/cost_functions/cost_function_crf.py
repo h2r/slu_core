@@ -6,7 +6,7 @@ from g3.graph import Factor
 from mallet.learners.crf_mallet import CRFMallet
 #import persistent_memoize
 from hash_utils import fasthash
-from sparse.feature_vector import FileDataset, FeatureVector
+
 
 class CostEntry:
     def __init__(self, factor, ggg, states, cobs, dobs, factor_cost):

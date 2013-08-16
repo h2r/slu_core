@@ -5,7 +5,7 @@ from PyQt4.QtCore import SIGNAL, Qt
 import basewindow
 from PyQt4 import QtGui, QtOpenGL
 from OpenGL import GLU
-from esdcs.groundings import Prism, Path, PhysicalObject, Place
+from spatial_features.groundings import Prism, Path, PhysicalObject, Place
 from esdcs.context import Context
 import spatial_features_cxx as sf
 import math

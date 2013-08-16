@@ -4,7 +4,7 @@ import os
 from esdcs.gui import context3d 
 from esdcs.gui.drawUtils import drawGrounding, drawObject, drawPath
 from esdcs.esdcIo import annotationIo
-from esdcs.groundings import Path, PhysicalObject, Place
+from spatial_features.groundings import Path, PhysicalObject, Place
 from esdcs.context import Context
 from standoff import TextStandoff
 import qt_utils

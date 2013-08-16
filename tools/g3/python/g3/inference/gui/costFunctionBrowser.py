@@ -9,7 +9,7 @@ from esdcs.context import Context
 import yaml
 from esdcs.dataStructures import breadthFirstTraverse, ExtendedSdcGroup
 from esdcs.extractor import extractor_utils
-from esdcs.groundings import PhysicalObject, Path, Place
+from spatial_features.groundings import PhysicalObject, Path, Place
 from esdcs.gui.drawUtils import drawObject, drawPath, drawRobot
 from esdcs.gui import context3d, esdcTreeModel
 

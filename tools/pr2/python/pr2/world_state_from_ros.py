@@ -1,4 +1,4 @@
-from esdcs.groundings import PhysicalObject, Prism, Path, Place
+from spatial_features.groundings import PhysicalObject, Prism, Path, Place
 from numpy import transpose as tp
 from pr2_state import Pr2State, EndEffector, compute_places
 #import tf.transformations

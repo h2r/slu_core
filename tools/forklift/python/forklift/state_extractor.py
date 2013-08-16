@@ -3,7 +3,7 @@ from arlcm.pallet_list_t import pallet_list_t
 from arlcm.object_list_t import object_list_t
 from botlcm.pose_t import pose_t
 from forkState import ForkState,  physicalObject
-from esdcs.groundings import Prism
+from spatial_features.groundings import Prism
 from affineMatrix import AffineMatrix
 from actionMap import ActionMap, tmapFromRndf, tmapFromObjects
 from lcm import EventLog
@@ -15,7 +15,7 @@ import threading
 from numpy import transpose as tp
 import spatial_features_cxx as sf
 from lcm_log_parse import LcmParse
-from esdcs.groundings import PhysicalObject, Path
+from spatial_features.groundings import PhysicalObject, Path
 import collections
 from memoized import memoized
 

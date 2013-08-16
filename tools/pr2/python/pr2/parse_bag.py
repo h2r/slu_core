@@ -3,7 +3,7 @@ from esdcs.dataStructures import ExtendedSdc, ExtendedSdcGroup
 from standoff import TextStandoff
 from numpy import transpose as tp
 from esdcs.context import Context
-from esdcs.groundings import PhysicalObject, Prism, Path
+from spatial_features.groundings import PhysicalObject, Prism, Path
 from math import pi
 
 def log_to_context(fname):

@@ -1,7 +1,7 @@
 from g3.state import State, Action
 import spatial_features_cxx as sfe
 
-from esdcs.groundings import PhysicalObject, Prism, Path, Place
+from spatial_features.groundings import PhysicalObject, Prism, Path, Place
 from esdcs.context import Context
 from numpy import arange
 from numpy import transpose as tp

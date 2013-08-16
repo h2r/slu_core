@@ -6,7 +6,7 @@ from g3.state import state_type_from_name
 from g3.evaluator.evaluateCorpus import ResultsFile
 from g3.inference.entropy_metrics import Metric
 from esdcs.esdcIo import annotationIo
-from esdcs.groundings import PhysicalObject
+from spatial_features.groundings import PhysicalObject
 from g3.evaluator.gui import resultsEntry
 from g3.inference.entropy_metrics import estimate_binding_probability, compute_entropy_from_distribution, make_object_id_to_results, compute_normalizer, compute_entropy_metric2
 
