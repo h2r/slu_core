@@ -2,10 +2,6 @@ here=File.dirname(__FILE__)
 $home=File.expand_path("#{here}")
 require "#{here}/rakefile.rb"
 
-task :apt do
-  sh "sudo apt-get install python-numpy pyqt4-dev-tools python-nltk"
-end
-
 task :setup do
   mkdir_p($include_build_dir)
   mkdir_p($python_build_dir)
