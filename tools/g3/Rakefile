@@ -25,7 +25,7 @@ end
 
 
 desc "Build everything."
-task :all => [:build_python] 
+task :all => [:buildGui, :build_python] 
 make_python_targets(:build_python, FileList["python/**/*.py"])
 
 desc "Clean everything."
