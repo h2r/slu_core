@@ -6,7 +6,7 @@ data_home="#{$home}/data"
 
 desc "Build everything."
 make_python_targets(:build_python, FileList["python/**/*.py"])
-task :all => [:build_python] 
+task :all => ["models", :build_python] 
 
 
 desc "Clean everything."
@@ -17,7 +17,7 @@ model = ENV['MODEL']
 
 training_home="#{here}/models"
 
-
+directory "models"
 
 desc 'high level target to train the forklift'
 python_task :train_forklift_aaai11 => [:generate_examples_forklift_aaai11,

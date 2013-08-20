@@ -19,6 +19,8 @@ endif
 all: 
 	rake all
 
+setup: 
+	rake setup
 
 clean:
 	rake clean

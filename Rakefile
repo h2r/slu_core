@@ -18,9 +18,6 @@ task :setup do
 end
 
 task :touch do 
-  sh "find tools -mount -name '*.py'"
-  sh "find tools -mount -name '*.c'"
-  sh "find tools -mount -name '*.java'"
   sh "rm -rf build/last_build"
 end
 

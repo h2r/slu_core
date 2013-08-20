@@ -1,5 +1,6 @@
 file "mallet" => "mallet-2.0.7.tar.gz" do
   sh "tar xzf mallet-2.0.7.tar.gz"
+  sh "touch mallet-2.0.7"
 end
 
 task :setup => ["mallet"] do
