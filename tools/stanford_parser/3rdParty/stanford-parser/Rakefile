@@ -1,7 +1,9 @@
 
 file "stanford-parser-full-2013-06-20" => "stanford-parser-full-2013-06-20.tar.bz2" do
   sh "tar jxf stanford-parser-full-2013-06-20.tar.bz2"
+  sh "touch stanford-parser-full-2013-06-20"
 end
+
 task :setup => ["stanford-parser-full-2013-06-20"] do
   if ENV["BUILD_PREFIX"] 
     sh "cp stanford-parser-full-2013-06-20/stanford-parser.jar " + 
