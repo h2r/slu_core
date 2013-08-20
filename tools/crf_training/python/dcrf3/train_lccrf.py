@@ -2,6 +2,7 @@ from mallet.learners.crf_mallet import CRFMallet
 from optparse import OptionParser
 import pickle_util
 import dcrf3.dataset as dataset
+from save_theta import save_theta_dict
 
 def train_lccrf(dataset_all, outfilename, sigma=0.99, train_iterations=500):
 
@@ -20,7 +21,24 @@ def train_lccrf(dataset_all, outfilename, sigma=0.99, train_iterations=500):
     
     print "saving to:", outfilename
     CRFMallet.save(lcrf, outfilename)
+    export_supervised_theta(lcrf, outfilename + ".txt")
     return outfilename
+
+def export_supervised_theta(lccrf, out_fname):
+    theta = {}
+
+
+    for fname, value in lccrf.feature_name_to_weight.iteritems():
+       if "prior" in fname:
+           value = 3 * value
+        
+       theta["true_%s" % fname] = value
+       theta["false_%s" % fname] = -value 
+
+    print "saving", out_fname
+    save_theta_dict(out_fname, theta)
+    
+
 
 
 def main():

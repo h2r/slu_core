@@ -11,6 +11,16 @@ COL_PATH_LENGTH = counter.pp()
 COL_PLAN_STRING = counter.pp()
 
 class Plan:
+    @staticmethod
+    def from_inference_result(task_planner, raw_plans):
+        plans = []
+        for i, p in enumerate(raw_plans):
+            cost, state, ggg = p
+            state_sequence = task_planner.state_sequence(state)
+            
+            plans.append(Plan(state, ggg, cost, state_sequence, False))
+        return plans
+
     def __init__(self, state, ggg, cost, state_sequence, is_best):
         self.idx = None
         self.state = state

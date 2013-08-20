@@ -1,13 +1,7 @@
-import jvm
-import jpype
 from time import time
 import pickle_util
 import numpy as na
 
-p_classifier = jpype.JPackage("edu.mit.csail.spatial.learner")
-
-p_logging = jpype.JPackage("java.util.logging")
-lm = p_logging.LogManager.getLogManager()
 
 def fnames_from_root(fname):
     python_fname = fname
@@ -18,7 +12,6 @@ class CRFMallet(object):
     def load(fname):
         python_fname, java_fname = fnames_from_root(fname)
         m = pickle_util.load(python_fname)
-        m.loadModel(m.java_fname)
         return m
     @staticmethod
     def save(model, fname):
@@ -54,6 +47,14 @@ class CRFMallet(object):
             
 
     def train(self):
+        import jvm
+        import jpype
+        
+        p_classifier = jpype.JPackage("edu.mit.csail.spatial.learner")
+
+        p_logging = jpype.JPackage("java.util.logging")
+        lm = p_logging.LogManager.getLogManager()
+
         print "saving dataset"
         self.save_dataset(self.training_fname)
         print "done saving dataset, making classifier"
@@ -148,6 +149,10 @@ class CRFMallet(object):
         
     
     def loadModel(self, fname):
+        import jvm
+        import jpype
+
+        p_classifier = jpype.JPackage("edu.mit.csail.spatial.learner")
         self.java_crf = p_classifier.CRFMallet2()
         self.java_crf.loadModel(fname)
         self.update_rep()

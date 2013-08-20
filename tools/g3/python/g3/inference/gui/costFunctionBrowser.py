@@ -160,7 +160,7 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
         self.factors_to_esdcs = None
         self.gggs = None
 
-        self.selectEsdcExtractor()
+        #self.selectEsdcExtractor()
 
         self.merging_mode = merging_mode
 
@@ -337,23 +337,17 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
         end = time.time()
 
         if verbose:
-            print "Took", (end - start), "seconds."
+            print "Cost Function Browser took", (end - start), "seconds."
         
         plansList = self.plansList
         if len(plansList) == 0:
             return [], []
         else:
 
-            plans = []
-            for i, p in enumerate(plansList):
-                cost, state, ggg = p
-                state_sequence = self.taskPlanner.state_sequence(state)
 
-                plans.append(plansModel.Plan(state, ggg, cost, state_sequence, False))
-
-            self.plans = plans
-            self.plansModel.setData(plans)
-            self.nodeFeatureWeights.load(self.taskPlanner.cf_obj, gggs, plans,
+            self.plans = plansModel.Plan.from_inference_result(self.taskPlanner, plansList)
+            self.plansModel.setData(self.plans)
+            self.nodeFeatureWeights.load(self.taskPlanner.cf_obj, gggs, self.plans,
                                          context=self.state.to_context())
             self.plansView.selectRow(0)
             self.gggWindow.load(plansList[0][2], groundingSpace=state.objects)
