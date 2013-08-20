@@ -1,6 +1,6 @@
 ENV['SLU_HOME'] = $home
 
-if ENV['BUILD_PREFIX'] != ""
+if ENV['BUILD_PREFIX'] and ENV['BUILD_PREFIX'].strip() != ""
   $build_dir = ENV['BUILD_PREFIX']
 else
   $build_dir = "#{$home}/build"
