@@ -1,45 +1,7 @@
 import math
 import sys
-import rndf_util as ru
 import spatial_features_cxx as sf
 import numpy as na
-
-def tmapFromRndf(loc_xy, rndf):
-    '''Reads in an RNDF and returns a topological map of nodes based on
-        the information provided.
-    '''
-    tmap = {}
-    tmap_locs = {}
-
-    if loc_xy != None:
-        indicies = [0]
-        tmap_locs[0] = loc_xy #first node is starting position, if specified
-
-    #find start zone
-    start_zone = None
-
-    for zone in rndf.zone_polygons:
-        if ru.is_interior_point(zone, loc_xy[0:2]):
-            start_zone = zone
-            break
-
-    #remaining nodes are checkpoints in RNDF
-    for chk_pt in rndf.checkpoints:
-        wp = chk_pt.waypoint
-        x,y = ru.latlon_to_xy(wp.lat, wp.lon, rndf.origin)
-        #constrain map to single zone
-        if start_zone and not ru.is_interior_point(start_zone, loc_xy[0:2]):
-            continue
-
-        assert chk_pt.id_int != 0
-
-        indicies.append(chk_pt.id_int)      #add index of checkpoint            
-        tmap_locs[chk_pt.id_int] = (x,y)    #add coordinates of checkpoint
-        
-    for i in tmap_locs:
-        tmap[i] = indicies
-            
-    return tmap, tmap_locs  
 
 def tmapFromObjectsAndPlaces(loc_xy, objects, places):
     place_indices = set()
@@ -97,13 +59,9 @@ class ActionMap:
     accordingly.
     """
     
-    def __init__(self, rndfFname=None, 
-                 tmap=None, tmap_locs=None, loc_xy=None):
-        self.rndfFname = rndfFname
+    def __init__(self, tmap=None, tmap_locs=None, loc_xy=None):
 
-        if rndfFname:   #if RNDF given, create a tmap from it
-            self.tmap, self.tmap_locs = tmapFromRndf(loc_xy, rndfFname)
-        elif tmap and tmap_locs:    #otherwise simply store the tmap
+        if tmap and tmap_locs:    #otherwise simply store the tmap
             self.tmap = tmap
             self.tmap_locs = tmap_locs
         else:
@@ -111,8 +69,7 @@ class ActionMap:
 
     def __repr__(self):
         args = []
-        for key in ["rndfFname", "tmap", 
-                    "tmap_locs"]:
+        for key in ["tmap", "tmap_locs"]:
             args.append(key + "=" + repr(eval("self.%s" % key)))
         result = "ActionMap(" + ",".join(args) + ")"
         return result

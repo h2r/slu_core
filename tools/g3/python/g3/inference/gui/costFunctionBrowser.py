@@ -350,8 +350,8 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
             self.nodeFeatureWeights.load(self.taskPlanner.cf_obj, gggs, self.plans,
                                          context=self.state.to_context())
             self.plansView.selectRow(0)
-            self.gggWindow.load(plansList[0][2], groundingSpace=state.objects)
-            return self.esdcs, plans
+            self.gggWindow.load(plansList[0][2], groundingSpace=self.state.objects)
+            return self.esdcs, self.plans
 
 
 

@@ -37,6 +37,7 @@ def initialize():
     cfb.beamWidthBox.setValue(2)
     cfb.seqBeamWidthBox.setValue(10)
     cfb.searchDepthBox.setValue(3)
+    cfb.selectEsdcExtractor()
     print 'starting tests'
 
 
@@ -96,6 +97,7 @@ class TestCase(unittest.TestCase):
 
     
     def testPutWaverly(self):
+
         esdcs, plans = self.cfb.followCommand("Put the tire pallet on the truck.")
         #self.cfb.show()
 

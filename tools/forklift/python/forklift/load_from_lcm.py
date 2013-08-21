@@ -1,11 +1,13 @@
 from forklift.forkState import ForkState
 from lcm_utils import pallet_t_create, object_t_create
 from arlcm.pallet_enum_t import pallet_enum_t 
+import math
 from arlcm.pallet_t import pallet_t 
 from arlcm.object_t import object_t 
 from arlcm.object_enum_t import object_enum_t
 from spatial_features.groundings import PhysicalObject, Prism
 from actionMap import ActionMap
+import numpy as na
 
 objectTypes = dict()
 for key, value in object_enum_t.__dict__.iteritems():
@@ -28,7 +30,7 @@ def getLabel(obj):
           return None
 
 def physicalObject(obj, path=None):
-     prism = Prism.fromLcmObject(obj)
+     prism = fromLcmObject(obj)
 
      obj = PhysicalObject(prism, getLabel(obj).split(), path,
                            lcmId=obj.id)
@@ -63,7 +65,7 @@ def waverly_state_truck():
                                                       orientation=(0.99579471000539965, 0.0, 0.0, 0.09161274761332111),
                                                       bbox_min=(0.0, 0.0, -0.40000000000000002),
                                                       bbox_max=(5.3600000000000003, 1.9099999999999999, 0.0),object_type=object_enum_t(5))],
-                             actionMap = ActionMap(rndfFname=None,tmap={0: [0], 1: [1, 2, 3, 4, 5, 6, 7, 8], 2: [1, 2, 3, 4, 5, 6, 7, 8],
+                             actionMap = ActionMap(tmap={0: [0], 1: [1, 2, 3, 4, 5, 6, 7, 8], 2: [1, 2, 3, 4, 5, 6, 7, 8],
                                                                         3: [1, 2, 3, 4, 5, 6, 7, 8], 4: [1, 2, 3, 4, 5, 6, 7, 8],
                                                                         5: [1, 2, 3, 4, 5, 6, 7, 8], 6: [1, 2, 3, 4, 5, 6, 7, 8],
                                                                         7: [1, 2, 3, 4, 5, 6, 7, 8], 8: [1, 2, 3, 4, 5, 6, 7, 8]},
@@ -78,6 +80,90 @@ def waverly_state_truck():
                                                               8: (1.0979490301377095, 30.00140307255797)}))
 
     return state, state.actionMap
+
+def quat_pos_to_matrix(quat, pos):
+
+    rot = quat_to_matrix(quat)
+
+    mat = na.zeros(16)
+    mat[0] = rot[0];
+    mat[1] = rot[1];
+    mat[2] = rot[2];
+    mat[3] = pos[0];
+
+    mat[4] = rot[3];
+    mat[5] = rot[4];
+    mat[6] = rot[5];
+    mat[7] = pos[1];
+
+    mat[8] = rot[6];
+    mat[9] = rot[7];
+    mat[10] = rot[8];
+    mat[11] = pos[2];
+
+    mat[12] = 0;
+    mat[13] = 0;
+    mat[14] = 0;
+    mat[15] = 1;
+    return na.reshape(mat, (4,4))
+
+def quat_to_matrix(quat):
+    rot = na.zeros(9)
+    
+    norm = quat[0]*quat[0] + quat[1]*quat[1] + quat[2]*quat[2] + quat[3]*quat[3]
+    if (math.fabs(norm) < 1e-10):
+        return rot
+        raise ValueError("norm is almost zero: " + `norm`)
+    
+    norm = 1/norm
+    x = quat[1]*norm
+    y = quat[2]*norm
+    z = quat[3]*norm
+    w = quat[0]*norm
+
+    x2 = x*x;
+    y2 = y*y;
+    z2 = z*z;
+    w2 = w*w;
+    xy = 2*x*y;
+    xz = 2*x*z;
+    yz = 2*y*z;
+    wx = 2*w*x;
+    wy = 2*w*y;
+    wz = 2*w*z;
+
+    rot[0] = w2+x2-y2-z2;  rot[1] = xy-wz;  rot[2] = xz+wy;
+    rot[3] = xy+wz;  rot[4] = w2-x2+y2-z2;  rot[5] = yz-wx;
+    rot[6] = xz-wy;  rot[7] = yz+wx;  rot[8] = w2-x2-y2+z2;
+
+    return rot
+
+
+def fromLcmObject(obj):
+   #x0,y0,z0 = [obj.pos[i] + obj.bbox_min[i] for i in range(3)]
+   #x1,y1,z1 = [obj.pos[i] + obj.bbox_max[i] for i in range(3)]
+   x0,y0,z0 = [obj.bbox_min[i] for i in range(3)]
+   x1,y1,z1 = [obj.bbox_max[i] for i in range(3)]        
+   if len(obj.orientation) != 0:
+       m = quat_pos_to_matrix(obj.orientation, obj.pos)
+       points = na.array([(x0, y0, z0, 1),
+                          (x0, y1, z0, 1),
+                          (x1, y1, z0, 1),
+                          (x1, y0, z1, 1)])
+
+       points_xyz = na.transpose([na.dot(m, p) for p in points])[0:3]
+       X, Y, Z = points_xyz
+
+   else:
+       xs, ys, zs = obj.pos
+       points_xyz = na.transpose([(xs+x0, ys+y0, zs+z0),
+                                  (xs+x0, ys+y1, zs+z0),
+                                  (xs+x1, ys+y1, zs+z0),
+                                  (xs+x1, ys+y0, zs+z0)])
+                                 #(x1, y1, z1)])
+       Z = [z0, z1]
+   return Prism.from_points_xy(points_xyz[0:2], min(Z), max(Z))
+
 
 def waverly_state_no_truck():
     from lcm_utils import pallet_t_create
