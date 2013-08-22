@@ -6,205 +6,292 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>865</width>
-    <height>866</height>
+    <width>1113</width>
+    <height>888</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>ESDC Cost Function Debugger</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QGridLayout" name="gridLayout">
-    <item row="2" column="0" rowspan="2" colspan="3">
-     <widget class="QFrame" name="matplotlibFrame">
-      <property name="minimumSize">
-       <size>
-        <width>400</width>
-        <height>400</height>
-       </size>
-      </property>
+   <layout class="QGridLayout" name="gridLayout_6">
+    <item row="5" column="0" colspan="2">
+     <widget class="QFrame" name="frame_5">
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
       </property>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <layout class="QHBoxLayout" name="horizontalLayout"/>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>4.  2d Representation of the Inferred Plan</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QFrame" name="matplotlibFrame">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>400</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="margin">
+           <number>0</number>
+          </property>
+         </layout>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
-    <item row="0" column="0" colspan="4">
-     <widget class="QPlainTextEdit" name="commandEdit">
-      <property name="maximumSize">
-       <size>
-        <width>16777215</width>
-        <height>40</height>
-       </size>
+    <item row="1" column="1" rowspan="4">
+     <widget class="QFrame" name="frame_2">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
       </property>
-      <property name="plainText">
-       <string> Put the tire pallet on the truck.</string>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
       </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>3. Inferred Plans Sorted by Probability:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" rowspan="2">
+        <widget class="QTableView" name="plansView">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SingleSelection</enum>
+         </property>
+         <property name="selectionBehavior">
+          <enum>QAbstractItemView::SelectRows</enum>
+         </property>
+         <property name="sortingEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
-    <item row="0" column="4">
-     <widget class="QPushButton" name="submitButton">
-      <property name="text">
-       <string>Submit Command</string>
+    <item row="0" column="1">
+     <widget class="QFrame" name="frame_3">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
       </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>2.  Parsed Command:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QTreeView" name="esdcView">
+         <property name="autoExpandDelay">
+          <number>-1</number>
+         </property>
+         <attribute name="headerVisible">
+          <bool>false</bool>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
-    <item row="5" column="0">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Beam Width</string>
+    <item row="0" column="0" rowspan="5">
+     <widget class="QFrame" name="frame_4">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
       </property>
-     </widget>
-    </item>
-    <item row="7" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>Starting Index</string>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
       </property>
-     </widget>
-    </item>
-    <item row="8" column="0">
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>Search Depth</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="1">
-     <widget class="QSpinBox" name="searchDepthBox">
-      <property name="value">
-       <number>2</number>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="1">
-     <widget class="QSpinBox" name="beamWidthBox">
-      <property name="value">
-       <number>2</number>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="1">
-     <widget class="QSpinBox" name="startLocationBox">
-      <property name="value">
-       <number>21</number>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="3" colspan="3">
-     <widget class="QTableView" name="plansView">
-      <property name="selectionMode">
-       <enum>QAbstractItemView::SingleSelection</enum>
-      </property>
-      <property name="selectionBehavior">
-       <enum>QAbstractItemView::SelectRows</enum>
-      </property>
-      <property name="sortingEnabled">
-       <bool>true</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="2">
-     <widget class="QPushButton" name="rrtCacheButton">
-      <property name="text">
-       <string>Save RRT</string>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="2">
-     <widget class="QPushButton" name="saveCommandLogButton">
-      <property name="text">
-       <string>Save Commands</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="3" rowspan="5" colspan="3">
-     <widget class="QTreeView" name="esdcView">
-      <attribute name="headerVisible">
-       <bool>false</bool>
-      </attribute>
-     </widget>
-    </item>
-    <item row="10" column="1">
-     <widget class="QComboBox" name="esdcParserComboBox">
-      <item>
-       <property name="text">
-        <string>stanfordParserExtractor</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>lccrfRerankingExtractor</string>
-       </property>
-      </item>
-     </widget>
-    </item>
-    <item row="10" column="0">
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>ESDC Parser</string>
-      </property>
-     </widget>
-    </item>
-    <item row="11" column="1">
-     <widget class="QPushButton" name="esdcParserModelButton">
-      <property name="maximumSize">
-       <size>
-        <width>100</width>
-        <height>16777215</height>
-       </size>
-      </property>
-      <property name="text">
-       <string>model</string>
-      </property>
-     </widget>
-    </item>
-    <item row="11" column="0">
-     <widget class="QLabel" name="label_4">
-      <property name="text">
-       <string>ESDC Parser Model</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <widget class="QLabel" name="label_5">
-      <property name="text">
-       <string>Beam Width Event</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="0">
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Seq Beam Width</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="1">
-     <widget class="QSpinBox" name="seqBeamWidthBox">
-      <property name="value">
-       <number>10</number>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QSpinBox" name="beamWidthEventBox">
-      <property name="value">
-       <number>2</number>
-      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>1.  Input Command:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="2">
+        <widget class="QPlainTextEdit" name="commandEdit">
+         <property name="plainText">
+          <string>Pick up the red block.
+</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="submitButton">
+         <property name="text">
+          <string>Submit Command</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="3">
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Search Depth</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QSpinBox" name="searchDepthBox">
+            <property name="value">
+             <number>2</number>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>ESDC Parser</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QComboBox" name="esdcParserComboBox">
+            <item>
+             <property name="text">
+              <string>stanfordParserExtractor</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>lccrfRerankingExtractor</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>ESDC Parser Model</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>Beam Width Event</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QSpinBox" name="beamWidthBox">
+            <property name="value">
+             <number>2</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="beamWidthEventBox">
+            <property name="value">
+             <number>2</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Beam Width</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>Seq Beam Width</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSpinBox" name="seqBeamWidthBox">
+            <property name="value">
+             <number>10</number>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Inference Parameters:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QPushButton" name="esdcParserModelButton">
+            <property name="maximumSize">
+             <size>
+              <width>100</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>model</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
    </layout>
+   <zorder>label_8</zorder>
+   <zorder>frame_4</zorder>
+   <zorder>frame_2</zorder>
+   <zorder>frame_5</zorder>
+   <zorder>frame_3</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>865</width>
+     <width>1113</width>
      <height>25</height>
     </rect>
    </property>

@@ -126,18 +126,12 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
                      self.selectEsdcExtractor)
 
 
-        self.connect(self.rrtCacheButton,
-                     SIGNAL("clicked()"),
-                     self.saveRrtCache)
 
         self.connect(self.esdcParserModelButton,
                      SIGNAL("clicked()"),
                      self.askForEsdcParserModel)
 
 
-        self.connect(self.saveCommandLogButton,
-                     SIGNAL("clicked()"),
-                     self.planToLcmLog)
 
 
         self.connect(self.actionLoadContext,
@@ -179,13 +173,7 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
         self.setState(state)
         
 
-    def showGui(self):
-        self.esdcFeatureBrowser.show()
-        self.crfFeatureWeights.show()
-        self.nodeFeatureWeights.show()
-
     def show(self):
-        self.contextWindow.show()
         QMainWindow.show(self)
 
     def askForEsdcParserModel(self):
@@ -208,6 +196,7 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
     def updateEsdcs(self, esdcs, gggs=None):
         self.esdcs = esdcs
         self.esdcModel.setData(self.esdcs)
+        self.esdcView.expandAll()
         self.updateCommand(self.esdcs.text)
         self.gggs = gggs
 
@@ -262,6 +251,7 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
                 #print "flattened esdcs", self.flattenedEsdcs
        
         self.esdcModel.setData(self.esdcs)
+        self.esdcView.expandAll()
 
         #convert to a list of plans
         if input_gggs != None:
@@ -542,20 +532,6 @@ class MainWindow(QMainWindow, costFunctionBrowser_ui.Ui_MainWindow):
         self.draw()
 
         
-    def saveRrtCache(self):
-        if self.taskPlanner.useRrt:
-            self.taskPlanner.rrt.saveCache()
-
-    def clearRrtCache(self):
-        if self.taskPlanner.useRrt:
-            self.taskPlanner.rrt.clearCache()
-
-    def planToLcmLog(self):
-        plan = self.plansModel.selectedData().annotation
-        fname = 'testlog.lcm'
-        
-        if plan != None:
-            evaluateCorpus.planToLcmLog(plan, fname, actionMap=self.state.actionMap)
         
     def updateLimits(self, mplEvent):
         self.saveLimits()
@@ -677,7 +653,6 @@ def main(argv):
     wnd.show()
     wnd.selectEsdcExtractor()
     wnd.followCommand()
-    
     app.exec_()
 
 if __name__=="__main__":

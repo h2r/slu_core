@@ -32,7 +32,7 @@ desc "cost function browser for forklift"
 python_task :cost_function_browser => [:buildGui] do
     python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py " +
            "--model-filename=#{$home}/tools/crf_training/models/crf_discrete_forklift_1.5.pck " + 
-           "--limits=10,40,10,40 " +
+           "--limits=-5,45,10,40 " +
            "--state-type=forklift " +
            "--search-depth=2 " + 
            "--start-context-file data/waverly_state_truck.yaml " + 
