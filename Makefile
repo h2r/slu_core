@@ -1,4 +1,4 @@
 default_target: all
 
 all: 
-	rake setup BUILD_PREFIX=$(BUILD_PREFIX)
+	rake  BUILD_PREFIX=$(BUILD_PREFIX)
