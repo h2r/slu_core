@@ -4,11 +4,7 @@ require "#{$home}/rakefile.rb"
 
 desc "Build everything."
 task :all => [:build_python, :build_java] 
-make_python_targets(:build_python, FileList["python/**/*.py"])
 
-
-
-make_class_targets(:build_java, FileList["java/**/*.java"])
 make_jar_target("slu-mallet.jar")
 
 task :setup do

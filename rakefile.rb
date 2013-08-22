@@ -221,3 +221,13 @@ def python_task(*args, &block)
   end
   Rake::Task.define_task(*args, &block)
 end
+
+
+task :build_python do
+  make_python_targets(:do_build_python, FileList["python/**/*.py"])
+  Rake::Task["do_build_python"].invoke
+end
+
+
+make_class_targets(:build_java, FileList["java/**/*.java"])
+

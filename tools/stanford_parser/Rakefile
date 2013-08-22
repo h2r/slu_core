@@ -2,7 +2,7 @@ here=File.dirname(__FILE__)
 $home=File.expand_path("#{here}/../..")
 require "#{$home}/rakefile.rb"
 task :all => [:build_python] 
-make_python_targets(:build_python, FileList["python/**/*.py"])
+
 task :clean => [:clean_python] 
 
 task :setup do
