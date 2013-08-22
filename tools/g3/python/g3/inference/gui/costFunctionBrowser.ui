@@ -41,7 +41,7 @@
        </size>
       </property>
       <property name="plainText">
-       <string> Pick up the blue block.</string>
+       <string> Put the tire pallet on the truck.</string>
       </property>
      </widget>
     </item>
@@ -76,7 +76,7 @@
     <item row="8" column="1">
      <widget class="QSpinBox" name="searchDepthBox">
       <property name="value">
-       <number>1</number>
+       <number>2</number>
       </property>
      </widget>
     </item>

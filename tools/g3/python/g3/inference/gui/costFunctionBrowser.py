@@ -632,7 +632,7 @@ def main(argv):
                       help="Initial context file", default=None)
 
     parser.add_option("--search-depth", dest="search_depth", type="int",
-                      default=1)
+                      default=2)
 
     parser.add_option("--beam-width", dest="beam_width", type="int",
                       default=2)
@@ -675,7 +675,9 @@ def main(argv):
     wnd.setState(start_state)
 
     wnd.show()
+    wnd.selectEsdcExtractor()
     wnd.followCommand()
+    
     app.exec_()
 
 if __name__=="__main__":
