@@ -1,131 +1,38 @@
-This is the spatial language understanding package written by the
-Robust Robotics Research Group.
+This is the spatial language understanding package written by Stefanie
+Tellex, Thomas Kollar, with many other contributions.
 
 * You must install java and set the JAVA_HOME environment variable.
-* Run "rake setup" to compile 3rd party dependencies. 
+* Run "make" to compile 3rd party dependencies. 
+
+
+**************************
+Forklift Demonstration
+
 * To test the forklift mobile-manipulation code, run "rake
-  train_forklift" in crf_training to build the model.  Then run "rake
-  tests" in forklift.  If all these test cases pass, it is
+  train_forklift_aaai11" in crf_training to build the model.  Then run
+  "rake tests" in forklift.  If all these test cases pass, it is
   successfully following commands such as "put the tire pallet on the
   truck."
 
-This software requires Ubuntu 10.10
+* Then run "rake cost_function_browser" in forklift.  This command
+  creates the the debugging interface for the inference.  You can type
+  commands into the "Input Command" box.  Click "submit" to run the
+  inference.  The parsed command appears in the parsed command box,
+  and scored, inferred plans appear in the "Inferred Plans"box.
+  Finally a graphical representation of the scene and inferred plans
+  appears in the bottom pane. If you click "Windows/Context 3d" you
+  can see a 3d representation of the scene and play back the inferred
+  plan using the slider.  If you select a consituent in the "Parsed
+  Command" window, it will be highlighted in the 2d and 3d views of
+  the inferred action sequence.
 
-=========================
-Installation instructions:
-=========================
-Install java by adding the sun repository:
-sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner"
-Note that on Natty, you may need to do this instead:
-sudo add-apt-repository ppa:ferramroberto/java
+  The system does not just infer a single plan in response to a
+  command. Instead it tries many different groundings and returns a
+  list of candidate assignments, with a score.  Each candidate
+  assignment of grounding to linguistic constituents has a row in
+  "Inferred Plans."  If you select a different row, you can see
+  groundings associated with each inferred plan in the list.  Since it
+  does approximate beam search, you won't see all possible
+  combinations (depending on the beam width and the size of the
+  environment.)
 
-Then you can do:
-sudo apt-get update
-sudo apt-get install sun-java6-jdk
-echo export JAVA_HOME=/usr/lib/jvm/java-6-sun >> ~/.bashrc
-
-All other packages should be available normally with apt-get. 
-
-Required Packages (in apt):
-(see the list in the "rake apt" target in ./Rakefile). 
-
--------------------------------
-Required Packages (not in apt):
--------------------------------
-# libbot (version 1) https://svn.csail.mit.edu/libbot
-Installing libbot:
-
-First get LCM:
-Download lcm-x.x.x.tar.gz from http://lcm.googlecode.com:
-
-	wget http://lcm.googlecode.com/files/lcm-0.8.0.tar.gz
-
-
-Extract the .tar.gz, cd into the lcm-x.x.x directory:
-
-	tar -xzf lcm-0.8.0.tar.gz 
-
-Then do:
-
-	./configure
-	make
-	sudo make install
-
-Then install libbot itself:
-
-	cd ~
-	svn co https://svn.csail.mit.edu/libbot
-	cd libbot/software
-	./bootstrap.sh
-	./configure
-	make
-	sudo make install
-
-(As of 2012-05-04 this fails at "make" because libbot appears to be searching for libavutil49, but Ubuntu 11.04 has libavutil50. To get around this, I did:
-
-	wget http://security.ubuntu.com/ubuntu/pool/main/f/ffmpeg/libavutil49_0.5.1-1ubuntu1.3_i386.deb
-	sudo dpkg -i libavutil49_0.5.1-1ubuntu1.3_i386.deb
-
-Then did bootstrap -> configure -> make -> make install. For a 64 bit system, you'll want this file instead: http://security.ubuntu.com/ubuntu/pool/main/f/ffmpeg/libavutil49_0.5.1-1ubuntu1.3_amd64.deb ).
-
-# Boto (interface to EC2)
-There is a python-boto package in apt, but it seems to be the wrong version. You should do:
-
-	sudo pip install boto
-
-Instead.
-
-
-# CRFPP
-
-Doing `rake setup` in tools/esdc_chunker attempts to install CRFPP, but the python bindings don't seem to work in Ubuntu 11.04. To fix this, we need to install crf++ from the Ubuntu NLP repository. To do this, first add these two lines to your /etc/apt/sources.list file:
-
-	deb http://cl.naist.jp/~eric-n/ubuntu-nlp natty all
-	deb-src http://cl.naist.jp/~eric-n/ubuntu-nlp natty all
-
-then do:
-
-	sudo apt-get update
-	sudo apt-get install crf++
-
-You'll then need to install the python bindings, which you can get by going into tools/esdc_chunker/3rdParty/crf++/CRF++.xx.xx/python and doing
-
-	sudo python setup.py install
-
----------------------------
-Setting up Python includes
----------------------------
-sudo ln -s /usr/include/python2.7 /usr/include/python
-
-
--------------------------------
-Additional requirements:
--------------------------------
-Minimum 1280 Mb RAM
-
-=========================
-Setup:
-=========================
-rake setup
-
-
-To run the inference in debug mode: 
-
-# this trains the model on the forklift corpus.
-cd du_crf3 && rake train_forklift 
-
-# this will open a GUI for sending commands to the inference, and
-# displaying the results.
-cd forklift && rake cost_function_browser
-
-
-============================
-Additional Help:
-============================
-The Amazon Mechanical Turk API will fail with weird timeout errors if your system clock is not set properly (which often happens in a VM). To force the system clock to update, you can do:
-
-sudo ntpdate pool.ntp.org
-
-(you'll need to 
-sudo apt-get install ntpdate
-first, of course)

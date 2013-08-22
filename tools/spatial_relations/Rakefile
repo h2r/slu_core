@@ -11,55 +11,21 @@ task :clean => [:clean_python]
 
 training_home="#{$home}/data/directions/direction_training"
 
-ENV['PYTHONPATH'] = [ENV['PYTHONPATH'],
-                     "#{$home}/tools/du_crf3/src/",
-                     "#{$home}/tools/rrt/src/",
-                     "#{$home}/tools/refexp_crf/src/",
-                     "#{$home}/nlp/3rdParty/orange/",
-                     "#{$home}/nlp/3rdParty/orange/orange",
-                     "#{$home}/nlp/3rdParty/orange/orange/OrangeWidgets",
-                     "#{$home}/nlp/3rdParty/orange/orange/OrangeWidgets/Classify",
-                     "#{$agile_home}/software/src/swig/",
-                    ].join(':')
-
-
-
-ENV['FORKLIFT_RNDF'] = "#{$home}/data/directions/forklift/Lee_at_Waverly_RNDF_onezone.txt"
-#ENV['FORKLIFT_RNDF'] = "#{$home}/data/directions/forklift/Lee_RNDF_demo.txt"
-run_id = (ENV['RUN_ID'] or  -1)
-use_rrt = (ENV['USE_RRT'] or "True")
-state_type = (ENV['STATE_TYPE'] or "navigation")
-multi_esdcs = (ENV['MULTI_ESDCS'] or "False")
-merging = (ENV['MERGING'] or "merge_none")
-num_questions = (ENV['NUM_QUESTIONS'] or "0")
-num_answers = (ENV['NUM_ANSWERS'] or "1")
-entropy_metric = (ENV['ENTROPY_METRIC'] or "metric2")
-resolver = (ENV['RESOLVER'] or "None")
-esdc_extractor = (ENV['ESDC_EXTRACTOR'] or "annotated")
-force_sync = (ENV['FORCE_SYNC'] or "False")
-cost_function_class = (ENV['COST_FUNCTION_CLASS'] or "CostFnQa")
-question_type = (ENV['QUESTION_TYPE'] or "targeted")
-random_seed = (ENV['RANDOM_SEED'] or '10')
 
 desc "Run the test cases."
 python_task :partial_tests  do
-  #python("/usr/bin/nosetests src/forklift/corpus_open_ended/forkliftCorpusReader_test.py")
-  # python("/usr/bin/nosetests src/forklift/objectReader_test.py")
-  #python("/usr/bin/nosetests  -v -s #{$pbd}/forklift/test/rss_2012_results_test.py")
-  #python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/dialogCorpus_test.py")
-  #python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/cost_function_test.py")  
   python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/forklift_test.py")  
 end
 
 desc "cost function browser for forklift"
 python_task :cost_function_browser => [:buildGui] do
-    python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py --use-rrt=#{use_rrt} " +
-           "--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
-           #"--model-filename=#{$home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
-           "--limits=10,40,10,40 " +
+    python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py " +
+           "--model-filename=#{$home}/tools/crf_training/models/crf_discrete_forklift_1.5.pck " + 
+           "--limits=-5,45,10,40 " +
            "--state-type=forklift " +
-	   "--merging #{merging} " + 
+           "--search-depth=2 " + 
            "--start-context-file data/waverly_state_truck.yaml " + 
+           "--start-command 'Put the tire pallet on the truck.'" + 
            ""
            )
 end

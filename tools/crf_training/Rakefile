@@ -24,6 +24,12 @@ python_task :train_forklift_aaai11 => [:generate_examples_forklift_aaai11,
                                        :continuous_to_discrete_forklift_aaai11,
                                        :train_lccrf_forklift_aaai11]
 
+desc 'high level target to train the spatial relations models'
+python_task :train_sr => [:generate_examples_sr,
+                                       :continuous_to_discrete_sr,
+                                       :train_lccrf_sr]
+
+
 desc "Generate examples"
 python_task :generate_examples_forklift_aaai11 do
   python("#{$pbd}/dcrf3/generate_examples.py " + 
@@ -50,6 +56,45 @@ python_task :train_lccrf_forklift_aaai11 do
          "--training_filename=#{training_home}/training_discrete_forklift.pck " + 
          "--crf_filename=#{training_home}/crf_discrete_forklift.pck --sigma=#{sigma} ")
 end
+
+
+
+
+desc "Generate examples"
+python_task :generate_examples_sr do
+  python("#{$pbd}/dcrf3/generate_examples.py " + 
+         "--outfile_training=#{training_home}/training_continuous_sr.pck " + 
+         "--outfile_test=#{training_home}/testing_continuous_sr.pck " +
+         "--infile_labeled=#{data_home}/spatial_relations/spatialRelations.stefie10.yaml "+
+         "--infile_labeled=#{data_home}/spatial_relations/negative_down_and_through.yaml "+
+         "--infile_labeled #{data_home}/spatial_relations/place_examples_place_blue_block_between_red_and_orange_blocks_lv35RBc0RPE.groundings.training.yaml  " +
+         "--infile_labeled #{data_home}/spatial_relations/place_examples_slide_orange_block_in_front_of_green_block_6MIjYMxOod8.groundings.training.yaml  " +
+         "--infile_labeled #{data_home}/spatial_relations/place_examples_slide_red_block_closer_to_blue_block_KFotsdwOGlM.groundings.training.yaml  " +
+
+         "--infile_labeled #{data_home}/spatial_relations/place_examples_place_blue_block_on_opposite_side_of_red_block_t1u5yBymQtw.groundings.training.yaml  " +
+         "--infile_labeled #{data_home}/spatial_relations/place_examples_slide_blocks_into_a_square_3jEbxhbYEDg.groundings.training.yaml  " +
+         "--infile_labeled #{data_home}/spatial_relations/place_examples_slide_blue_block_behind_green_block_aB9loZ52Ox8.groundings.training.yaml  " +
+         "--infile_labeled=#{data_home}/spatial_relations/pp_examples.yaml " + 
+         "--split=random " + 
+	 "--feature_extractor=SrFeatures")
+end
+
+desc "continuous to discrete"
+python_task :continuous_to_discrete_sr do
+  python("#{$pbd}/dcrf3/continuous_to_discrete_dataset.py "+
+         "#{training_home}/training_continuous_sr.pck "+
+         "#{training_home}/training_continuous_sr.pck "+
+	 "#{training_home}/training_discrete_sr.pck")
+end
+
+desc "Train CRF forklift"
+python_task :train_lccrf_sr do
+  python("#{$pbd}/dcrf3/train_lccrf.py " + 
+         "--training_filename=#{training_home}/training_discrete_sr.pck " + 
+         "--crf_filename=#{training_home}/crf_discrete_sr.pck --sigma=#{sigma} ")
+end
+
+
 
 python_task :partial_tests do
   python("/usr/bin/nosetests -v #{here}/src/dcrf3/test/dataset_test.py")

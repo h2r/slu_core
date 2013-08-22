@@ -11,18 +11,6 @@ task :clean => [:clean_python]
 
 training_home="#{$home}/data/directions/direction_training"
 
-ENV['PYTHONPATH'] = [ENV['PYTHONPATH'],
-                     "#{$home}/tools/du_crf3/src/",
-                     "#{$home}/tools/rrt/src/",
-                     "#{$home}/tools/refexp_crf/src/",
-                     "#{$home}/nlp/3rdParty/orange/",
-                     "#{$home}/nlp/3rdParty/orange/orange",
-                     "#{$home}/nlp/3rdParty/orange/orange/OrangeWidgets",
-                     "#{$home}/nlp/3rdParty/orange/orange/OrangeWidgets/Classify",
-                     "#{$agile_home}/software/src/swig/",
-                    ].join(':')
-
-
 desc "Run the test cases."
 python_task :partial_tests  do
   python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/forklift_test.py")  
