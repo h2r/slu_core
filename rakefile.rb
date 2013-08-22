@@ -206,7 +206,7 @@ task :everything do
   end
   subdirs = `find #{$home}/tools/* #{build_cmd} -printf "%H\n" | sort -u`.split("\n")
   subdirs.each do |f|
-      sh "cd #{f} && rake BUILD_DIR=#{$build_dir}"
+      sh "cd #{f} && rake all BUILD_DIR=#{$build_dir}"
   end
   sh "touch #{$last_build}"
 end
