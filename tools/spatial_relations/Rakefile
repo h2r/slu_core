@@ -18,14 +18,9 @@ python_task :partial_tests  do
 end
 
 desc "cost function browser for forklift"
-python_task :cost_function_browser => [:buildGui] do
-    python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py " +
-           "--model-filename=#{$home}/tools/crf_training/models/crf_discrete_forklift_1.5.pck " + 
-           "--limits=-5,45,10,40 " +
-           "--state-type=forklift " +
-           "--search-depth=2 " + 
-           "--start-context-file data/waverly_state_truck.yaml " + 
-           "--start-command 'Put the tire pallet on the truck.'" + 
+python_task :spatial_relations_gui => [:buildGui] do
+    python("#{$pbd}/spatial_relations/gui/spatial_relations_gui.py " +
+           "--model-filename=#{$home}/tools/crf_training/models/crf_discrete_sr_1.5.pck " + 
            ""
            )
 end
