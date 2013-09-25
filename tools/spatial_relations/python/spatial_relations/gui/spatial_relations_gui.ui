@@ -15,11 +15,28 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="2" column="0">
-     <widget class="QTableView" name="tableView"/>
+    <item row="1" column="2">
+     <widget class="QLabel" name="instructionLabel">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </item>
-    <item row="0" column="0">
+    <item row="1" column="1">
+     <widget class="QPushButton" name="selectLandmarkButton">
+      <property name="text">
+       <string>Select Landmark (polygon)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="4">
      <widget class="QFrame" name="canvasFrame">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>200</height>
+       </size>
+      </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
       </property>
@@ -29,8 +46,15 @@
       <layout class="QHBoxLayout" name="horizontalLayout"/>
      </widget>
     </item>
+    <item row="2" column="0" colspan="4">
+     <widget class="QTableView" name="tableView"/>
+    </item>
     <item row="1" column="0">
-     <widget class="QListWidget" name="capturerList"/>
+     <widget class="QPushButton" name="selectFigureButton">
+      <property name="text">
+       <string>Select Figure (path)</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

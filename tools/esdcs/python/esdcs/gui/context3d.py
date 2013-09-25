@@ -182,7 +182,7 @@ class GLWidget(QtOpenGL.QGLWidget):
             self.drawPath(physicalObject.path, color)
         x, y, z = prism.centroid3d()
         glColor3f(*color_map["black"])
-
+        glDisable(GL_DEPTH_TEST)
         self.renderText(x, y, z, 
                         str(physicalObject.id) + " " + str(physicalObject.tags))
         glPopMatrix()
@@ -470,7 +470,7 @@ class GLWidget(QtOpenGL.QGLWidget):
         glLoadIdentity()
         aspect = self._width / float(self._height)
 
-        GLU.gluPerspective(45.0, aspect, 1, 60)
+        GLU.gluPerspective(45.0, aspect, 1, 1000)
 
         
         cx, cy, cz = self.camera_xyz

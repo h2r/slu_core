@@ -8,6 +8,7 @@ class Capturer(QObject):
 
     def clearPlots(self):
         for p in self.animPlots:
+            print "clear plots", p
             p.remove()
         self.animPlots = []
 
@@ -165,3 +166,36 @@ class PointOrientationCapturer(Capturer):
 
             return []
         
+
+
+class PathCapturer(Capturer):
+
+    def __init__(self):
+        Capturer.__init__(self)
+        self.name = "path"
+
+    def doReset(self):
+        self.points = []
+
+
+    def buttonReleaseEvent(self, event):
+        loc = event.xdata, event.ydata
+        self.points.append(loc)
+        self.draw()
+        print "button", event.button
+        if event.button == 3 and len(self.points) != 0:
+            self.emit(SIGNAL("completedPoint"), (self.points))
+            self.reset()
+
+
+
+    def makePlots(self):
+        if len(self.points) != 0:
+            X = [x for x, y in self.points]
+            Y = [y for x, y in self.points]
+            plot, = self.axes.plot(X, Y, 'ro-', animated=True, 
+                                   scalex=False, scaley=False)
+            plots = [plot]
+        else:
+            plots = []
+        return plots

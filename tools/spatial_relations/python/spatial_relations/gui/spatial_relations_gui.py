@@ -32,39 +32,53 @@ class MainWindow(QMainWindow, spatial_relations_gui_ui.Ui_MainWindow):
 
         self.figure.canvas.mpl_connect('draw_event', self.updateLimits)
         self.capturePolygon = capturers.PolygonCapturer()
-        self.capturePoint = capturers.PointCapturer()
-        
+        self.capturePath = capturers.PathCapturer()
+        self.capturers = [self.capturePolygon,
+                          self.capturePath]
 
         self.connect(self.capturePolygon, SIGNAL("completedPolygon"),
                      self.completedPolygon)
 
-        self.connect(self.capturePoint, SIGNAL("completedPoint"),
-                     self.completedPoint)        
-        self.capturers = [self.capturePoint,
-                          self.capturePolygon,
-                          ]
-        for c in self.capturers:
-            self.capturerList.addItem(c.name)
 
-        self.connect(self.capturerList.selectionModel(),
-                     SIGNAL("selectionChanged ( QItemSelection, QItemSelection )"),
-                     self.changeCapturer)
+        self.connect(self.capturePath, SIGNAL("completedPath"),
+                     self.completedPath)   
+     
+        self.connect(self.selectFigureButton, SIGNAL("clicked()"),
+                     self.selectFigure)
+
+        self.connect(self.selectLandmarkButton, SIGNAL("clicked()"),
+                     self.selectLandmark)
+
 
 
     def updateLimits(self, event):
         self.limits = self.axes.axis()
     def completedPolygon(self, polygon):
         print "completed polygon", na.transpose(polygon)
-    def completedPoint(self, point):
-        print "got", point
+        self.instructionLabel.setText("")
+        self.landmark = polygon
 
-    def changeCapturer(self):
-        self.capturer = self.capturers[self.capturerList.currentIndex().row()]
+    def completedPath(self, path):
+        self.figure = path
+        self.instructionLabel.setText("")
+
+    def changeCapturer(self, capturer):
+        self.capturer = capturer
 
         for c in self.capturers:
             c.deactivate()
+            c.clearPlots()
 
         self.capturer.activate(self.figure)
+
+    def selectLandmark(self):
+        self.instructionLabel.setText("Select the landmark polygon.")
+        self.changeCapturer(self.capturePolygon)
+
+    def selectFigure(self):
+        self.instructionLabel.setText("Select the path.")
+        self.changeCapturer(self.capturePath)
+
 
 def main(args):
     app = basewindow.makeApp()
@@ -79,6 +93,7 @@ def main(args):
     task_planner = nodeSearch.BeamSearch(cost_function)
     wnd = MainWindow(task_planner)
     wnd.show()
+
     app.exec_()
 
 if __name__=="__main__":
