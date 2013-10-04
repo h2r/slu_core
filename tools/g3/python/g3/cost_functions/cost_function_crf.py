@@ -121,9 +121,7 @@ class CostFnCrf:
         
 
     def compute_factor_cost(self, factor, ggg, state_sequence, verbose=False):
-        
         cobs, dobs = self.compute_features(factor, ggg, state_sequence)
-
         phi_value = ggg.evidence_for_node(factor.phi_node)
 
         factor_cost = self.lccrf.log_probability(dobs, phi_value) * -1
