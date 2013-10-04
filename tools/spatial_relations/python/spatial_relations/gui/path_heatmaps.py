@@ -40,9 +40,6 @@ def path_probabilities(cf,
 
     xstart, ystart = (xmin + 0.5, (ymax + ymin) / 2.0)
 
-    ath = 0
-
-
     probs = na.zeros((int((ymax-ymin)/step), int((xmax-xmin)/step)))
     prob_idx_to_xy = {}
     for i, x in enumerate(na.arange(xmin, xmax, step)):
@@ -74,15 +71,11 @@ def path_probabilities(cf,
                 new_evidences[phi.id] = True
             ggg = GGG.from_ggg_and_evidence(ggg, new_evidences)
             
-            print "**** computing entry"
             ce = cf.compute_factor_cost_entry(path_factor, ggg, None)
-            print "**** done computing entry", ce.probability
             probs[j][i] = ce.probability
 
             prob_idx_to_xy[(j, i)] = (x, y)
-            #break
         print i
-        #break
 
     print 'min/max', min(probs.flatten()), max(probs.flatten())
     print "max idx", na.argmax(probs)
@@ -99,7 +92,6 @@ def draw(probs, xmin, xmax, ymin, ymax,
 
     axes.imshow(probs, origin="lower", extent=(xmin, xmax, ymin, ymax),
                        cmap=mpl.cm.jet)
-    print" drawing", agent, agent.centroid2d
     drawUtils.drawGrounding(axes, agent)
     drawUtils.drawGrounding(axes, landmark)
 
@@ -107,16 +99,12 @@ def draw(probs, xmin, xmax, ymin, ymax,
         figure.suptitle( title )
 
     axes.axis([xmin, xmax, ymin, ymax])
-    #axes.get_xaxis().set_visible(False)
-    #axes.get_yaxis().set_visible(False)
     figure.canvas.draw()
     if output_fname is not None:
         mpl.savefig( output_fname )
-    else:
-        mpl.show()
 
 
-def generate_go_to_heat_map(esdcs, cf, output_fname=None, title=None):
+def generate_path_heat_map(esdcs, cf, output_fname=None, title=None):
     path_esdc = esdcs[0]
     landmark_esdc = path_esdc.l[0]
 
@@ -125,7 +113,7 @@ def generate_go_to_heat_map(esdcs, cf, output_fname=None, title=None):
                                tags=("robot",), 
                                lcmId=-1)
 
-    landmark = PhysicalObject(Prism.from_points_xy(tp([(9, -1), (10, -1), (10, 1), (9, 1)]), 0, 2), tags=("truck",), lcmId=3)
+    landmark = PhysicalObject(Prism.from_points_xy(tp([(9, -1), (10, -1), (10, 1), (9, 1)]), 0, 2), tags=("square",), lcmId=3)
     
     context = Context.from_groundings([agent, landmark])
 
@@ -147,10 +135,10 @@ def generate_go_to_heat_map(esdcs, cf, output_fname=None, title=None):
 
     probs, xstart, ystart = path_probabilities(cf, 
                                                path_factor, path_node, ggg,
-                                               -5, 15, -10, 10, 1)
+                                               -5, 20, -10, 10, 1)
     print "starting draw"
-    draw(probs, -5, 15, -10, 10, xstart, ystart, 
-         agent, landmark, output_fname=output_fname, title=title)
+    draw(probs, -5, 20, -10, 10, xstart, ystart, 
+         agent, landmark, output_fname=output_fname, title=esdcs.entireText)
 
 
 def main():
@@ -160,17 +148,19 @@ def main():
 
     crf_fname = options.model_fname
     cf = CostFnCrf.from_mallet(crf_fname)
-
-
-    esdcs = esdcIo.parse("""
-- 'to the truck'
+    pps = ["to", "past", "towards"]
+    #pps = ["away from"]
+    #pps = ["to", "past", "down", "around", "along", "through"]:
+    for pp in pps:
+         esdcs = esdcIo.parse("""
+- '%s the square'
 - - PATH:
-      r:  to
-      l:  the truck
-""")
+      r:  %s
+      l:  the square
+""" % (pp, pp))
+         generate_path_heat_map(esdcs, cf)
 
-    generate_go_to_heat_map(esdcs, cf)
-
+    mpl.show()
 
 
 if __name__ == "__main__":

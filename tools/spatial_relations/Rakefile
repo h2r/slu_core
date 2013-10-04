@@ -9,9 +9,6 @@ task :all => [:buildGui, :build_python]
 desc "Clean everything."
 task :clean => [:clean_python] 
 
-training_home="#{$home}/data/directions/direction_training"
-
-
 desc "Run the test cases."
 python_task :partial_tests  do
   python("/usr/bin/nosetests -v -s #{$pbd}/forklift/test/forklift_test.py")  
@@ -27,8 +24,8 @@ end
 
 
 desc "cost function browser for forklift"
-python_task :to_heatmap do
-    python("#{$pbd}/spatial_relations/gui/to_heatmap.py " +
+python_task :path_heatmaps do
+    python("#{$pbd}/spatial_relations/gui/path_heatmaps.py " +
            "--model-filename=#{$home}/tools/crf_training/models/crf_discrete_sr_1.5.pck " + 
            ""
            )
