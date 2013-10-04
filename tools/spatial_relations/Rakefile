@@ -24,3 +24,12 @@ python_task :spatial_relations_gui => [:buildGui] do
            ""
            )
 end
+
+
+desc "cost function browser for forklift"
+python_task :to_heatmap do
+    python("#{$pbd}/spatial_relations/gui/to_heatmap.py " +
+           "--model-filename=#{$home}/tools/crf_training/models/crf_discrete_sr_1.5.pck " + 
+           ""
+           )
+end
