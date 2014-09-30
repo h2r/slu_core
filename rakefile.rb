@@ -131,7 +131,7 @@ FileList['python/*.ui', 'python/**/*.ui'].each do |src|
   target = File.join(File.dirname(src),
                      File.basename(src, ".ui") + '_ui.py')
   file  target => [src] do |t|
-    sh "pyuic4 #{t.prerequisites} -o #{t.name}\n"
+    sh "pyuic4 #{t.prerequisites.join(" ")} -o #{t.name}\n"
 
   end
   task :buildGui => [target]
