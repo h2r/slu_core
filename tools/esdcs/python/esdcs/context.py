@@ -3,7 +3,7 @@ import numpy as na
 from numpy import transpose as tp
 from hash_utils import fasthash
 import spatial_features_cxx as sf
-from spatial_features.groundings import PhysicalObject, Place
+from spatial_features.groundings import PhysicalObject, Place, Path
 
 def unique_groundings(groundings):
     hashes = set()
@@ -119,8 +119,18 @@ class Context:
 
     @staticmethod
     def from_groundings(groundings, agent_id=-100):
-        objects = [g for g in groundings if isinstance(g, PhysicalObject)]
-        places = [g for g in groundings if isinstance(g, Place)]
+        objects = []
+        places = []
+        paths = []
+        for g in groundings:
+            if isinstance(g, PhysicalObject):
+                objects.append(g)
+            elif isinstance(g, Place):
+                places.append(g)
+            elif isinstance(g, Path):
+                paths.append(g)
+            else:
+                raise ValueError("Unknown grounding: " + str(g))
         return Context(objects, places, agent_id=agent_id)
 
     def withoutPaths(self):
