@@ -1,5 +1,5 @@
 file "slu_features" do
-  sh "git clone http://people.csail.mit.edu/stefie10/slu/repositories/slu_features.git"
+  sh "git clone http://github.com/h2r/slu_features"
 end
 
 
