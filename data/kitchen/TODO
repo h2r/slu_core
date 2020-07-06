@@ -1,0 +1,32 @@
+2/14/2011 10:35
+
+Remove initial state from kitchenState.py
+Formalize ALL the recipes *Wait until later in the week to do this.
+Finish planningLanguage.py
+Get eval() working
+Convert strings of formal actions to action objects (AnnotatedRecipe)
+Write a recipe loader?
+
+Python conventions
+Add null actions to recipe annotations
+use former implementation of prism_from_point
+tests in unit test need to start with lowercase "test" - fix names of tests
+PlanningLanguage
+	Have targetBowl always be specified.
+
+-Write an evaluator to check the sequence of state-action pairs to see how accurate they are
+Evaluator:
+	State Equivilancy Checker
+	Use AnnotatedRecipe/PlanningLanguage to get proper sequences of State-Action pairs
+	The inference method needs an initial state (from the recipe file) and the recipe text
+	A metric to judge the performance of a path (Comparing each state/milestone states/end result/etc)
+
+Take out all extra prism_from_point in kitchenState
+
+
+
+Questions:
+Should I store the state(s) in a PlanningLanguage and/or AnnotatedRecipe? Both! I need to keep track of the 
+	groups of states that correspond to a single annotation.
+Each action should have its own class? Or share a formalActions class? - Share a PlanningLanguage class
+

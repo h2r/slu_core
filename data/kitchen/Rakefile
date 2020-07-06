@@ -1,0 +1,101 @@
+here=File.dirname(__FILE__)
+$tklib_home=File.expand_path("#{here}/../..")
+require "#{$tklib_home}/rakefile.rb"
+
+desc "Build everything."
+task :all => [:buildGui, :build_python] 
+make_python_targets(:build_python, FileList["python/**/*.py"])
+
+desc "Clean everything."
+task :clean => [:clean_python] 
+
+training_home="#{$tklib_home}/data/directions/direction_training"
+
+run_id = (ENV['RUN_ID'] or  -1)
+use_rrt = (ENV['USE_RRT'] or "True")
+state_type = (ENV['STATE_TYPE'] or "navigation")
+multi_esdcs = (ENV['MULTI_ESDCS'] or "False")
+merging = (ENV['MERGING'] or "False")
+
+
+
+desc "cost function browser for forklift"
+python_task :cost_function_browser => [:buildGui] do
+    python("#{$pbd}/g3/inference/gui/costFunctionBrowser.py --use-rrt=#{use_rrt} " +
+           "--model-filename=#{$tklib_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_1.5.pck " + 
+           #"--model-filename=#{$tklib_home}/data/directions/direction_training/annotation/models/crf_discrete_forklift_unaligned_1.5.pck " + 
+           "--limits=10,40,10,40 " +
+           "--state-type=kitchen " +
+	   "--merging #{merging} " + 
+           ""
+           )
+end
+
+desc "Run some basic test cases."
+python_task :partial_tests  do
+  #python("/usr/bin/nosetests  -v -s #{$pbd}/kitchen/test/kitchen_test.py")
+  python("/usr/bin/nosetests  -v -s #{$pbd}/kitchen/test/recipeManager_test.py")
+end
+
+desc "Run a variety of simple tests"
+python_task :simple_tests  do
+  python("/usr/bin/nosetests  -v -s #{$pbd}/kitchen/test/kitchen_test.py")
+end
+
+
+
+python_task :train do
+  python("#{$pbd}/kitchen/trainFromRecipes.py")
+end
+
+python_task :test_crf do
+  python("#{$pbd}/kitchen/testCrf.py")
+end
+
+
+python_task :recipe_corpus_browser => [:buildGui] do
+  python("#{$pbd}/kitchen/gui/recipeCorpusBrowser.py")
+end
+
+python_task :example_browser do
+    python("#{$pbd}/dcrf3/gui/resultsBrowser.py " +
+           "kitchenModel_1.5.pck " + 
+           "training.pck")
+end
+
+python_task :evaluate_instructions do
+  python("#{$pbd}/kitchen/evaluatorGui.py --evaluate=1")
+end
+
+python_task :evaluate_end_to_end do
+  python("#{$pbd}/kitchen/evaluatorGui.py --evaluate=2")
+end
+
+python_task :recipe_evaluation_browser => [:buildGui] do
+  python("#{$pbd}/kitchen/gui/recipeEvaluationBrowser.py")
+end
+
+python_task :profile_dijkstra do
+  python("#{$pbd}/kitchen/test/profile_test.py")
+end
+
+python_task :corpus_size_test do
+  python("#{$pbd}/kitchen/test/corpusSizeEvaluator.py")
+end
+
+python_task :print_test_set do
+  python("#{$pbd}/kitchen/test/printTestSetNames.py")
+end
+
+python_task :count_corpus do
+  python("#{$pbd}/kitchen/test/corpusInstructionCounter.py")
+end
+
+python_task :list_ingredients do
+  python("#{$pbd}/kitchen/test/ingredientLister.py")
+end
+
+python_task :train_random do
+  python("#{$pbd}/kitchen/test/testSetTester.py")
+end
+

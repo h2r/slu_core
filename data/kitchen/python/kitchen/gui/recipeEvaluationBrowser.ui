@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1286</width>
+    <height>862</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Recipe Evaluation Browser</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QPlainTextEdit" name="recipeTextEdit"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QTableView" name="instructionTable">
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Recipes From Corpus</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Annotated Instructions</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTableView" name="inferredTable"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Recipe Text</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Inferred Instructions</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QTableView" name="recipeTable">
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1286</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="modeMenu">
+    <property name="title">
+     <string>Mode</string>
+    </property>
+    <addaction name="actionInstruction_Level"/>
+    <addaction name="actionEnd_to_End"/>
+   </widget>
+   <addaction name="modeMenu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionInstruction_Level">
+   <property name="text">
+    <string>Instruction Level</string>
+   </property>
+  </action>
+  <action name="actionEnd_to_End">
+   <property name="text">
+    <string>End to End</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

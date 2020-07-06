@@ -1,0 +1,306 @@
+start:
+ 0.965 (1366 of 1415) 0.510 precision 1.000 recall 0.675 fscore
+51 TP 1315 TN 49 FP 0 FN
+
+No filtering of negative examples:
+0.997 (2445 of 2453) 1.000 precision 0.843 recall 0.915 fscore
+43 TP 2402 TN 0 FP 8 FN
+
+
+Filtering overlaps:
+ 0.965 (1366 of 1415) 0.510 precision 1.000 recall 0.675 fscore
+51 TP 1315 TN 49 FP 0 FN
+
+
+
+search depth 2, overlap filter
+ 0.968 (722 of 746) 0.680 precision 1.000 recall 0.810 fscore
+51 TP 671 TN 24 FP 0 FN
+
+remove stopwords
+ 0.968 (722 of 746) 0.680 precision 1.000 recall 0.810 fscore
+51 TP 671 TN 24 FP 0 FN
+
+
+
+ 0.968 (722 of 746) 0.680 precision 1.000 recall 0.810 fscore
+51 TP 671 TN 24 FP 0 FN
+
+
+
+With proper features
+ 0.961 (717 of 746) 0.696 precision 0.765 recall 0.729 fscore
+39 TP 678 TN 17 FP 12 FN
+
+
+with argument features
+ 0.953 (711 of 746) 0.621 precision 0.804 recall 0.701 fscore
+41 TP 670 TN 25 FP 10 FN
+
+
+Fixing states to reset at the right place. 
+ 0.980 (339 of 346) 0.958 precision 0.902 recall 0.929 fscore
+46 TP 293 TN 2 FP 5 FN
+
+
+With test set split
+ 0.968 (333 of 344) 0.982 precision 0.844 recall 0.908 fscore
+54 TP 279 TN 1 FP 10 FN
+
+-r33741 test_crf
+ 0.949 (319 of 336) 0.806 precision 0.951 recall 0.872 fscore
+58 TP 261 TN 14 FP 3 FN
+
+with negative examples involving arguments
+ 0.939 (417 of 444) 0.758 precision 0.820 recall 0.787 fscore
+50 TP 367 TN 16 FP 11 FN
+
+
+with negative examples involving arguments and more stopwords gone.
+
+ 0.941 (418 of 444) 0.769 precision 0.820 recall 0.794 fscore
+50 TP 368 TN 15 FP 11 FN
+
+-r33762
+ 0.937 (416 of 444) 0.754 precision 0.803 recall 0.778 fscore
+49 TP 367 TN 16 FP 12 FN
+
+Success: 19
+Noop Success: 6
+Failures: 36 
+40.984% (25/61)
+
+
+negative examples based on length
+ 0.948 (729 of 769) 0.784 precision 0.475 recall 0.592 fscore
+29 TP 700 TN 8 FP 32 FN
+
+Recipes: 11
+Total Instructions: 61 
+Success: 23
+Noop Success: 6
+Failures: 32
+47.541% (29/61)
+
+
+removing more stopwords
+Recipes: 11
+Total Instructions: 61 
+Success: 22
+Noop Success: 6
+Failures: 33
+45.902% (28/61)
+
+
+lowercase word features
+ 0.939 (722 of 769) 0.646 precision 0.508 recall 0.569 fscore
+31 TP 691 TN 17 FP 30 FN
+Recipes: 11
+Total Instructions: 61 
+Success: 24
+Noop Success: 6
+Failures: 31
+49.180% (30/61)
+
+
+arg equals word for specific words
+ 0.940 (723 of 769) 0.653 precision 0.525 recall 0.582 fscore
+32 TP 691 TN 17 FP 29 FN
+Results for the instruction-level evaluation:
+Running on the test set.
+Recipes: 11
+Total Instructions: 61 
+Success: 24
+Noop Success: 6
+Failures: 31
+49.180% (30/61)
+
+
+arg equals word not additive
+ 0.964 (741 of 769) 0.851 precision 0.656 recall 0.741 fscore
+40 TP 701 TN 7 FP 21 FN
+Recipes: 11
+Total Instructions: 61 
+Success: 22
+Noop Success: 6
+Failures: 33
+45.902% (28/61)
+
+removing general arg equals word
+ 0.964 (741 of 769) 0.851 precision 0.656 recall 0.741 fscore
+40 TP 701 TN 7 FP 21 FN
+Recipes: 11
+Total Instructions: 61 
+Success: 22
+Noop Success: 6
+Failures: 33
+45.902% (28/61)
+
+
+ 0.939 (722 of 769) 0.646 precision 0.508 recall 0.569 fscore
+31 TP 691 TN 17 FP 30 FN
+Recipes: 11
+Total Instructions: 61 
+Success: 24
+Noop Success: 6
+Failures: 31
+49.180% (30/61)
+
+
+ 0.958 (737 of 769) 0.872 precision 0.557 recall 0.680 fscore
+34 TP 703 TN 5 FP 27 FN
+Recipes: 11
+Total Instructions: 61 
+Success: 21
+Noop Success: 6
+Failures: 34
+44.262% (27/61)
+
+ 0.940 (723 of 769) 0.653 precision 0.525 recall 0.582 fscore
+32 TP 691 TN 17 FP 29 FN
+0.43user 0.04system 0:00.45ela
+Recipes: 11
+Total Instructions: 61 
+Success: 22
+Noop Success: 6
+Failures: 33
+45.902% (28/61)
+
+
+-r33762
+resetting those features:
+Results for the instruction-level evaluation:
+Running on the test set.
+Recipes: 11
+Total Instructions: 61 
+Success: 24
+Noop Success: 6
+Failures: 31
+49.180% (30/61)
+
+
+ 0.939 (722 of 769) 0.646 precision 0.508 recall 0.569 fscore
+31 TP 691 TN 17 FP 30 FN
+
+
+search depth event = 4 for negative examples
+ 0.959 (1107 of 1154) 0.646 precision 0.508 recall 0.569 fscore
+31 TP 1076 TN 17 FP 30 FN
+Recipes: 11
+Total Instructions: 61 
+Success: 21
+Noop Success: 6
+Failures: 34
+44.262% (27/61)
+
+
+Running with negative examples from incorrect states. 
+ 0.964 (1191 of 1236) 0.674 precision 0.508 recall 0.579 fscore
+31 TP 1160 TN 15 FP 30 FN
+Recipes: 11
+Total Instructions: 61 
+Success: 24
+Noop Success: 6
+Failures: 31
+49.180% (30/61)
+
+-r33774
+ 0.964 (1191 of 1236) 0.674 precision 0.508 recall 0.579 fscore
+31 TP 1160 TN 15 FP 30 FN
+Overall results for the entire instruction-level evaluation.
+Total Recipes: 11
+Total Instructions: 61 
+Success: 24
+Noop Success: 6
+Failures: 31
+49.180% (30/61)
+
+
+negative features
+ 0.943 (1166 of 1236) 0.442 precision 0.557 recall 0.493 fscore
+34 TP 1132 TN 43 FP 27 FN
+
+Total Recipes: 11
+Total Instructions: 61 
+Success: 27
+Noop Success: 6
+Failures: 28
+54.098% (33/61)
+
+
+ 0.943 (1166 of 1236) 0.442 precision 0.557 recall 0.493 fscore
+34 TP 1132 TN 43 FP 27 FN
+
+Total Recipes: 11
+Total Instructions: 61 
+Success: 26
+Noop Success: 6
+Failures: 29
+52.459% (32/61)
+
+
+
+ 0.943 (1166 of 1236) 0.442 precision 0.557 recall 0.493 fscore
+34 TP 1132 TN 43 FP 27 FN
+Overall results for the entire instruction-level evaluation.
+Total Recipes: 11
+Total Instructions: 61 
+Success: 27
+Noop Success: 6
+Failures: 28
+54.098% (33/61)
+
+
+
+
+with meat loafs
+
+Overall results for the entire instruction-level evaluation.
+Total Recipes: 13
+Total Instructions: 75 
+Success: 31
+Noop Success: 7
+Failures: 37
+50.667% (38/75)
+ 0.945 (1375 of 1455) 0.470 precision 0.520 recall 0.494 fscore
+39 TP 1336 TN 44 FP 36 FN
+
+
+Overall results for the entire instruction-level evaluation.
+Total Recipes: 13
+Total Instructions: 76 
+Success: 29
+Noop Success: 7
+Failures: 40
+47.368% (36/76)
+ 0.930 (1317 of 1416) 0.386 precision 0.513 recall 0.441 fscore
+39 TP 1278 TN 62 FP 37 FN
+
+
+
+Overall results for the entire instruction-level evaluation.
+Total Recipes: 14
+Total Instructions: 82 
+Success: 35
+Noop Success: 9
+Failures: 38
+53.659% (44/82)
+
+
+
+Overall results for the entire instruction-level evaluation.
+Total Recipes: 14
+Total Instructions: 83 
+Success: 41
+Noop Success: 9
+Failures: 33
+60.241% (50/83)
+
+Deterministic training
+Total Recipes: 13
+Total Instructions: 83 
+Success: 36
+Noop Success: 7
+Failures: 40
+51.807% (43/83)
+

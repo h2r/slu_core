@@ -1,0 +1,85 @@
+("Place them about 2 inches apart on the baking sheet.", "noop()"),
+("Remove from oven and cool on a wire rack", "noop()")]
+("Take generous tablespoons of the dough (it will be slightly crumbly) and roll it into a small ball, about an inch in diameter, and then shape into a crescent shape.", "noop()"),
+("Dust with powdered sugar.", "noop()")]
+("Cool before cutting into squares", "noop()")]
+("Makes about 4 dozen. ", "noop()"), 
+("Yummy!", "noop()")]
+("Upon removing from oven, let the cookies stand on sheet for two minutes, then cool on racks", "noop()")]
+("Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely.", "noop()")]
+("Line two baking trays with baking paper.", "noop()"),
+("Cool on baking trays for 5 minutes then transfer to wire rack.", "noop()")]
+("Remove from sheet immediately.", "noop()"),
+("Makes 3 dozen cookies.", "noop()")]
+("Place the cookies 2 inches apart on the cookie sheet.", "noop()"),
+("Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely.", "noop()")]
+("Don't flatten.", "noop()"),
+("Pour the liquid mixture over the cucumber mixture.", "noop()"),
+("Cover and refrigerate at least 2 hours before serving (the longer this dish marinates the tastier it is).", "noop()")]
+("Let brownies cool, then cut into squares", "noop()"),
+("Cool before cutting into squares.", "noop()")]
+("Remove from pan and on rack before slicing.", "noop()")]
+("Serve warm with ice cream or as is.", "noop()")]
+("Drain peaches and save juice.", "noop()"),
+("Remove from oven and let cool on pan for several minutes before removing to rack to finish cooling.", "noop()")]
+("Enjoy!", "noop()")]
+("Cool in pan for 10 minutes before transferring to cooling racks", "noop()")]
+("Soak raisins in hot water and set aside.", "noop()"),
+("Allow to cool.", "noop()")]
+("Set aside 3/4 cup of crumb mixture, to buse used as a topping for the cake.", "noop()"),
+("Sprinkle reserved crumb mixture over fruit.", "noop()"),
+("Let stand on cookie sheet two minutes before removing to cool on wire racks.", "noop()")]
+("6 Cool cookies on baking sheet about 2 minutes and then transfer with spatula to rack and cool.", "noop()")]
+("6 Remove from pans after a minute or so and cool on wire racks.", "noop()")]
+("Set aside.", "noop()"),
+("Do not overbake.", "noop()"),
+("Brownies are ready when edges are just set and center is still soft.", "noop()"),
+("Cool on wire rack.", "noop()")]
+("3 Press with form; press gain in opposite direction.", "noop()"),
+("5 Do not brown; do not over bake.", "noop()")]
+("Do not over bake.", "noop()"),
+("Cool on wire rack.", "noop()"),
+("It should be thick and sticky.", "noop()"),
+("Cool completely before cutting into squares", "noop()")]
+("Cut into bars.", "noop()")]
+("Look for edges slightly pulling away from pan.", "noop()"),
+("Cool and cut.", "noop()"),
+("Enjoy!", "noop()")]
+("add to dry ingredients.", "noop()"),
+("Cool completely in pan on wire rack.", "noop()"),
+("Sprinkle with powdered sugar.", "noop()"),
+("Cut into bars", "noop()")]
+("Serves 6.", "noop()")]
+("Sift together the flour, baking powder and salt.", "noop()"),
+("Press each with the bottom of a glass that has been oiled and dipped in sugar.", "noop()"),
+("Makes about 3 dozen 3 inch cookies.", "noop()"),
+("Allow cookies to cool on the cookie sheet for 2 or 3 minutes before removing to a cake rack to complete cooling.", "noop()")]
+("Cook raisins in one cup water; cool.", "noop()"),
+("Let cool toughly and Enjoy.", "noop()")]
+("Line bottom of 8x8 inch nonstick pan with wax paper.", "noop()"),
+("Cool 10-15 minutes, flip onto serving dish, remove wax liner, then allow to cool completely", "noop()")]
+("Cut into 15-20 small squares (its pretty rich!)", "noop()")]
+("Don't overbeat.", "noop()"),
+("Pour batter", "noop()"),
+("(A single rectangular pan will take longer to bake than two rounds ones.)", "noop()"),
+("Loosen the sides of the cake from the pan with a thin knife, then turn out onto a rack and peel off the paper.", "noop()"),
+("Let cool completely before covering with frosting, if desired", "noop()")]
+("Pour batter", "noop()"),
+("Spray pan with nonstick cooking spray.", "noop()"),
+("Cake is done when it springs back to the touch.", "noop()")]
+("Cover, and chill dough for at least one hour.", "noop()"),
+("Flatten each cookie with a large fork dipped in sugar.", "noop()"),
+("Allow cookies to cool on baking sheet for 5 minutes before transferring to a wire rack to cool completely.", "noop()")]
+("Place the dough into a cookie press fitted with a decorative tip.", "noop()"),
+("Allow to cool on the baking sheet for about 5 minutes before removing to finish cooling on wire racks.", "noop()")]
+("Form the dough into a ball, wrap with plastic wrap, and refrigerate at least 1 hour or up to 3 days.", "noop()"),
+("Grease baking sheets.", "noop()"),
+("Roll the dough out on a floured work surface with a rolling pin to about 1/8-inch thickness.", "noop()"),
+("Cut with 2-inch cookie cutters.", "noop()"),
+("Bake in the preheated oven until the edges begin to brown, 10 to 12 minutes.", "bake(10)"),
+("Shape into 1-in balls.", "noop()"),
+("Chill in the refrigerator at least 2 hours before serving.", "noop()")]
+("Roll the dough into small balls, and dip the top of each ball into the remaining white sugar. ", "noop()"),
+("Bake longer for crispy cookies, less time for chewy cookies.", "noop()"),
+("Cool on wire racks.", "noop()")]
+("Roll in sugar.", "noop()"),
